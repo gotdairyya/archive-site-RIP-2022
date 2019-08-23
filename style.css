@@ -89,10 +89,12 @@ td {
 
 /* THIS SECTION IS FOR THE NAVIGATION MENU */
 .navigation {
-  height: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px dashed DarkSlateGray;
   position: fixed;
   background-color: #f1f1f1;
-  width: 20%;
+  width: 18%;
   margin-left: 10px;
   /* border-right: 1px solid DarkSlateGray; */
 }
@@ -124,11 +126,6 @@ td {
 .navigation li a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-.article-entry {
-  grid-column-start: 1;
-  grid-column-end: span 2;
 }
 
 @media screen and (max-width: 800px) {
@@ -163,12 +160,6 @@ td {
   }
 }
 
-/* .articles {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  margin-left: 25%;
-  grid-auto-flow: row;
-} */
 .articles {
   margin-left: 20%;
   list-style: none;
@@ -176,6 +167,11 @@ td {
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   background: none;
+}
+
+.article-entry {
+  grid-column-start: 1;
+  grid-column-end: span 2;
 }
 
 .articles li {
