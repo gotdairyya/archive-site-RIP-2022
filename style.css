@@ -18,6 +18,10 @@ h2 {
   line-height: 80%;
 }
 
+body {
+  background-color: #f1f1f1;
+}
+
 /* h3 {
   font-family: 'Lora', serif;
   color: DarkSlateGray;
@@ -36,16 +40,9 @@ p {
   margin-bottom: 26px;
 }
 
-table {
-  width: 130%;
-}
-
-td {
-  font-family: 'Darker Grotesque', sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 26px;
-  vertical-align: top;
+figcaption {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
 }
 
 .header {
@@ -175,7 +172,7 @@ td {
 }
 
 .articles li {
-  border: 1px solid DarkSlateGray;
+  /* border: 1px solid DarkSlateGray; */
   display: flex;
   flex-direction: column;
   padding: 20px;
