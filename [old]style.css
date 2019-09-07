@@ -88,23 +88,19 @@ td {
 }
 
 /* THIS SECTION IS FOR THE NAVIGATION MENU */
-/* The side navigation menu */
 .navigation {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+  height: auto;
+  border-radius: 10px;
+  border: 1px dashed DarkSlateGray;
   position: fixed;
-  height: 100%;
-  overflow: auto;
+  background-color: #f1f1f1;
+  width: 18%;
+  margin-left: 10px;
+  /* border-right: 1px solid DarkSlateGray; */
 }
 
-/* Sidebar links */
-.navigation a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
+/* Change to hamburger menu */
+.navigation ul {
   list-style-type: none;
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
@@ -115,26 +111,61 @@ td {
   background-color: #f1f1f1;
 }
 
-/* Active/current link */
-.navigation a.active {
-  background-color: #4CAF50;
-  color: white;
+.navigation li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
-/* Links on mouse-over */
-.navigation a:hover:not(.active) {
+.navigation li a:hover {
   background-color: #555;
   color: white;
 }
 
-/* THIS SECTION IS FOR ARTICLES */
-/* THIS SECTION IS FOR ARTICLES */
+.navigation li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .navigation ul {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .navigation li a {
+    display: block;
+    color: #000;
+    padding: 4px 8px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navigation ul {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 3px;
+    padding: 3px;
+  }
+
+  .navigation li a {
+    display: block;
+    color: #000;
+    padding: 2px 4px;
+    text-decoration: none;
+  }
+}
+
 .articles {
-  margin-left: 200px;
+  margin-left: 20%;
+  list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: minmax(100px, auto);
   grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   background: none;
 }
 
@@ -156,33 +187,4 @@ td {
   font-size: 18px;
   line-height: 22px;
   padding: 0px;
-}
-
-/* THIS SECTION IS FOR MEDIA SCREENS */
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-  .navigation {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-
-  .navigation a {
-    float: left;
-    /* text-align: center; */
-  }
-
-  .articles {
-    margin-left: 0;
-  }
-
-  /*CHECK THIS OUT!*/
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  .navigation a {
-    text-align: center;
-    float: none;
-  }
 }
