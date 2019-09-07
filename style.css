@@ -77,6 +77,10 @@ td {
   text-transform: uppercase;
 }
 
+.header__img {
+  width: 8%;
+}
+
 .date {
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
