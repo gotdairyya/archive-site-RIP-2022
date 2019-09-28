@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<ul class="articles">
+  <div class="article-entry">
+    <span>
+      <h2>{{ page.title }}</h2>
+      <h3 class="date">{{ page.date | date_to_string }}</h3>
+    </span>
+    <h3 class="header__subtext">{{ page.sub-title }}</h3>
+
+
+    {{ content }}
+  </div>
+</ul>
+</body>

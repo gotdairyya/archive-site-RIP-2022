@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Lora|Darker+Grotesque&display=swap");
+a, a:link, a:visited { color: inherit; text-decoration: none; }
+
+h1 { font-family: 'Lora', serif; color: #575657; letter-spacing: 0; }
+
+h2 { font-family: 'Lora', serif; color: DarkSlateGray; line-height: 80%; }
+
+body { background-color: #f1f1f1; }
+
+p { font-family: 'Darker Grotesque', sans-serif; font-size: 18px; line-height: 22px; margin-bottom: 26px; }
+
+figcaption { font-family: 'Inconsolata', monospace; text-align: center; }
+
+table { width: 130%; }
+
+td { font-family: 'Darker Grotesque', sans-serif; font-size: 18px; line-height: 22px; margin-bottom: 26px; vertical-align: top; }
+
+.header { padding: 20px; text-align: center; background-color: #f1f1f1; margin: 10px 10px 0px 10px; }
+
+.header--type { font-family: 'Lora', serif; font-size: 18px; line-height: 22px; font-weight: bold; margin: 30px; }
+
+.header--col { color: #ff9900; font-weight: bold; }
+
+.header__subtext { font-family: 'Inconsolata', monospace; font-size: 12px; color: #575657; letter-spacing: 0; line-height: 16px; text-transform: uppercase; }
+
+.date { font-family: 'Inconsolata', monospace; font-weight: bold; font-size: 12px; color: black; letter-spacing: 0; line-height: 12px; text-transform: uppercase; }
+
+/* THIS SECTION IS FOR THE NAVIGATION MENU */
+/* The side navigation menu */
+.navigation { margin: 0; padding: 0; width: 200px; background-color: #f1f1f1; position: fixed; height: 100%; overflow: auto; }
+
+/* Sidebar links */
+.navigation a { display: block; color: #000; padding: 8px 16px; text-decoration: none; list-style-type: none; font-family: 'Inconsolata', monospace; font-size: 20px; line-height: 16px; text-transform: uppercase; margin: 10px; padding: 10px; background-color: #f1f1f1; }
+
+/* Active/current link */
+.navigation a.active { background-color: #4CAF50; color: white; }
+
+/* Links on mouse-over */
+.navigation a:hover:not(.active) { background-color: #555; color: white; }
+
+/* THIS SECTION IS FOR ARTICLES */
+/* THIS SECTION IS FOR ARTICLES */
+.articles { margin-left: 200px; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-auto-rows: minmax(100px, auto); grid-gap: 20px; background: none; }
+
+.article-entry { grid-column-start: 1; grid-column-end: span 2; }
+
+.articles li { /* border: 1px solid DarkSlateGray; */ display: flex; flex-direction: column; padding: 20px; margin: 10px; }
+
+.article-entry li { font-family: 'Darker Grotesque', sans-serif; font-size: 18px; line-height: 22px; padding: 0px; }
+
+/* THIS SECTION IS FOR MEDIA SCREENS */
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) { .navigation { width: 100%; height: auto; position: relative; }
+  .navigation a { float: left; /* text-align: center; */ }
+  .articles { margin-left: 0; } }
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) { .navigation a { text-align: center; float: none; } }
+
+/*# sourceMappingURL=styles.css.map */
