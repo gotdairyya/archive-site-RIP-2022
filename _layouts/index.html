@@ -17,17 +17,15 @@
   </a>
 
   {% include navigation.html %}
+
   <ul class="articles">
-    <div class="article-entry">
-      <span>
-        <h2>{{ page.title }}</h2>
-        <h3 class="date">{{ page.date | date_to_string }}</h3>
-      </span>
-      <h3 class="header__subtext">{{ page.subtitle }}</h3>
-
-      <p>{{ content }}</p>
-
-    </div>
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}">
+        <img src="{{ post.image }}" width="{{ post.zoom }}" alt="key image">
+        <figcaption>{{ post.title }}</figcaption>
+      </a>
+    </li>
+    {% endfor %}
   </ul>
 </body>
 

@@ -17,16 +17,13 @@
   </a>
 
   {% include navigation.html %}
+
   <ul class="articles">
     <div class="article-entry">
-      <span>
-        <h2>{{ page.title }}</h2>
-        <h3 class="date">{{ page.date | date_to_string }}</h3>
-      </span>
+      <h2>{{ page.title }}</h2>
       <h3 class="header__subtext">{{ page.subtitle }}</h3>
 
       <p>{{ content }}</p>
-
     </div>
   </ul>
 </body>
