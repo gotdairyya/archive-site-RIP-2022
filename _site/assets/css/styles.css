@@ -60,10 +60,18 @@ td { font-family: 'Darker Grotesque', sans-serif; font-size: 18px; line-height: 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) { .navigation a { text-align: center; float: none; } }
 
-img[src*="#gotdairy"] { width: 17%; align: "left"; }
+#gotdairy { width: 12%; align: "left"; }
 
 .responsive-image { height: auto; width: 100%; }
 
 .table-image { height: auto; width: 150px; }
+
+#photo { width: 30%; align: "left"; display: inline; }
+
+.content { width: 100%; overflow: hidden; }
+
+.content img { margin-right: 15px; float: left; }
+
+.content p { margin-left: 15px; display: block; margin: 2px 0 0 0; }
 
 /*# sourceMappingURL=styles.css.map */

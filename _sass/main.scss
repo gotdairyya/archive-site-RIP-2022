@@ -192,8 +192,8 @@ td {
   }
 }
 
-img[src*="#gotdairy"] {
-  width: 17%;
+#gotdairy {
+  width: 12%;
   align: "left";
 }
 
@@ -205,4 +205,28 @@ img[src*="#gotdairy"] {
 .table-image {
   height: auto;
   width: 150px;
+}
+
+#photo {
+  width: 30%;
+  align: "left";
+  display: inline;
+}
+
+
+// FOR images next to text
+.content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+
+.content p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
 }
