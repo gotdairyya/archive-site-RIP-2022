@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Lora|Darker+Grotesque&display=swap');
 
 a, a:link, a:visited {
-  color: inherit;
+  color: #3366cc;
+  cursor: pointer;
   text-decoration: none;
+}
+
+a.index {
+  color: #575657;
 }
 
 h1 {
@@ -190,4 +195,14 @@ td {
 img[src*="#gotdairy"] {
   width: 17%;
   align: "left";
+}
+
+.responsive-image {
+  height: auto;
+  width: 100%;
+}
+
+.table-image {
+  height: auto;
+  width: 150px;
 }

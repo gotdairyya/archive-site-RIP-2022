@@ -1,0 +1,52 @@
+I"9<p>Since starting my PhD I have read A LOT. Now, you, like my wise friend Treasure may be saying, “Well duh derya, didn’t you know that that’s what a PhD is?!” Well. My wise friends, I did not.</p>
+
+<p>So like I was saying, I’ve been reading a lot and I’ve decided to use this blog as a way of reflecting on articles that I’ve found interesting/still have opinions on/want to go further than a one hour group discussion. To my peers’ credit though, discussion is so critical, and without them I don’t think I would be nearly as informed.</p>
+
+<h3 id="why-authors-dont-visualize-uncertainty">Why Authors Don’t Visualize Uncertainty</h3>
+
+<p><em>Written by Jessica Hullman (<a href="http://users.eecs.northwestern.edu/~jhullman/Value_of_Uncertainty_Vis_CR.pdf">full paper here</a>)</em></p>
+
+<p>In this paper, Hullman investigates why visualization authors don’t visualize uncertainty when they know that it exists. The title of the paper is pretty self-explanatory, but there are some interesting discussion topics that I will dive deeper into.</p>
+
+<p>Let’s start with defining uncertainty in the visualization space.
+Uncertainty can enter the visualization pipeline at many steps of the process, resulting in different types of uncertainty. Below is a simple pipeline illustrating potential areas where uncertainty may be introduced. <em>As a side note, these are the same spaces where there are potential biases filtering in. Read <a href="http://www.kanarinka.com/wp-content/uploads/2015/07/IEEE_Feminist_Data_Visualization.pdf">Feminist Data Visualization</a>for a more nuanced discussion.</em></p>
+
+<p>{:.responsive-image}<img src="/../assets/images/uncertainty/visualization-process.png" alt="a table displaying the four simplified phases of visualization" /></p>
+
+<h4 id="visualizing-uncertainty-is-hard">Visualizing uncertainty is hard!</h4>
+<p>Based on what I have gathered through informal questioning (no formal review of the literature yet), there are no standard methods for visualizing uncertainty because really the choices you would have to make as a visualization designer all depend on the context.</p>
+
+<p>So what do the 90 visualization experts surveyed by Hullman do when confronted with uncertainty?</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Method</th>
+      <th style="text-align: left">Vis Example</th>
+      <th style="text-align: center">%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Interval Representation</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">76</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Visual Variables</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">75</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Density Plot/Histogram</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">54</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Text</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center">51</td>
+    </tr>
+  </tbody>
+</table>
+:ET
