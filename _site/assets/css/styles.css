@@ -66,12 +66,12 @@ td { font-family: 'Darker Grotesque', sans-serif; font-size: 18px; line-height: 
 
 .table-image { height: auto; width: 150px; }
 
-#photo { width: 30%; align: "left"; display: inline; }
+#photo { width: 45%; align: "left"; display: inline; }
 
 .content { width: 100%; overflow: hidden; }
 
 .content img { margin-right: 15px; float: left; }
 
-.content p { margin-left: 15px; display: block; margin: 2px 0 0 0; }
+.content p { margin-left: 15px; display: block; margin: 2px 0 0 0; align: center; }
 
 /*# sourceMappingURL=styles.css.map */
