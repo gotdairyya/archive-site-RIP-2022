@@ -197,6 +197,13 @@ td {
   align: "left";
 }
 
+#photo {
+  width: 45%;
+  align: "left";
+  display: inline;
+}
+
+//classes for images
 .responsive-image {
   height: auto;
   width: 100%;
@@ -207,12 +214,13 @@ td {
   width: 150px;
 }
 
-#photo {
-  width: 45%;
-  align: "left";
-  display: inline;
+.scale-50-center {
+  height: auto;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 // FOR images next to text
 .content {
