@@ -21,7 +21,7 @@
   <ul class="articles">
     {% for post in site.posts %}
     <li><a href="{{ post.url }}" class="index">
-        <img src="{{ post.image }}" width="{{ post.zoom }}" alt="key image">
+        <img src="{{ post.image }}" width="{{ post.zoom }}" alt="key image" class="blog-image">
         <figcaption>{{ post.title }}</figcaption>
       </a>
     </li>

@@ -66,6 +66,8 @@ td { font-family: 'Darker Grotesque', sans-serif; font-size: 18px; line-height: 
 
 .responsive-image { height: auto; width: 100%; }
 
+.blog-image { display: block; margin-left: auto; margin-right: auto; }
+
 .table-image { height: auto; width: 150px; }
 
 .scale-50-center { height: auto; width: 50%; display: block; margin-left: auto; margin-right: auto; }
