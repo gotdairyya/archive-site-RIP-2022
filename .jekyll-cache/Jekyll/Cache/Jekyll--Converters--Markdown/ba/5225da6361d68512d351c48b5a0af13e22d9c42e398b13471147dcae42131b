@@ -1,45 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Data Portraits</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  <nav class="navigation">
-  
-  <a href="/" >
-    Home
-  </a>
-  
-  <a href="/about.html" >
-    About
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-</nav>
-  <ul class="articles">
-    <div class="article-entry">
-      <span>
-        <h2>Data Portraits</h2>
-        <h3 class="date">21 Nov 2019</h3>
-      </span>
-      <h3 class="header__subtext">paint me like one of your french girls</h3>
-
-      <p><p>I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…</p>
+I"�/<p>I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…</p>
 
 <blockquote>
   <p><em>Instead of working on my final project for data vis, I am writing about it…</em></p>
@@ -91,7 +50,8 @@ White and grey hairs indicate age.</p>
 <img src="/../assets/images/data-portraits/data-portrait-mockup-03.png" alt="data portrait mock-up from illustrator" class="responsive-image" />
 <img src="/../assets/images/data-portraits/data-portrait-mockup-04.png" alt="data portrait mock-up from illustrator" class="responsive-image" /></p>
 
-<p>And here is an interactive version of the portraits:</p>
+<p>And here is an interactive version of the portraits:
+&lt;!DOCTYPE html&gt;</p>
 <html lang="en">
 
 <head>
@@ -101,39 +61,6 @@ White and grey hairs indicate age.</p>
   <script src="https://d3js.org/d3.v5.js"></script>
 </head>
 <style>
-  .porButton {
-    fill: rgba(255, 225, 225, 0);
-  }
-
-  .porButton.not-selected {
-    fill: rgba(255, 225, 225, .5);
-  }
-
-  .porButton.selected {
-    fill: rgba(255, 225, 225, 0);
-  }
-
-  .porButton:hover {
-    fill: rgba(255, 225, 225, 0)
-  }
-
-  .porButton:not(hover) {
-    fill: rgba(255, 225, 225, .5);
-  }
-
-  div.tooltip {
-    /* FOR PORTRAIT TOOLTIP */
-    position: absolute;
-    text-align: center;
-    width: 60px;
-    height: 28px;
-    padding: 2px;
-    font: 12px sans-serif;
-    background: lightsteelblue;
-    border: 0px;
-    border-radius: 8px;
-    pointer-events: none;
-  }
 </style>
 
 <body>
@@ -188,32 +115,22 @@ White and grey hairs indicate age.</p>
       }
     ]
 
-
-    let artifacts = []
-    for (let countries of data) {
-      let countrySet = new Set(countries["countries"])
-      countries["countries"] = [...countrySet]
-      artifacts.push(countries.artifacts)
-    }
-
-
     let i = 0;
     for (let museum of data) {
       drawPortrait(museum, i)
       i++
     }
 
+    let colors = ["#b5a5e3", "#b1af00", "#ff5b1a", "#e2a333", "#5b7769"]
+
+    let artifactScale = d3.scaleOrdinal()
+      .domain([d3.min(this.artifacts), d3.max(this.artifacts)])
+      .range([1, 5])
 
     function drawPortrait(museum, i) {
       let svg = d3.select("div.article-entry").append("svg").attr("width", 500).attr("height", 600) //.call(this.resizeSVG)
       // console.log("Drawing:", museum)
       svg = svg.append("g")
-
-      let colors = ["#b5a5e3", "#b1af00", "#ff5b1a", "#e2a333", "#5b7769"]
-
-      let artifactScale = d3.scaleOrdinal()
-        .domain([d3.min(artifacts), d3.max(artifacts)])
-        .range([1, 5])
 
 
       let length = museum.years.length
@@ -395,10 +312,4 @@ White and grey hairs indicate age.</p>
 </body>
 
 </html>
-</p>
-
-    </div>
-  </ul>
-</body>
-
-</html>
+:ET

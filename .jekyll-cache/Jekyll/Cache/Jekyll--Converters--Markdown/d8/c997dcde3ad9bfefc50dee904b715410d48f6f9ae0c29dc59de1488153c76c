@@ -1,45 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Data Portraits</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  <nav class="navigation">
-  
-  <a href="/" >
-    Home
-  </a>
-  
-  <a href="/about.html" >
-    About
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-</nav>
-  <ul class="articles">
-    <div class="article-entry">
-      <span>
-        <h2>Data Portraits</h2>
-        <h3 class="date">21 Nov 2019</h3>
-      </span>
-      <h3 class="header__subtext">paint me like one of your french girls</h3>
-
-      <p><p>I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…</p>
+I"�2<p>I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…</p>
 
 <blockquote>
   <p><em>Instead of working on my final project for data vis, I am writing about it…</em></p>
@@ -91,7 +50,8 @@ White and grey hairs indicate age.</p>
 <img src="/../assets/images/data-portraits/data-portrait-mockup-03.png" alt="data portrait mock-up from illustrator" class="responsive-image" />
 <img src="/../assets/images/data-portraits/data-portrait-mockup-04.png" alt="data portrait mock-up from illustrator" class="responsive-image" /></p>
 
-<p>And here is an interactive version of the portraits:</p>
+<p>And here is an interactive version of the portraits:
+&lt;!DOCTYPE html&gt;</p>
 <html lang="en">
 
 <head>
@@ -101,39 +61,6 @@ White and grey hairs indicate age.</p>
   <script src="https://d3js.org/d3.v5.js"></script>
 </head>
 <style>
-  .porButton {
-    fill: rgba(255, 225, 225, 0);
-  }
-
-  .porButton.not-selected {
-    fill: rgba(255, 225, 225, .5);
-  }
-
-  .porButton.selected {
-    fill: rgba(255, 225, 225, 0);
-  }
-
-  .porButton:hover {
-    fill: rgba(255, 225, 225, 0)
-  }
-
-  .porButton:not(hover) {
-    fill: rgba(255, 225, 225, .5);
-  }
-
-  div.tooltip {
-    /* FOR PORTRAIT TOOLTIP */
-    position: absolute;
-    text-align: center;
-    width: 60px;
-    height: 28px;
-    padding: 2px;
-    font: 12px sans-serif;
-    background: lightsteelblue;
-    border: 0px;
-    border-radius: 8px;
-    pointer-events: none;
-  }
 </style>
 
 <body>
@@ -188,32 +115,16 @@ White and grey hairs indicate age.</p>
       }
     ]
 
-
-    let artifacts = []
-    for (let countries of data) {
-      let countrySet = new Set(countries["countries"])
-      countries["countries"] = [...countrySet]
-      artifacts.push(countries.artifacts)
-    }
-
-
     let i = 0;
     for (let museum of data) {
       drawPortrait(museum, i)
       i++
     }
 
-
-    function drawPortrait(museum, i) {
-      let svg = d3.select("div.article-entry").append("svg").attr("width", 500).attr("height", 600) //.call(this.resizeSVG)
+    drawPortrait(museum, i) {
+      let svg = d3.select("#portraits").attr("width", 500).attr("height", 600).call(this.resizeSVG)
       // console.log("Drawing:", museum)
       svg = svg.append("g")
-
-      let colors = ["#b5a5e3", "#b1af00", "#ff5b1a", "#e2a333", "#5b7769"]
-
-      let artifactScale = d3.scaleOrdinal()
-        .domain([d3.min(artifacts), d3.max(artifacts)])
-        .range([1, 5])
 
 
       let length = museum.years.length
@@ -246,11 +157,11 @@ White and grey hairs indicate age.</p>
           rectWidth.push((d * frameWidth) + rectWidth[i]);
           return d * frameWidth
         })
-        .style("fill", (d, i) => colors[i])
+        .style("fill", (d, i) => this.colors[i])
         .attr("x", (d, i) => rectWidth[i])
         .attr("transform", "translate(7,5)")
 
-      let lineWidth = artifactScale(museum.artifacts)
+      let lineWidth = this.artifactScale(museum.artifacts)
 
       let artifactLine = svg
         .append("line")
@@ -355,50 +266,71 @@ White and grey hairs indicate age.</p>
         .attr("class", "porButton")
       // .attr("data-tabindex", 0)
 
+      let globalPor = d3.select("#global") //.selectAll("rect")
 
-      frame.on("mouseover", function(d) {
-        let title = museum.museum
-        // d3.selectAll(".porButton").attr("opacity", title === that.vizCoord.activeMuseum ? 1 : .2)
-        title === "metropolitan-museum-of-art" ? title = "The Met" : title === "minneapolis-institute-of-art" ? title = "Mia" : title === "cooper-hewitt-smithsonian-design-museum" ? title = "Cooper Hewitt" : title === "penn-museum" ? title =
-          "Penn Museum" : title === "cleveland-museum-of-art" ? title = "Cleveland Museum of Art" : title === "museum-of-modern-art" ? title = "MoMa" : title === "global" ? title = "All Museums" : title =
-          "Canada Science and Technology Museum"
-        d3.select(this).append('svg:title')
-          .text(title)
-      });
+
+      globalPor //TODO add globe to global button!!!
+        .style("fill", "white")
+        .append("svg:image")
+        .attr('xlink:href', "https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg")
+        .attr("x", function(d) {
+          return -25;
+        })
+        .attr("y", function(d) {
+          return -25;
+        })
+        .attr("height", 50)
+        .attr("width", 50);
+
+      let that = this;
+      frame.on("click", function(d, i) {
+          d3.selectAll(".porButton").classed("selected", false)
+          d3.selectAll(".porButton").classed("not-selected", true)
+          that.vizCoord.getMuseumTabs().switchTab(museum.museum)
+          that.vizCoord.getWorldMap().drawMuseum(museum.museum)
+          that.vizCoord.updateMuseum(museum.museum)
+          d3.select(this).classed("selected", true)
+          d3.select(this).classed("not-selected", false)
+        })
+        .on("mouseover", function(d) {
+          let title = museum.museum
+          // d3.selectAll(".porButton").attr("opacity", title === that.vizCoord.activeMuseum ? 1 : .2)
+          title === "metropolitan-museum-of-art" ? title = "The Met" : title === "minneapolis-institute-of-art" ? title = "Mia" : title === "cooper-hewitt-smithsonian-design-museum" ? title = "Cooper Hewitt" : title === "penn-museum" ? title =
+            "Penn Museum" : title === "cleveland-museum-of-art" ? title = "Cleveland Museum of Art" : title === "museum-of-modern-art" ? title = "MoMa" : title === "global" ? title = "All Museums" : title =
+            "Canada Science and Technology Museum"
+          d3.select(this).append('svg:title')
+            .text(title)
+        });
 
       // d3.selectAll("")
     } //end drawPortraits
 
     // make responsive
-    // resizeSVG(svg) {
-    //   let that = this
-    //   // get container + svg aspect ratio
-    //   let container = d3.select(svg.node().parentNode),
-    //     width = parseInt(svg.style("width")),
-    //     height = parseInt(svg.style("height")),
-    //     aspect = width / height;
-    //
-    //   svg.attr("viewBox", "0 0 " + width + " " + height)
-    //     .attr("perserveAspectRatio", "xMinYMid")
-    //     .call(resize);
-    //
-    //   d3.select(window).on("resize." + container.attr("id"), resize);
-    //
-    //   // get width of container and resize svg to fit it
-    //   function resize() {
-    //     let targetWidth = parseInt(container.style("width"));
-    //     svg.attr("width", targetWidth);
-    //     svg.attr("height", Math.round(targetWidth / aspect));
-    //   }
-    // }
+    resizeSVG(svg) {
+      let that = this
+      // get container + svg aspect ratio
+      let container = d3.select(svg.node().parentNode),
+        width = parseInt(svg.style("width")),
+        height = parseInt(svg.style("height")),
+        aspect = width / height;
+
+      svg.attr("viewBox", "0 0 " + width + " " + height)
+        .attr("perserveAspectRatio", "xMinYMid")
+        .call(resize);
+
+      d3.select(window).on("resize." + container.attr("id"), resize);
+
+      // get width of container and resize svg to fit it
+      function resize() {
+        let targetWidth = parseInt(container.style("width"));
+        svg.attr("width", targetWidth);
+        svg.attr("height", Math.round(targetWidth / aspect));
+      }
+    }
+    }
+    }
   </script>
 </body>
 
 </html>
-</p>
-
-    </div>
-  </ul>
-</body>
-
-</html>
+:ET
