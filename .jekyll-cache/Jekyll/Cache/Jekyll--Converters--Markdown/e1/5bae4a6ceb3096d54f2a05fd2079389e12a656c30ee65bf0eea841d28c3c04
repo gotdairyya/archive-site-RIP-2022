@@ -1,4 +1,4 @@
-I"3<p>I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…</p>
+I"J2<p>I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…</p>
 
 <blockquote>
   <p><em>Instead of working on my final project for data vis, I am writing about it…</em></p>
@@ -99,62 +99,60 @@ White and grey hairs indicate age.</p>
   <script>
     let data = [{
         museum: "canada-science-and-technology-museums",
-        years: Array(26970),
-        countries: Array(59),
+        years: 26970,
+        countries: 59,
         artifacts: 26970
       },
       {
         museum: "cleveland-museum-of-art",
-        years: Array(43957),
-        countries: Array(84),
+        years: 43957,
+        countries: 84,
         artifacts: 43957
       },
       {
         museum: "cooper-hewitt-smithsonian-design-museum",
-        years: Array(20117),
-        countries: Array(69),
+        years: 20117,
+        countries: 69,
         artifacts: 20117
       },
       {
         museum: "metropolitan-museum-of-art",
-        years: Array(67113),
-        countries: Array(160),
+        years: 67113,
+        countries: 160,
         artifacts: 67113
       },
       {
         museum: "museum-of-modern-art",
-        years: Array(70716),
-        countries: Array(102),
+        years: 70716,
+        countries: 102,
         artifacts: 70716
       },
       {
         museum: "penn-museum",
-        years: Array(43518),
-        countries: Array(103),
+        years: 43518,
+        countries: 103,
         artifacts: 43518
       },
       {
         museum: "minneapolis-institute-of-art",
-        years: Array(9906),
-        countries: Array(20),
+        years: 9906,
+        countries: 20,
         artifacts: 9906
       },
       {
         museum: "global",
-        years: Array(2),
-        countries: Array(1),
+        years: 2,
+        countries: 1,
         artifacts: 2
       }
     ]
 
 
-    let artifacts = []
-    for (let countries of data) {
-      let countrySet = new Set(countries["countries"])
-      countries["countries"] = [...countrySet]
-      artifacts.push(countries.artifacts)
+    let artifactsNum = []
+    for (let museum of data) {
+      console.log("museum", artifacts)
+      artifactsNum.push(artifacts)
     }
-
 
     let i = 0;
     for (let museum of data) {

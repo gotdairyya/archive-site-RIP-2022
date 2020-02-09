@@ -91,7 +91,8 @@ White and grey hairs indicate age.</p>
 <img src="/../assets/images/data-portraits/data-portrait-mockup-03.png" alt="data portrait mock-up from illustrator" class="responsive-image" />
 <img src="/../assets/images/data-portraits/data-portrait-mockup-04.png" alt="data portrait mock-up from illustrator" class="responsive-image" /></p>
 
-<p>And here is an interactive version of the portraits:</p>
+<p>And here is an interactive version of the portraits: <br />
+Hover to see the museum each portrait represents.</p>
 <html lang="en">
 
 <head>
@@ -140,98 +141,85 @@ White and grey hairs indicate age.</p>
   <script>
     let data = [{
         museum: "canada-science-and-technology-museums",
-        years: Array(26970),
-        countries: Array(59),
-        artifacts: 26970
+        years: 26970,
+        countries: 59,
+        artifacts: 26970,
+        yearWidths: [0, 0, 0, 0, 1]
       },
       {
         museum: "cleveland-museum-of-art",
-        years: Array(43957),
-        countries: Array(84),
-        artifacts: 43957
+        years: 43957,
+        countries: 84,
+        artifacts: 43957,
+        yearWidths: [0.0027754396341879563, 0.033669267693427665, 0.03269103896990241, 0.10021157039834383, 0.8306526833041381]
       },
       {
         museum: "cooper-hewitt-smithsonian-design-museum",
-        years: Array(20117),
-        countries: Array(69),
-        artifacts: 20117
+        years: 20117,
+        countries: 69,
+        artifacts: 20117,
+        yearWidths: [0, 0.4706467167072625, 0.00004970920117313715, 0.0005965104140776457, 0.5287070636774867]
       },
       {
         museum: "metropolitan-museum-of-art",
-        years: Array(67113),
-        countries: Array(160),
-        artifacts: 67113
+        years: 67113,
+        countries: 160,
+        artifacts: 67113,
+        yearWidths: [0.4162531849269143, 0.05827484988005305, 0.09899721365458257, 0.08943125772950099, 0.3370434938089491]
       },
       {
         museum: "museum-of-modern-art",
-        years: Array(70716),
-        countries: Array(102),
-        artifacts: 70716
+        years: 70716,
+        countries: 102,
+        artifacts: 70716,
+        yearWidths: [0, 0, 0, 0, 1]
       },
       {
         museum: "penn-museum",
-        years: Array(43518),
-        countries: Array(103),
-        artifacts: 43518
+        years: 43518,
+        countries: 103,
+        artifacts: 43518,
+        yearWidths: [0.542005606875316, 0.15290224734592583, 0.04051197205753941, 0.03531871869111632, 0.22926145503010248]
       },
       {
         museum: "minneapolis-institute-of-art",
-        years: Array(9906),
-        countries: Array(20),
-        artifacts: 9906
+        years: 9906,
+        countries: 20,
+        artifacts: 9906,
+        yearWidths: [0, 0, 0, 0.0031294165152432867, 0.9968705834847568]
       },
       {
         museum: "global",
-        years: Array(2),
-        countries: Array(1),
-        artifacts: 2
+        years: 2,
+        countries: 1,
+        artifacts: 2,
+        yearWidths: [0, 1, 0, 0, 0]
       }
     ]
 
 
-    let artifacts = []
-    for (let countries of data) {
-      let countrySet = new Set(countries["countries"])
-      countries["countries"] = [...countrySet]
-      artifacts.push(countries.artifacts)
+    let artifactsNum = []
+    for (let museum of data) {
+      artifactsNum.push(museum.artifacts)
     }
 
-
     let i = 0;
+    let svg = d3.select("div.article-entry").append("svg").attr("width", 500).attr("height", 600)
     for (let museum of data) {
-      drawPortrait(museum, i)
+      drawPortrait(museum, i, svg)
       i++
     }
 
 
-    function drawPortrait(museum, i) {
-      let svg = d3.select("div.article-entry").append("svg").attr("width", 500).attr("height", 600) //.call(this.resizeSVG)
-      // console.log("Drawing:", museum)
+    function drawPortrait(museum, i, svg) {
+      // let svg = d3.select("div.article-entry").append("svg").attr("width", 500).attr("height", 600)
       svg = svg.append("g")
 
       let colors = ["#b5a5e3", "#b1af00", "#ff5b1a", "#e2a333", "#5b7769"]
 
       let artifactScale = d3.scaleOrdinal()
-        .domain([d3.min(artifacts), d3.max(artifacts)])
+        .domain([d3.min(artifactsNum), d3.max(artifactsNum)])
         .range([1, 5])
-
-
-      let length = museum.years.length
-
-      let bc = museum.years.filter(d => d === 0 || d < 0)
-      let first = museum.years.filter(d => d >= 0 && d < 501)
-      let second = museum.years.filter(d => d >= 501 && d < 1001)
-      let third = museum.years.filter(d => d >= 1001 && d < 1501)
-      let fourth = museum.years.filter(d => d >= 1501)
-
-
-      let yearWidths = []
-      yearWidths.push(bc.length / length)
-      yearWidths.push(first.length / length)
-      yearWidths.push(second.length / length)
-      yearWidths.push(third.length / length)
-      yearWidths.push(fourth.length / length)
-
 
       let frameWidth = 238 * .3
       let frameHeight = 360 * .3
@@ -239,7 +227,7 @@ White and grey hairs indicate age.</p>
 
       let portraitColors = svg
         .selectAll("rect")
-        .data(yearWidths)
+        .data(museum.yearWidths)
         .join("rect")
         .attr("height", frameHeight)
         .attr("width", (d, i) => {
@@ -262,7 +250,7 @@ White and grey hairs indicate age.</p>
         .style("stroke-width", lineWidth)
         .attr("transform", "translate(5,5)")
 
-      let countries = museum.countries.length
+      let countries = museum.countries
       countries = countries / 6;
       countries = Math.round(countries)
       let countryArray = []
@@ -336,12 +324,6 @@ White and grey hairs indicate age.</p>
         })
         .attr("margin", 20)
 
-
-
-      // let frame = svg
-      // .append("a")
-      // .attr("xlink:href", "#0")
-
       let frame = svg.append("rect")
         .attr("width", frameWidth)
         .attr("border", 20)
@@ -366,7 +348,7 @@ White and grey hairs indicate age.</p>
           .text(title)
       });
 
-      // d3.selectAll("")
+
     } //end drawPortraits
 
     // make responsive

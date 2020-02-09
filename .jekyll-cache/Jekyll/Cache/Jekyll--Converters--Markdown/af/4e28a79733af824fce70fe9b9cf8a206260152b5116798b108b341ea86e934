@@ -1,8 +1,61 @@
+I"5<p>I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…</p>
+
+<blockquote>
+  <p><em>Instead of working on my final project for data vis, I am writing about it…</em></p>
+
+  <p><em>Really if you think about it, everything is a data portrait…</em></p>
+
+  <p><em>If everything is a data portrait, then what is a data portrait?</em></p>
+</blockquote>
+
+<p>As you can see, not the best intros. What I would like to do instead, is talk about some inspiration I’ve had over the years regarding data portraits, and then show you what I have created for a class project.</p>
+
+<h3 id="inspiration-comes-in-many-forms">Inspiration Comes in Many Forms</h3>
+
+<p>One form is Georgia Lupi. Lupi a partner at Pentagram studios and a long time advocate for <em>data humanism</em>, constantly likes to remind us that data is never the point, the humans who created it are. I hope to draw on this concept throughout my PhD. Often, data is assumed to be objective, immutable, authoritative, but ultimately it is another human creation, prone to errors and up to interpretation.
+<a href="https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data?language=en#t-258497">For more on Lupi, you can listen to her TED Talk</a></p>
+
+<p><img src="/../assets/images/data-portraits/georgia-lupi-portraits.jpg" alt="example of data portraits from Georgia Lupi" class="responsive-image" /></p>
+<figcaption>
+  <p>An example of data portraits courtesy of ideas.ted.com.</p>
+</figcaption>
+
+<p>Another inspiration comes from nature and ways in which data can be interpreted as traces and proof of life. In Dietmar Offenhuber’s paper <a href="https://arxiv.org/abs/1907.05454">Data by Proxy</a>, he discusses the concept of discovering and revealing the traces of natural processes and abstracting them into a data and data visualizations. Although it might sound slightly abstract, I think it is something we do rather intuitively…</p>
+
+<p>We can see patterns in how we step by looking at the uneven wear on the soles of our shoes.
+The rings of trees show us the age of the tree.
+White and grey hairs indicate age.</p>
+
+<p>If we want, we can take all these observations and abstract them into numbers, but maybe I will talk about that later.</p>
+
+<p>My final, but not final, inspiration comes from an Italian data visualization designer, Federica Fragapane, who makes the most out-of-this-world data portraits. I’ll let the examples below speak for themselves.</p>
+
+<p><img src="/../assets/images/data-portraits/federica-fragapane-carbon-dioxide.jpg" alt="example of data portraits from Federica Fragapane" class="responsive-image" />
+<img src="/../assets/images/data-portraits/federica-fragapane-violent-cities.jpg" alt="example of data portraits from Federica Fragapane" class="responsive-image" /></p>
+<figcaption>
+  <p>You can find more of her work on her <a href="https://www.behance.net/FedericaFragapane">Behance site</a></p>
+</figcaption>
+
+<h3 id="my-take-of-data-portraits">My take of Data Portraits</h3>
+<p>For my group project, we are visualizing data about museum artifacts. In spirit of the artwork, I wanted to create art that would represent the museum and it’s collection.</p>
+
+<p>I began by looking at different Abstract Expressionism art, looking specifically for the use of bold colors and geometric shapes. Once I selected an artist for inspiration, I created a rough mockup using pen + paper of what the portrait could look like.</p>
+
+<p><img src="/../assets/images/data-portraits/portrait-mockup.png" alt="data portrait mock-up on post-it note" class="scale-50-center" /></p>
+
+<p>Pleased with the rough sketch, I used Adobe Illustrator for cleaner mock-ups. After implementing the design in code using fake (but representative) data, I altered the design slightly to both make the coding easier and incorporate a more organic element into the design.</p>
+
+<p><img src="/../assets/images/data-portraits/data-portrait-mockup-01.png" alt="data portrait mock-up from illustrator" class="responsive-image" />
+<img src="/../assets/images/data-portraits/data-portrait-mockup-02.png" alt="data portrait mock-up from illustrator" class="responsive-image" />
+<img src="/../assets/images/data-portraits/data-portrait-mockup-03.png" alt="data portrait mock-up from illustrator" class="responsive-image" />
+<img src="/../assets/images/data-portraits/data-portrait-mockup-04.png" alt="data portrait mock-up from illustrator" class="responsive-image" /></p>
+
+<p>And here is an interactive version of the portraits:</p>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <script src="https://d3js.org/d3.v5.js"></script>
 </head>
@@ -109,15 +162,15 @@
     }
 
     let i = 0;
-    let svg = d3.select("div.article-entry").append("svg").attr("width", 500).attr("height", 600)
     for (let museum of data) {
-      drawPortrait(museum, i, svg)
+      drawPortrait(museum, i)
       i++
     }
 
 
-    function drawPortrait(museum, i, svg) {
-      // let svg = d3.select("div.article-entry").append("svg").attr("width", 500).attr("height", 600)
+    function drawPortrait(museum, i) {
+      let svg = d3.select("div.article-entry").append("svg").attr("width", 500).attr("height", 600) //.call(this.resizeSVG)
+      // console.log("Drawing:", museum)
       svg = svg.append("g")
 
       let colors = ["#b5a5e3", "#b1af00", "#ff5b1a", "#e2a333", "#5b7769"]
@@ -125,6 +178,24 @@
       let artifactScale = d3.scaleOrdinal()
         .domain([d3.min(artifactsNum), d3.max(artifactsNum)])
         .range([1, 5])
+
+
+      // let length = museum.years.length
+      //
+      // let bc = museum.years.filter(d => d === 0 || d < 0)
+      // let first = museum.years.filter(d => d >= 0 && d < 501)
+      // let second = museum.years.filter(d => d >= 501 && d < 1001)
+      // let third = museum.years.filter(d => d >= 1001 && d < 1501)
+      // let fourth = museum.years.filter(d => d >= 1501)
+
+
+      // let yearWidths = []
+      // yearWidths.push(bc.length / length)
+      // yearWidths.push(first.length / length)
+      // yearWidths.push(second.length / length)
+      // yearWidths.push(third.length / length)
+      // yearWidths.push(fourth.length / length)
+
 
       let frameWidth = 238 * .3
       let frameHeight = 360 * .3
@@ -155,7 +226,7 @@
         .style("stroke-width", lineWidth)
         .attr("transform", "translate(5,5)")
 
-      let countries = museum.countries
+      let countries = museum.countries.length
       countries = countries / 6;
       countries = Math.round(countries)
       let countryArray = []
@@ -229,6 +300,12 @@
         })
         .attr("margin", 20)
 
+
+
+      // let frame = svg
+      // .append("a")
+      // .attr("xlink:href", "#0")
+
       let frame = svg.append("rect")
         .attr("width", frameWidth)
         .attr("border", 20)
@@ -253,7 +330,7 @@
           .text(title)
       });
 
-
+      // d3.selectAll("")
     } //end drawPortraits
 
     // make responsive
@@ -282,3 +359,4 @@
 </body>
 
 </html>
+:ET

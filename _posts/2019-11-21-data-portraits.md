@@ -53,5 +53,6 @@ Pleased with the rough sketch, I used Adobe Illustrator for cleaner mock-ups. Af
 ![data portrait mock-up from illustrator](/../assets/images/data-portraits/data-portrait-mockup-03.png){:.responsive-image}
 ![data portrait mock-up from illustrator](/../assets/images/data-portraits/data-portrait-mockup-04.png){:.responsive-image}
 
-And here is an interactive version of the portraits:
+And here is an interactive version of the portraits: \\
+Hover to see the museum each portrait represents.
 {% include portraits.html %}
