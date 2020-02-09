@@ -9,7 +9,7 @@ h2 { font-family: 'Lora', serif; color: DarkSlateGray; line-height: 80%; }
 
 body { background-color: #f1f1f1; }
 
-p { font-family: 'Darker Grotesque', sans-serif; font-size: 18px; line-height: 22px; margin-bottom: 26px; }
+p, summary { font-family: 'Darker Grotesque', sans-serif; font-size: 18px; line-height: 22px; margin-bottom: 26px; }
 
 figcaption { font-family: 'Inconsolata', monospace; text-align: center; }
 
