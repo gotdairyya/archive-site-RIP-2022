@@ -20,5 +20,4 @@ Do we only interact with computer interfaces? What about the data collected whil
 So as you can hopefully see, HCI touches a lot of our lives! What is fascinating to me, as someone coming from a design and cognitive science background, is the overlapping research done across these disciplines. Many qualitative methods for conducting HCI research are also recommended best practices in design thinking.
 
 As a closing note, here is a cat on a computer.
-<!-- <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="cat on computer" width="60%" /> -->
 ![cat on a computer](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
