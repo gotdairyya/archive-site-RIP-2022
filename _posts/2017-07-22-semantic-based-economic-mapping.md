@@ -15,11 +15,12 @@ This project began in late 2016, focused around an accessible web app to help ex
 
 The images above are early wire frames of a tool that breaks apart standardized business sentences and converts them into a matrix. The example below shows a mini demo of how the sentences are split; verbs define rows and nouns define columns. Verbs conceptually represent the different types of functions that exist in the economy, where the nouns represent resources and objects that can be acted on by the functions.
 
- ![gif of matrix showing how verbs and nouns are combined to describe economic activity. ex. buy + cars = buy cars](/../assets/images/mapslocus/screenshots.png){:.responsive-image}
+ ![gif of matrix showing how verbs and nouns are combined to describe economic activity. ex. buy + cars = buy cars](/../assets/images/mapslocus/matrix.gif){:.responsive-image}
 
+Cool, now  you know what the matrix conceptually does, but you may be asking why are all the colors under the sun and rainbow in one visual? Well, every activity and resource is assigned a specific color. This is a topic too long for this post, but long story short there is a visual language that runs parallel to the lexicon. *If you would like to read more, check-out the [semiotics post](2019-07-22-semiotics).*
 
-Cool, now  you know what the matrix conceptually does, but you may be asking why are all the colors under the sun and rainbow in one visual? Well, every activity and resource is assigned a specific color. This is a topic too long for this post, but long story short there is a visual language that runs parallel to the lexicon.
 In redesigning the website, the biggest design challenge was incorporating color and linguistic information in one visual: the grid. Previous iterations colored the values base on this pattern:
-
+ ![old visualization representing the color combination of the activity and resource](/../assets/images/mapslocus/old-grid.png){:.responsive-image}
+ Activities are represented on the left and resources on the right.
 
 Users would often read this as activities signifying a large proportion of the business found in that specific area, when actually activity + resource describe the business. We need a more egalitarian way to display this. Ultimately, two triangles were picked to represent the equal role the activity and resource.

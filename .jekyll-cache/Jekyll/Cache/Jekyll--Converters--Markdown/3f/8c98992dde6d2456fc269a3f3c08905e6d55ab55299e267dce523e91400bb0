@@ -1,45 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Semantic Based Economic Mapping</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  <nav class="navigation">
-  
-  <a href="/" >
-    About
-  </a>
-  
-  <a href="/blog.html" >
-    Thoughts
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-</nav>
-  <ul class="articles">
-    <div class="article-entry">
-      <span>
-        <h2>Semantic Based Economic Mapping</h2>
-        <h3 class="date">22 Jul 2017</h3>
-      </span>
-      <h3 class="header__subtext">or maps.locus</h3>
-
-      <p><p><em>A note from future me: Prior to my PhD I had what I would call the most interesting job one could have. I worked at a firm focused on developing a systems-based economic model, called <a href="home.locus">Locus Analytics</a>. While there I developed the design language for communicating a model that is built on semantic and syntactical relations. Below is a post from 2017 regarding some of my work.</em></p>
+I"»<p><em>A note from future me: Prior to my PhD I had what I would call the most interesting job one could have. I worked at a firm focused on developing a systems-based economic model, called <a href="home.locus">Locus Analytics</a>. While there I developed the design language for communicating a model that is built on semantic and syntactical relations. Below is a post from 2017 regarding some of my work.</em></p>
 
 <p>Maps.locus is the entrance to a new world of economic exploration; it is is a space to begin re-imagining how we navigate our complex and ever growing economy.</p>
 
@@ -58,10 +17,4 @@
  Activities are represented on the left and resources on the right.</p>
 
 <p>Users would often read this as activities signifying a large proportion of the business found in that specific area, when actually activity + resource describe the business. We need a more egalitarian way to display this. Ultimately, two triangles were picked to represent the equal role the activity and resource.</p>
-</p>
-
-    </div>
-  </ul>
-</body>
-
-</html>
+:ET
