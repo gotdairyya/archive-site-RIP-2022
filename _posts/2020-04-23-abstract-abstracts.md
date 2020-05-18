@@ -2,8 +2,8 @@
 layout: post
 title: Abstract Abstracts
 subtitle: Has abstract readability in arXiv papers changed?
-image: ../assets/images/magnifying-glass.png 
-zoom: 80%
+image: ../assets/images/calculator.png
+zoom: 60%
 ---
 This is deep dive done by myself and my friend Cole Polychronis for our data mining class.
 

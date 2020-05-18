@@ -1,46 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>Make a Mark</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  <nav class="navigation">
-  
-  <a href="/" >
-    About
-  </a>
-  
-  <a href="/blog.html" >
-    Thoughts
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-</nav>
-  <ul class="articles">
-    <div class="article-entry">
-      <span>
-        <h2>Make a Mark</h2>
-        <h3 class="date">10 Mar 2019</h3>
-      </span>
-      <h3 class="header__subtext">thoughts on volunteering then running an event</h3>
-
-      <p><p>Make a Mark is a nonprofit that organizes 12hr design events to connect designers and other makers with nonprofits that are serving the community. In January 2018, I participated as a maker working on a design equity campaign for Make a Mark itself. Their work is invaluable in bridging the gap between good design and nonprofits that desperately need it; however, it’s not always apparent why design is useful and how it can be used. As a result my team, consisting of an illustrator, copy writer, and myself, went to work creating social media content that Make a Mark could use to educate the nonprofit community.</p>
+I"<p>Make a Mark is a nonprofit that organizes 12hr design events to connect designers and other makers with nonprofits that are serving the community. In January 2018, I participated as a maker working on a design equity campaign for Make a Mark itself. Their work is invaluable in bridging the gap between good design and nonprofits that desperately need it; however, it’s not always apparent why design is useful and how it can be used. As a result my team, consisting of an illustrator, copy writer, and myself, went to work creating social media content that Make a Mark could use to educate the nonprofit community.</p>
 
 <p>The series is called Design Equity and can be read on <a href="https://medium.com/makeamark/design-equity-youve-got-a-story-to-tell-tell-it-beautifully-74917a7d0cab">Medium</a>.
 <em>NB. All images in this post are made by the talented <a href="http://www.rileymcmathwalker.com/">Riley Walker</a></em></p>
@@ -65,10 +23,4 @@ Maybe it’s because many creatives are underpaid and doing pro-bono work is out
 <div class="responsive-image">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gjo6vGmbMb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
-</p>
-
-    </div>
-  </ul>
-</body>
-
-</html>
+:ET
