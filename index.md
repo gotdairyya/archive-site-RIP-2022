@@ -15,7 +15,7 @@ I am a PhD student at the University of Utah's School of Computing, working with
 |------------|:--------------------------------------------------------------------|
 | **Read More:** | [PhD thoughts and musings]({% post_url 2019-08-21-why-get-a-phd %}) |
 | **Contact:** | derya at cs dot utah dot edu |
-| [[cv]](/assets/images/Akbaba-CV-Summer-2020.pdf) |  |
+| [[cv]](/assets/images/Akbaba-CV.pdf) |  |
 
 ### \#gotdairyya
 
