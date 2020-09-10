@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Communicating Science Research
-subtitle: zoom + bats + magazines
+subtitle: computers + bats
 image: ../assets/images/pencil.png
 zoom: 70%
 ---
