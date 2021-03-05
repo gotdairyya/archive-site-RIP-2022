@@ -1,45 +1,5 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>derya akbaba</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  <nav class="navigation">
-  
-  <a href="/" >
-    About
-  </a>
-  
-  <a href="/blog.html" >
-    Thoughts
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-</nav>
-
-  <ul class="articles">
-    <div class="article-entry">
-      <h2>derya akbaba</h2>
-      <h3 class="header__subtext">dairy-ya</h3>
-
-      <p><div class="content">
-  <p><img src="/assets/images/derya-photo-2020.png" alt="photo of me with my head in the clouds" id="photo" />
+I"�<div class="content">
+  <p><img src="/assets/images/derya-photo-2020.jpg" alt="photo of me with my head in the clouds" id="photo" />
 In my work I use critical theory as a lens for understanding the intersection of design and technology within the field of Information Visualization. With a less than “traditional” background in Labor Relations, Cognitive Science, and Economics, I am inspired by the intersections across disciplines and interrogating the differences (and similarities) that matter. Inspired by the great interdisciplinary thinkers before me, I hope to emulate work that is as thoughtful, responsible, and inventive.</p>
 </div>
 
@@ -70,9 +30,4 @@ Growing up the got milk? ads were so clever, so fun, and plus I loved milk, so n
 </div>
 
 <p><img src="/assets/images/gotmilk.png" alt="90s got milk? ads" class="responsive-image" /></p>
-</p>
-    </div>
-  </ul>
-</body>
-
-</html>
+:ET

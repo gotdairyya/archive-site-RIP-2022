@@ -5,17 +5,16 @@ subtitle: dairy-ya
 ---
 
 <div class="content" markdown="1">
-![photo of me with my head in the clouds](/assets/images/derya-photo-2019.png){:#photo}
-In my work I focus on understanding the role that design and technology currently does and *will* play in people's ability to find information and create lasting understanding. With a non-traditional background in Labor Relations, Cognitive Science, and Economics, I consider myself a self-taught creator and maker. Inspired by the great interdisciplinary thinkers before me, I hope to emulate work that is as thoughtful and inventive.
+![photo of me with my head in the clouds](/assets/images/derya-photo-2020.png){:#photo}
+In my work I use critical theory as a lens for understanding the intersection of design and technology within the field of Information Visualization. With a less than "traditional" background in Labor Relations, Cognitive Science, and Economics, I am inspired by the intersections across disciplines and interrogating the differences (and similarities) that matter. Inspired by the great interdisciplinary thinkers before me, I hope to emulate work that is as thoughtful, responsible, and inventive.
 </div>
 
 I am a PhD student at the University of Utah's School of Computing, working with [Miriah Meyer](https://www.cs.utah.edu/~miriah) at the [Visualization Design Lab](https://vdl.sci.utah.edu/).
 
-
 |------------|:--------------------------------------------------------------------|
-| **Read More:** | [PhD thoughts and musings]({% post_url 2019-08-21-why-get-a-phd %}) |
+| **Read More:** | [What is data vis?]({% post_url 2020-11-27-what-is-datavis %}) |
 | **Contact:** | derya at cs dot utah dot edu |
-| [[cv]](/assets/images/Akbaba-CV.pdf) |  |
+| [[cv]](/assets/images/Akbaba-CV.pdf) | |
 
 ### \#gotdairyya
 
