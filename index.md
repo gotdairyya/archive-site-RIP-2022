@@ -1,7 +1,7 @@
 ---
 layout: aboutMe
 title: derya akbaba
-subtitle: dairy-ya
+subtitle: dairy-ya | she/her/hers
 ---
 
 <div class="content" markdown="1">
@@ -14,7 +14,7 @@ I am a PhD student at the University of Utah's School of Computing, working with
 |------------|:--------------------------------------------------------------------|
 | **Read More:** | [What is data vis?]({% post_url 2020-11-27-what-is-datavis %}) |
 | **Contact:** | derya at cs dot utah dot edu |
-| [[cv]](/assets/images/Akbaba-CV.pdf) | |
+| **More Info:** |[[cv]](/assets/images/Akbaba-CV.pdf) |
 
 ### \#gotdairyya
 
