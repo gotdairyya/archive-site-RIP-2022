@@ -2,7 +2,7 @@
 layout: post
 title: Meta-confused about Metacognition
 subtitle: getting meta about metacognition
-image: ../assets/images/pencil.png
+image: ../assets/images/apple.png
 zoom: 70%
 ---
 As the (slightly modified for personal taste) proverb goes: 
