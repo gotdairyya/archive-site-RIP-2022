@@ -6,7 +6,7 @@ subtitle: dairy-ya | she/her/hers
 
 <div class="content" markdown="1">
 ![photo of me with my head in the clouds](/assets/images/derya-photo-2020.png){:#photo}
-In my work I use critical theory as a lens for understanding the intersection of design and technology within the field of Information Visualization. With a less than "traditional" background in Labor Relations, Cognitive Science, and Economics, I am inspired by the intersections across disciplines and interrogating the differences (and similarities) that matter. Inspired by the great interdisciplinary thinkers before me, I hope to emulate work that is as thoughtful, responsible, and inventive.
+In my work I use critical theory as a lens for understanding the intersection of design and technology within the field of Information Visualization. With a less than "traditional" background in Labor Relations, Cognitive Science, and Economics, I am inspired by the intersections across disciplines and interrogating the differences (and similarities) that matter.
 </div>
 
 I am a PhD student at the University of Utah's School of Computing, working with [Miriah Meyer](https://www.cs.utah.edu/~miriah) at the [Visualization Design Lab](https://vdl.sci.utah.edu/).
