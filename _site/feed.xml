@@ -7,6 +7,56 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Sorting Things Out</title>
+        <description>&lt;p&gt;If you know a little about my past life (before pursuing a PhD, not in the karmic sense), you would know that I worked on a theory for economic classification systems. So it was no wonder that when &lt;a href=&quot;https://mitpress.mit.edu/books/sorting-things-out&quot;&gt;“Sorting things out: classification and its consequences”&lt;/a&gt; showed up on my goodreads, my old co-worker promptly commented “wow who are you!!!”&lt;/p&gt;
+
+&lt;p&gt;One would think 6 years embedded in discussions about classification systems would be enough for a lifetime…THINK AGAIN. I definitely had a moment where I felt incredulous picking up the book, but as soon as I started reading it, I knew I had made the right decision. This post is an attempt to capture some of the memorable aspects before they slip from my failing memory.&lt;/p&gt;
+
+&lt;h2 id=&quot;classification-systems-are-invisible-infrastructres&quot;&gt;Classification Systems are (invisible) Infrastructres&lt;/h2&gt;
+&lt;p&gt;If there is one major takeaway, it would be these:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;1) classification systems are often invisible&lt;/li&gt;
+  &lt;li&gt;2) classification systems are powerful&lt;/li&gt;
+  &lt;li&gt;3) classification systems are infrastructure&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;invisibility&quot;&gt;Invisibility&lt;/h3&gt;
+
+&lt;p&gt;Classification shapes the way that we think about the world and how we record that thought. Often, we do not think about how we are labeling the world around us (invisibility). We see an object and call it a flower. Or if we are a florist, we call it a peony. These examples are trivial seem trivial, but in instances like classifying a disease, where many different causes might be at play, the choice in what and how to classify alters the types of treatment one may recieve.&lt;/p&gt;
+
+&lt;h3 id=&quot;power&quot;&gt;Power&lt;/h3&gt;
+
+&lt;p&gt;In chapter 6 the authors discuss the very real ways in which classification of race during apertheid in South Africa affected peoples lives: limiting access to resources, dividing families, and numerous reclassifications. For a metaphysical discussion about race, please read “‘But What Are You Really?’ The Metaphysics of Race” by Charles Mills.&lt;/p&gt;
+
+&lt;h3 id=&quot;infrastructure&quot;&gt;Infrastructure&lt;/h3&gt;
+
+&lt;p&gt;Additionally, classification systems as markers of community membership struck me as a super fascinating concept:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Categories are historically situated artifacts and, like all artifacts, are learned as part of membership in communities of practice.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They go on to discuss classification systems as boundary infrastructures, where classification systems serve as interpretable and flexible infrastructure on the edges of different communities.&lt;/p&gt;
+
+&lt;p&gt;I think we grapple with this all the time in my field (or any field that works with data). We assume that data means one thing and then quickly (if we are fortunate) find that it means something quite different to our collaborators. I think this is because as Johanna Drucker &lt;a href=&quot;http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html&quot;&gt;states&lt;/a&gt; oh so eloquently, “&lt;em&gt;Data are capta&lt;/em&gt;, taken not given, constructed as an interpretation of the phenomenal world, not inherent in it.” The act of creating data is an act of classification: what is classified, who classifies, why classified…This is is a thread in feminist data visualization that I think deserves more discussion, but I feel the limitations of that discussion because we are just flooded with data every second of every day. Where can we find the time to pause and examine the construction of data? When can we refuse data as given? A thread to be continued elsewhere.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-opportunities&quot;&gt;Design Opportunities&lt;/h2&gt;
+&lt;p&gt;In the last two pages of the book, the authors provide recommendations for how to design classification systems. &lt;em&gt;Why only two pages?&lt;/em&gt; I summarize the recommendations here:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Having “grey area” in classification systems is a good thing.&lt;/strong&gt; It provides space and flexibility for using these systems across different contexts.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Keep the people who designed the systems visible.&lt;/strong&gt; This will hopefully prevent the system from becoming invisible and as such assumed as natural and a given.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Be aware of what/who falls into other categories.&lt;/strong&gt; Essentially, anyone or thing not specifically classified becomes lost in the archive, blending with everything else placed in the other category. There are mixed reactions to this in current feminist and queer literature. For example, “Becoming NULL: Queer relations in the excluded middle” by Jacob Gaboury, advocates that the NULL using the category is a subversive act that reduces the effectivenes of data (specifically in the context of surveillance). While in “Uncertain Archives: Approaching the Unknowns, Errors, and Vulnerabilities of Big Data through Cultural Theories of the Archive,” Agostinho et al. discuss the tension between exclusion from archival data, an erasure from history, and increasing surveillance.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ultimately, while many of us tend to use data and are critical of it to some extent, a discussion may be worth having of the content of the classification system… where it came from and how does it frame the way we consider the phenomena at hand.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Jun 2021 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000//2021/06/09/sorting-things-out.html</link>
+        <guid isPermaLink="true">http://localhost:4000//2021/06/09/sorting-things-out.html</guid>
+      </item>
+    
+      <item>
         <title>Meta-confused about Metacognition</title>
         <description>&lt;p&gt;As the (slightly modified for personal taste) proverb goes:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -771,128 +821,6 @@ Hover to see the museum each portrait represents.&lt;/p&gt;
         <pubDate>Thu, 21 Nov 2019 00:00:00 -0700</pubDate>
         <link>http://localhost:4000//2019/11/21/data-portraits.html</link>
         <guid isPermaLink="true">http://localhost:4000//2019/11/21/data-portraits.html</guid>
-      </item>
-    
-      <item>
-        <title>Visualizing Uncertainty</title>
-        <description>&lt;p&gt;Since starting my PhD I have read A LOT. Now, you, like my wise friend Treasure may be saying, “Well duh derya, didn’t you know that that’s what a PhD is?!” Well. My wise friends, I did not.&lt;/p&gt;
-
-&lt;p&gt;So like I was saying, I’ve been reading a lot and I’ve decided to use this blog as a way of reflecting on articles that I’ve found interesting/still have opinions on/want to go further than a one hour group discussion. To my peers’ credit though, discussion is so critical, and without them I don’t think I would be nearly as informed.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-authors-dont-visualize-uncertainty&quot;&gt;Why Authors Don’t Visualize Uncertainty&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Written by Jessica Hullman (&lt;a href=&quot;http://users.eecs.northwestern.edu/~jhullman/Value_of_Uncertainty_Vis_CR.pdf&quot;&gt;full paper here&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In this paper, Hullman investigates why visualization authors don’t visualize uncertainty when they know that it exists. The title of the paper is pretty self-explanatory, but there are some interesting discussion topics that I will dive deeper into.&lt;/p&gt;
-
-&lt;p&gt;Let’s start with defining uncertainty in the visualization space.
-Uncertainty can enter the visualization pipeline at many steps of the process, resulting in different types of uncertainty. Below is a simple pipeline illustrating potential areas where uncertainty may be introduced.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;As a side note, these are the same spaces where there are potential biases filtering in. Read &lt;a href=&quot;http://www.kanarinka.com/wp-content/uploads/2015/07/IEEE_Feminist_Data_Visualization.pdf&quot;&gt;Feminist Data Visualization&lt;/a&gt; for a more nuanced discussion.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/../assets/images/uncertainty/visualization-process.png&quot; alt=&quot;a table displaying the four simplified phases of visualization&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;visualizing-uncertainty-is-hard&quot;&gt;Visualizing uncertainty is hard!&lt;/h4&gt;
-&lt;p&gt;As you can see in the figure above, there are different types of uncertainty that could or could not be visualized. And based on what I have gathered through informal questioning (no formal review of the literature yet), there are no standard methods for visualizing uncertainty because really the choices you would have to make as a visualization designer all depend on the context.&lt;/p&gt;
-
-&lt;p&gt;So what do the 90 visualization experts surveyed by Hullman do when confronted with uncertainty?&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Method&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Vis Example&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;%&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Interval Representation&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;/../assets/images/uncertainty/confidence-intervals.png&quot; alt=&quot;confidence interval example&quot; class=&quot;table-image&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;76&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Visual Variables&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;/../assets/images/uncertainty/visual-variables.png&quot; alt=&quot;visual variables example&quot; class=&quot;table-image&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;75&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Density Plot/Histogram&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;/../assets/images/uncertainty/histogram.png&quot; alt=&quot;histogram example&quot; class=&quot;table-image&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;54&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Text&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;margin of error is 5%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;51&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Given that there are &lt;em&gt;some&lt;/em&gt; methods of visualizing uncertainty, the interesting aspect of Hullman’s results involve asking &lt;em&gt;why&lt;/em&gt; authors are not visualizing uncertainty. For that, yes, I made another table.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Reason&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;%&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Not to overwhelm viewers&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;62&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Not having access to uncertainty information&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;47&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Not knowing how to calculate uncertainty&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;26&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Not wanting to raise doubts in the data&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;17&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Using the results of her survey, Hullman proposes both a rhetorical model of uncertainty omission and formal theory of visualization-based inference, neither of which I will discuss here. Instead, I’d like to relate the reasons of uncertainty omission to the visualization process and task definition. My ideas of process are informed by personal experience and drawn from the &lt;a href=&quot;https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf&quot;&gt;nested model&lt;/a&gt; by Tamara Munzner.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;NB. I apologize in advance for the funny tone shift in the next section, I somehow wound up making it prescriptive rather than descriptive because it felt like a more natural way of relaying the information&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Domain Problem Characterization:&lt;/strong&gt; Before you can begin any visualization, you need to understand the problem you are trying to address with the visualization. If you are approaching data from a more exploratory perspective, then you should spend some time defining what you are interested in and what you expect as a result of your exploration.&lt;/p&gt;
-
-&lt;p&gt;At this stage of the design process, you can start asking yourself:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Who will use the visualization and why?&lt;/li&gt;
-  &lt;li&gt;What is their exposure to uncertainty?&lt;/li&gt;
-  &lt;li&gt;Is uncertainty necessary for the user in accomplishing their task?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In Hullman’s survey, many of the respondents who are journalists discuss simplifying the message and omitting uncertainty deliberately. I would posit here that the journalists have implicitly or explicitly answered the questions above, deciding that uncertainty is not essential to the task of their users, which is to understand the narrative and main points of the article they are reading.&lt;/p&gt;
-
-&lt;p&gt;In comparison, a design study researcher working with scientists should deliberately ask the scientists what types of uncertainty are important to their task at hand and why.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Operation and Data Type Abstraction:&lt;/strong&gt; After understanding the domain problem and the role that uncertainty could play in the ability of the users to achieve their tasks, you can shift your attention to understanding the data.
-As stated in Munzner’s paper, this is the space to translate the tasks and problems from the first phase into the land of abstract computer science. In this phase, pay attention to the data. Does the data support your user’s task? Where is the data coming from? Has it been manipulated? Will you need to manipulate?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Visual Encoding and Interaction Design:&lt;/strong&gt; Going back to your initial task characterization, will you need to encode uncertainty in the data? What visual encoding will support the types of uncertainty that are present within the data or the processes associated with abstracting the data?&lt;/p&gt;
-
-&lt;h3 id=&quot;still-uncertain&quot;&gt;Still Uncertain?&lt;/h3&gt;
-&lt;p&gt;Even after writing this entry, I don’t think there can ever be a clear path to determining when and what types of uncertainty to visualize. The only thing I can say with certainty is that as a visualization designer it’s critical to understand the problem you are trying to solve and the motivation your users have to engage with and understand the visual encodings.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Further Reading:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/multiple-views-visualization-research-explained/- uncertainty-visualization-explained-67e7a73f031b&quot;&gt;the Medium series by Hullman and her colleague&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/&quot;&gt;a nice piece by FlowingData with examples of how to visualize Uncertainty&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/2018/11/05/upshot/needle-election-night-2018-midterms.html&quot;&gt;the NYT explanation of their political needle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 15 Nov 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000//2019/11/15/visualizing-uncertainty.html</link>
-        <guid isPermaLink="true">http://localhost:4000//2019/11/15/visualizing-uncertainty.html</guid>
       </item>
     
   </channel>
