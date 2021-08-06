@@ -14,7 +14,7 @@ I am a PhD student at the University of Utah's School of Computing, working with
 |------------|:--------------------------------------------------------------------|
 | **Read More:** | [What is data vis?]({% post_url 2020-11-27-what-is-datavis %}) |
 | **Contact:** | derya at cs dot utah dot edu |
-| **More Info:** |[[cv]](https://docs.google.com/document/d/e/2PACX-1vRfK7y82VENjPVRDcG00aJdXQAeTQAI8PVtT5yOESqhdpjZyX0gII7fpQs-fJ3xivT6nrIkQkAm5CDR/pub) |
+| **More Info:** |[[cv]](/assets/images/Akbaba-CV.pdf) |
 | **RSS:** | [[feed]](http://gotdairyya.github.io/feed.xml) |
 
 ### \#gotdairyya
