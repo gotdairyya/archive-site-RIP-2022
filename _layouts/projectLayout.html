@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <a href="https://gotdairyya.github.io/">
+    <div class="header">
+      <h1>Hello World!</h1>
+      <h1 class="header__subtext">This is Derya's personal website</h1>
+    </div>
+  </a>
+
+  {% include navigation.html %}
+
+  <ul class="articles">
+    {{ content }}
+    {% for project in site.projects %}
+      <li><a href="{{ project.url }}" class="index">
+          <img src="{{ project.image }}" width="{{ project.zoom }}" alt="key image" class="blog-image">
+          <figcaption>{{ project.title }}</figcaption>
+        </a>
+    {% endfor %}
+  </ul>
+</body>
+
+</html>
