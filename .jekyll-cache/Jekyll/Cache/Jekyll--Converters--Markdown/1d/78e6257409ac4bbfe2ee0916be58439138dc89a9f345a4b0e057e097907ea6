@@ -1,0 +1,45 @@
+I"8<p>This is a “reprint” of the blog post describing a performative piece submitted and accepted at the inaugrual alt.vis workshop at IEEE VIS 2021.</p>
+
+<ul>
+  <li>The paper can be read on <a href="https://arxiv.org/abs/2109.10132">ArXiV</a></li>
+  <li>And information about alt.vis (as well as my dramatic reading of Tufte) can be found at <a href="https://altvis.github.io/">alt.vis</a>.</li>
+</ul>
+
+<hr />
+<p>At the VDL we are done using the term <em>chartjunk</em> and we think you should be too!</p>
+
+<p>For a little context, as a lab we were reading a recent paper by Wu et al. <a href="http://cu-visualab.org/IDD/idd/assets/idd.pdf">“Understanding Data Accessibility for People with Intellectual and Developmental Disabilities”</a> that discusses the positive effect of using icons in visualizations for autistic viewers. Throughout the article, the authors interchangeably used the term chartjunk and embellishments — striking us as imprecise and counterproductive, given that the icons were useful for comprehension. Sitting outside in the Utah summer heat, our lab began to debate how the term chartjunk showed up everywhere in our community’s literature and that it seemed to encompass so many ideas and visual concepts. We pondered how a term, first coined by Edward Tufte’s in his book <em>The Visual Display of Quantitative Information</em> had such lasting impacts on our community’s lexicon when the term itself was so imprecise and value-laden.</p>
+
+<p>Encouraged by the lab members and the new <a href="https://altvis.github.io">alt.vis</a> workshop at IEEE VIS conference, Miriah, Jack, and I decided to take on the task of tracing the origins of chartjunk.</p>
+
+<p>What we found surprised us. Not only was there little-to-no documentation regarding what constituted chartjunk, but also, in re-reading Tufte’s original definition, it became clear that chartjunk was presented as a provocation meant to devalue designerly approaches to visualization  and elevate minimalist (statistical) design as the way to truth. How is it then that we took his concepts and ran with them as technical terms? While answering this question is beyond the scope of our paper, we leave it as an important idea to discuss when faced with future potential provocations.</p>
+
+<p>Instead, our paper focuses on exposing the etymology of chartjunk and offering <em>maintenance art</em> as one step toward putting chartjunk in the trash — removing the term from our vis lexicon.</p>
+
+<p><img src="/assets/images/chartjunk/2021-chartjunk_ukeles.jpeg" alt="A black and white image of Mierle Laderman Ukeles cleaning the steps of a building." style="border:1px solid black" /></p>
+
+<p>The inspiration to perform maintenance art came from Mierle Laderman Ukeles, a 70s art activist that was tired of delineating her time between her role as a mother and role as an artist: as if the two could not coexist <a href="https://hyperallergic.com/355255/how-mierle-laderman-ukeles-turned-maintenance-work-into-art/"><em>read more here</em></a>. She was the first artist in residence for NYC Department of Sanitation and performed acts of maintenance (like sweeping NYC streets) as performance art. In fact, the title of this piece is an homage to her work: “Manifesto for maintenance art 1969! proposal for an exhibition “care”.</p>
+
+<p>Our submission for alt.vis included a more traditional paper outlining the etymology of chartjunk, its provocative origins, and how it has disserviced the community. With the paper, we ask the community to stop using the term in its entirety and offer three artifacts, traces<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> of our maintenance work as art. The artifacts can be explored further online at <a href="http://chartjunk.art]">chartjunk.art</a>.</p>
+
+<ul>
+  <li><strong>the edit:</strong> an edit of the chartjunk Wikipedia page to provide a richer etymology of the term – an act of maintenance activism</li>
+  <li><strong>the video:</strong> a video of Derya cutting out the term chartjunk from the catalog of IEEE papers – a demonstration of maintenance as art, and art as maintenance</li>
+  <li><strong>the repo:</strong> a scanned repository of the remains of the cut papers – an invitation for the community to brainstorm new, precise terminology</li>
+</ul>
+
+<p>This is only the beginning, though. It is going to take work to find alternative terms to fill in the negative spaces left by chartjunk. What terms may better serve us? And how may we re-envision and elevate the act of maintenance by our community?<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> Come join us at the alt.vis workshop, where we plan to explore these questions further. Can’t wait till the workshop? Tweet at our co-author, online avatar, Main T. Nance <a href="https://twitter.com/SayNo2Chartjunk">@SayNo2Chartjunk</a>, with your thoughts, alternatives to chartjunk, or your own acts of maintenance work.</p>
+
+<p><strong>Footnotes:</strong></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>I use the term trace deliberately here. It is a homage to Offenhuber’s <a href="https://ieeexplore.ieee.org/abstract/document/8807292/">“Data by Proxy - Material Traces as Autographic Visualizations”</a> and Rogers et al.’s <a href="https://vdl.sci.utah.edu/publications/2020_infovis_insights/">“Insights from Experiments with Rigor in an EvoBio Design Study”</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>We want to thank the alt.vis jurors, especially Juror 3 for their suggestion to dig deeper into the invisible labor behind maintenance work. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
