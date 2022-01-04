@@ -1,0 +1,28 @@
+I"D<p>In 2019, I was selected to participate in a 2-week workshop called ‘Code, Paper, Scissors’ run by the <a href="https://sfpc.io/">School For Poetic Computation</a>. The course was centered around the following question:</p>
+<blockquote>
+  <p><em>“How does our understanding of technology change when abstractions become tangible?”</em></p>
+</blockquote>
+
+<p>We had brilliant instructors who came from a variety of disciplines to teach us about their practices using paper as the main medium. The instructors and curriculum for the two weeks can be found <a href="http://sfpc.io/code-paper-scissors/">here</a>.</p>
+
+<p>At the end of the two weeks, we were expected to create and present a project inspired by the workshop. I focused on this question around how data may become more intuitive? Data are often required to be read in specific ways, like tables or charts, but what happens when we change the channel? My project focused on sonifying the housing prices and yearly income across zipcodes in NYC.</p>
+
+<p><img src="/assets/images/data-intuition/table-display.jpeg" alt="table display with strips of sheet music. small music box taped to table on the right. sign above saying 'can you build data intuition?' with some illegible signs to the right" class="responsive-image" /></p>
+
+<p>Using Census data for median income and Zillow data for median rent prices per zipcode, I calculated the affordability of homes in cities across the US. Home are considered affordable when you are spending less than 30% of your income on rent.</p>
+
+<p>Using music boxes as instruments to present the data, my mapping of affordability was constrained to the materiality of the boxes. I presented affordability in two ways:</p>
+
+<ol>
+  <li>(1) the C - E - G chord presents an affordable zipcode specifically chosen for the harmony of sound it would produce.</li>
+  <li>(2) the pitch increases when homes become less affordable, a deviation from using the chord and offering a scale with which to illustrate the range of unaffordableness</li>
+</ol>
+
+<p><img src="/assets/images/data-intuition/example-legend.png" alt="example of three zipcodes in an image of verticle striped musical paper. the first zipcode has circles on C, E, and G and is marked affordable. the second has only one circle beyond the G mark and is marked unaffordable. the final zipcode has only one circle all the way to the right and is marked extremely unaffordable" class="responsive-image" /></p>
+
+<p>The data were generated as SVGs that were then cut in a Cricut laser cutter <a href="https://github.com/gotdairyya/musical-data">github repo</a> if you’d like to generate your own. These sheets of paper were then fed into musical boxes as part of a performative demonstration.</p>
+
+<p><img src="/assets/images/data-intuition/example-cities.png" alt="three examples of the generated musical data from three cities: raleigh, new york city, and san francisco" class="responsive-image" /></p>
+
+<p>Ultimately, I could’ve made many other choices in representing the data and what I like about using a simple toy music box is that those choices become so evident.</p>
+:ET
