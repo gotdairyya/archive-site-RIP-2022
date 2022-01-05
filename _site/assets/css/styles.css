@@ -71,7 +71,7 @@ td { font-family: "Darker Grotesque", sans-serif; font-size: 18px; line-height: 
 
 .content { width: 100%; overflow: hidden; }
 
-.content img { margin-right: 15px; float: left; }
+.content img { margin-right: 15px; margin-top: 15px; margin-bottom: 15px; float: left; }
 
 .content p { margin-left: 15px; display: block; margin: 2px 0 0 0; align: center; }
 

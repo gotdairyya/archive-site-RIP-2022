@@ -275,7 +275,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;li&gt;Adopting appropriate research methods&lt;/li&gt;
 &lt;li&gt;Establishing a rapport with the participants through long-term engagement&lt;/li&gt;
 &lt;li&gt;Expanding participants to include randomly selected individuals&lt;/li&gt;
-&lt;li&gt;Analyzing edge cases and how they fit or don't fit within your research conclusions&lt;/li&gt;
+&lt;li&gt;Analyzing edge cases and how they fit or don&apos;t fit within your research conclusions&lt;/li&gt;
 &lt;li&gt;Debriefing with peers&lt;/li&gt;
 &lt;li&gt;Checking your conclusions with the research participants&lt;/li&gt;
 &lt;li&gt;Triangulating results using different sources of deta, methods of collection, and interpretations&lt;/li&gt;
@@ -636,7 +636,7 @@ Hover to see the museum each portrait represents.&lt;/p&gt;
         title === &quot;metropolitan-museum-of-art&quot; ? title = &quot;The Met&quot; : title === &quot;minneapolis-institute-of-art&quot; ? title = &quot;Mia&quot; : title === &quot;cooper-hewitt-smithsonian-design-museum&quot; ? title = &quot;Cooper Hewitt&quot; : title === &quot;penn-museum&quot; ? title =
           &quot;Penn Museum&quot; : title === &quot;cleveland-museum-of-art&quot; ? title = &quot;Cleveland Museum of Art&quot; : title === &quot;museum-of-modern-art&quot; ? title = &quot;MoMa&quot; : title === &quot;global&quot; ? title = &quot;All Museums&quot; : title =
           &quot;Canada Science and Technology Museum&quot;
-        d3.select(this).append('svg:title')
+        d3.select(this).append(&apos;svg:title&apos;)
           .text(title)
       });
 
