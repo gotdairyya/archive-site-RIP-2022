@@ -1,4 +1,4 @@
-I"�0<p><em>Originally published on the <a href="https://vdl.sci.utah.edu/blog/2021/12/08/fair-pay-panel/">VDL blog</a>.</em></p>
+I"�0<p><em>This post was co-written with Kiran and originally published on the <a href="https://vdl.sci.utah.edu/blog/2021/12/08/fair-pay-panel/">VDL blog</a>.</em></p>
 
 <p><a href="https://kirangadhave.me/">Kiran</a> and I co-organized a panel at IEEE VIS 2021 titled “Wait…when did we sign up to be economists?” The panel was moderated by <a href="https://datascience.harvard.edu/people/carolina-nobre">Carolina Nobre</a>, and the panelists – <a href="http://www.saiph.org">Saiph Savage</a>, <a href="https://danielleszafir.com/">Danielle Albers Szafir</a>, <a href="https://vdl.sci.utah.edu/team/lex/">Alexander Lex</a>, <a href="http://steveharoz.com/">Steve Haroz</a>, <a href="http://khreda.com/">Khairi Reda</a> – were tasked with debating the ethics surrounding the decisions researchers make when determining the how much to pay crowdsourced study participants. The following article is a summary of the key points brought about by the panel. A <a href="https://youtu.be/Qks3OA6vtH0">recording of the panel</a> is also available.</p>
 
@@ -13,7 +13,7 @@
 
 <p>While the panel was only the beginning of what will (hopefully) be a series of conversations, here are some of the main points discussed, followed by some recommendations and resources.</p>
 
-<h2 id="what-do-we-consider-fair-pay">What Do We Consider Fair Pay?</h2>
+<h3 id="what-do-we-consider-fair-pay">What Do We Consider Fair Pay?</h3>
 
 <p>There are no global standards which dictate fair wage, this results in participants in different regions getting paid differently. Even the discussion regarding what is fair is complicated – is fair pay a wage that supports some standard of living or is it a wage that meets some minimum wage standard? The problem is further exacerbated when we consider crowdsourced studies. The requester and the participants might be located all over the world. So how do we decide what a fair compensation is?</p>
 
@@ -23,7 +23,7 @@
 
 <p>We need research to better understand workers, their expectations and the invisible labor that goes into crowd work. This will help us develop a more humane and compassionate pay scale. Meanwhile, as individual researchers we can take steps to better improve our compensation by thinking of crowdsourced workers as both workers and people.</p>
 
-<h2 id="think-about-crowdsourced-workers-as-workers-and-people">Think About Crowdsourced Workers as Workers and People</h2>
+<h3 id="think-about-crowdsourced-workers-as-workers-and-people">Think About Crowdsourced Workers as Workers and People</h3>
 
 <p>While this statement sounds obvious, often the labor conditions of workers are not an explicit consideration of researchers; after all we are not managers, we are not responsible for their working conditions beyond our study, right? By taking a subtle shift in perspective, one focused on labor rights, the researcher becomes responsible for considering how their study impacts the working life of their participant.</p>
 
@@ -35,11 +35,11 @@
   <li>Factoring in bathroom breaks, life moments, etc. so that participants have ample time to complete a task without fear of losing compensation</li>
 </ul>
 
-<h2 id="is-it-our-responsibility-to-think-about-this">Is it Our Responsibility to Think about This?</h2>
+<h3 id="is-it-our-responsibility-to-think-about-this">Is it Our Responsibility to Think about This?</h3>
 
 <p>The title of the panel after all is “Wait…I never signed up to be an economist?” So why is the onus of fair pay placed on researchers? Why can’t we place the responsibility on research institutions responsible for reviewing experimental design, like the Institutional Review Board (IRB) or a publisher or professional organization sponsoring a conference, such as IEEE? At the moment, neither organizations enforce or have standards around fair pay. In some instances, the IRB will even flag that paying participants <em>too much</em> may cause undue incentives in the experimental setup. Further, as outlined in Steve Haroz’s <a href="http://steveharoz.com/blog/2021/the-unenumerated-rights-of-reviewers/">blog post</a>, the IEEE guidelines provide no mechanisms for raising ethical concerns.</p>
 
-<h2 id="enforcing-fair-pay">Enforcing Fair Pay</h2>
+<h3 id="enforcing-fair-pay">Enforcing Fair Pay</h3>
 
 <p>Panelists touched on three different avenues through which fair pay can be enforced: platforms, social media, and research communities.</p>
 
@@ -54,7 +54,7 @@
   <li>As a reviewer and paper chair, having the ability to reject or refuse to review research that chose to ignore ethical payment as part of their experimental considerations.</li>
 </ul>
 
-<h2 id="whats-next">What’s Next?</h2>
+<h3 id="whats-next">What’s Next?</h3>
 
 <p>There is still so much to consider beyond this panel. Namely, there are discussions that can (and should) be had by organizing committees to formalize a set of guidelines for ethical pay in studies.</p>
 
@@ -72,17 +72,15 @@
 
 <p>Ultimately, this panel exposed that there is still more work that needs to be done as part of our responsibility to conduct research in an ethical manner. We’ve included a list of resources and tools below.</p>
 
-<h2 id="resources">Resources</h2>
+<h3 id="resources">Resources</h3>
 
 <p>Tools:</p>
-
 <ul>
   <li><a href="https://toloka.ai">https://toloka.ai</a></li>
   <li><a href="https://wagepledge.org">https://wagepledge.org</a></li>
 </ul>
 
 <p>Papers:</p>
-
 <ul>
   <li><a href="https://dl.acm.org/doi/abs/10.1145/3476060">On the invisible labor of crowdworkers</a></li>
   <li><a href="https://dl.acm.org/doi/abs/10.1145/3173574.3174023?casa_token=S7GwvHoTGSoAAAAA%3AcwtoggH_Rz02vT7nMayWHvzqa7qokphcfMMNJWhb88cnSBsh3EwRni-BRLKD0Rb6UfceUQQtHcCn">A review of crowdworker pay</a></li>
@@ -90,7 +88,7 @@
   <li><a href="https://dl.acm.org/doi/10.1145/2702123.2702508">Challenges to collective action for crowdsourced workers</a></li>
 </ul>
 
-<h2 id="panelist-statements">Panelist Statements</h2>
+<h3 id="panelist-statements">Panelist Statements</h3>
 
 <div>
   <!-- Saiph Savage -->
