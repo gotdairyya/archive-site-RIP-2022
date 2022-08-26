@@ -9,11 +9,15 @@ subtitle: dairy-ya | she/her/hers
 In my work I use critical theory as a lens for understanding the intersection of design and technology within the field of Information Visualization. With a less than "traditional" background in Labor Relations, Cognitive Science, and Economics, I am inspired by the intersections across disciplines and interrogating the differences (and similarities) that matter.
 </div>
 
-I am currently ~~a PhD student at the University of Utah's School of Computing, working with [Miriah Meyer](https://www.cs.utah.edu/~miriah) at the [Visualization Design Lab](https://vdl.sci.utah.edu/).~~ getting my Masters at the University of Utah's School of Computing, and will be continuing my PhD at Linköping University in Sweden with [Miriah Meyer](miriah.github.io).
+**Academic Loci**
+BSc, Industrial & Labor Relations | Cornell | 2013  
+Masters, Computing | University of Utah | 2022
+Doktorand, Science & Technology | Linköping University | current 
+Advisor | [Miriah Meyer](miriah.github.io)
 
 |------------|:--------------------------------------------------------------------|
 | **Read More:** | [What is data vis?]({% post_url 2020-11-27-what-is-datavis %}) |
-| **Contact:** | derya at cs dot utah dot edu |
+| **Contact:** | derya.akbaba at liu dot se |
 | **More Info:** |[[cv]](/assets/images/Akbaba-CV.pdf) |
 | **RSS:** | [[feed]](http://gotdairyya.github.io/feed.xml) |
 
