@@ -11,7 +11,7 @@ In my work I use critical theory as a lens for understanding the intersection of
 
 | **Academic Loci** |
 |:---|
-| BSc, Industrial & Labor Relations  Cornell \| 2013 |
+| BSc, Industrial & Labor Relations \| Cornell \| 2013 |
 | Masters, Computing \| University of Utah \| 2022 |
 | Doktorand, Science & Technology \| Linköping University \| current |
 | Advisor \| [Miriah Meyer](miriah.github.io) |
