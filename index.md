@@ -9,11 +9,11 @@ subtitle: dairy-ya | she/her/hers
 In my work I use critical theory as a lens for understanding the intersection of design and technology within the field of Information Visualization. With a less than "traditional" background in Labor Relations, Cognitive Science, and Economics, I am inspired by the intersections across disciplines and interrogating the differences (and similarities) that matter.
 </div>
 
-**Academic Loci**
-BSc, Industrial & Labor Relations | Cornell | 2013  
-Masters, Computing | University of Utah | 2022
-Doktorand, Science & Technology | Linköping University | current 
-Advisor | [Miriah Meyer](miriah.github.io)
+**Academic Loci**</br>
+BSc, Industrial & Labor Relations | Cornell | 2013</br>
+Masters, Computing | University of Utah | 2022</br>
+Doktorand, Science & Technology | Linköping University | current</br>
+Advisor | [Miriah Meyer](miriah.github.io)</br>
 
 |------------|:--------------------------------------------------------------------|
 | **Read More:** | [What is data vis?]({% post_url 2020-11-27-what-is-datavis %}) |
