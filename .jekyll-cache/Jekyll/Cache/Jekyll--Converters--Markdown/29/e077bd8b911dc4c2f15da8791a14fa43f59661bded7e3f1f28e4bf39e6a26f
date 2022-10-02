@@ -1,50 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>derya akbaba</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  <div class="container">
-    <div class="navigation">
-      <nav class="navigation">
-  
-  <a href="/" >
-    About
-  </a>
-  
-  <a href="/blog.html" >
-    Blog
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-  <a href="/academics.html" >
-    Academics
-  </a>
-  
-</nav>
-    </div>
-    <div class="content">
-      <div class="text">
-      <h2>derya akbaba</h2>
-      <h3 class="header__subtext">dairy-ya | she/her/hers</h3>
-  
-      <p><p><img src="/assets/images/derya-photo-2020.png" alt="photo of me with my cat fig" id="photo" /></p>
+I"¾<p><img src="/assets/images/derya-photo-2020.png" alt="photo of me with my cat fig" id="photo" /></p>
 
 <h3 id="thinking-about">thinking aboutâ€¦</h3>
 
@@ -93,12 +47,4 @@
 Growing up the got milk? ads were so clever, so fun, and plus I loved milk, so naturally, when I started using dairy-ya as the "phonetic" spelling of my name, I couldn't help but add a got to the front and turn it into my online persona.
 
 ![90s got milk? ads](/assets/images/gotmilk.png){:.responsive-image} -->
-</p>
-      </div>
-    </div>
-
-  </div>
-
-</body>
-
-</html>
+:ET

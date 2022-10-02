@@ -17,16 +17,21 @@
     </div>
   </a>
 
-  {% include navigation.html %}
-
-  <ul class="articles">
-    <div class="article-entry">
+  <div class="container">
+    <div class="navigation">
+      {% include navigation.html %}
+    </div>
+    <div class="content">
+      <div class="text">
       <h2>{{ page.title }}</h2>
       <h3 class="header__subtext">{{ page.subtitle }}</h3>
-
+  
       <p>{{ content }}</p>
+      </div>
     </div>
-  </ul>
+
+  </div>
+
 </body>
 
 </html>
