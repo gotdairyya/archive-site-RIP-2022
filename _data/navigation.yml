@@ -3,11 +3,11 @@
   link: /
   name: About
 -
-  link: /thoughts.html
-  name: Thoughts
--
-  link: /projects.html
-  name: Projects
+  link: /blog.html
+  name: Blog
 -
   link: /books.html
   name: Books
+-
+  link: /academics.html
+  name: Academics

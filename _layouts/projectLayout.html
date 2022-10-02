@@ -21,7 +21,7 @@
 
   <ul class="articles">
     {{ content }}
-    {% for project in site.projects reversed%}
+    {% for project in site.academics reversed%}
       <li><a href="{{ project.url }}" class="index">
           <img src="{{ project.image }}" width="{{ project.zoom }}" alt="key image" class="blog-image">
           <figcaption>{{ project.title }}</figcaption>
