@@ -1,5 +1,5 @@
 ---
-layout: aboutMe
+layout: default
 title: derya akbaba
 subtitle: dairy-ya | she/her/hers
 ---

@@ -2,6 +2,15 @@
 <html>
 
 <head>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168246496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168246496-1');
+</script>
   <meta charset="utf-8">
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <title>Abstract Abstracts</title>
@@ -17,7 +26,9 @@
     </div>
   </a>
 
-  <nav class="navigation">
+  <div class="container">
+    <div class="navigation">
+      <nav class="navigation">
   
   <a href="/" >
     About
@@ -36,15 +47,15 @@
   </a>
   
 </nav>
-  <ul class="articles">
-    <div class="article-entry">
-      <span>
-        <h2>Abstract Abstracts</h2>
-        <h3 class="date">23 Apr 2020</h3>
-      </span>
+    </div>
+    <div class="content">
+      <div class="text">
+      <h2>Abstract Abstracts</h2>
       <h3 class="header__subtext">Has abstract readability in arXiv papers changed?</h3>
+  
+      <p><h3 class="date">23 Apr 2020</h3>
 
-      <p><p>This is deep dive done by myself and my friend Cole Polychronis for our data mining class.</p>
+<p><p>This is deep dive done by myself and my friend Cole Polychronis for our data mining class.</p>
 
 <h3 id="motivation">Motivation</h3>
 <p>Our project began with a desire to answer a question posed in the backlog of an online data visualization blog, <a href="pudding.cool">the Pudding</a>: are the titles of scientific texts becoming harder to read? As two first-year graduate students who will be involved in the process of writing research papers and hope to reach large(r) audiences, we were immediately invested in this idea. While we both felt that we had anecdotal evidence that scientific papers were getting harder to read due to an increase in the use of jargon, acronyms, etc. we were also interested in expanding this question to not just investigate change in readability over time, but also to investigate whether different disciplines exhibited different types of change. Being able to identify if there are certain disciplines who “do readability” better would give us places to look for examples to emulate. As a means of managing the scope of our project, we elected to examine the readability of abstracts available on arXiv. In order to explore the readability of these scientific papers, we opted to use four of the most widely used readability metrics: Flesch-Kincaid Grade Level, Flesch Reading Ease, Automated Readability Index, and the Dale-Chall Readability. To build on these established readability measures, we explored using principal component analysis to reduce noise and discard redundancy amongst the various (similar) readability metrics, as well as removing domain specific keywords to improve the nuance of these readability metrics.</p>
@@ -181,10 +192,12 @@ Inspired by research in medical literature readability, we decided to explore th
 
 <p>Sooo you could say we found nothing or someone’s PhD thesis…
 <img src="/../assets/images/daria-shrug.gif" alt="daria from the animated tv show shrugging. she is my alter-ego and i never watched the show till 2020" class="scale-50-center" /></p>
-</p>
-
+</p></p>
+      </div>
     </div>
-  </ul>
+
+  </div>
+
 </body>
 
 </html>

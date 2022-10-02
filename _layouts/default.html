@@ -2,6 +2,15 @@
 <html>
 
 <head>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168246496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168246496-1');
+</script>
   <meta charset="utf-8">
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <title>{{ page.title }}</title>
@@ -17,8 +26,21 @@
     </div>
   </a>
 
-  {% include navigation.html %}
-  {{ content }}
+  <div class="container">
+    <div class="navigation">
+      {% include navigation.html %}
+    </div>
+    <div class="content">
+      <div class="text">
+      <h2>{{ page.title }}</h2>
+      <h3 class="header__subtext">{{ page.subtitle }}</h3>
+  
+      <p>{{ content }}</p>
+      </div>
+    </div>
+
+  </div>
+
 </body>
 
 </html>

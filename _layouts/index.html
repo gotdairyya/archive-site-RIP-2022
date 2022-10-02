@@ -1,34 +1,6 @@
-<!doctype html>
-<html>
-
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168246496-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-168246496-1');
-</script>
-
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  {% include navigation.html %}
-
+---
+layout: default
+---
   <ul class="articles">
     {% for post in site.posts %}
     <li><a href="{{ post.url }}" class="index">
@@ -38,6 +10,3 @@
     </li>
     {% endfor %}
   </ul>
-</body>
-
-</html>
