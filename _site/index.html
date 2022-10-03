@@ -58,7 +58,7 @@
 <h3 id="thinking-about">thinking about…</h3>
 
 <ul>
-  <li>applying critical theory x visualization</li>
+  <li>applying critical theory + visualization</li>
   <li>communicating science research</li>
   <li>understanding how data became important</li>
   <li>learning Swedish</li>
@@ -107,7 +107,19 @@ Growing up the got milk? ads were so clever, so fun, and plus I loved milk, so n
     </div>
 
   </div>
-
+<script>
+  // Create traces of visited links
+  const links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    links[i].onmouseover = function(e) {
+        var color = '#'+Math.floor(Math.random()*16777215).toString(16);
+        var colorString = '0px 0px 30px 0px ' + color;
+        this.style['box-shadow'] = colorString;
+        this.style['-webkit-box-shadow'] = colorString;
+        this.style['-moz-box-shadow'] = colorString;
+    }  
+}
+</script>
 </body>
 
 </html>

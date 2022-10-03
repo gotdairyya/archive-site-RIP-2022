@@ -8,7 +8,7 @@ subtitle: dairy-ya | she/her/hers
 
 ### thinking about...
 
-- applying critical theory x visualization
+- applying critical theory + visualization
 - communicating science research
 - understanding how data became important
 - learning Swedish
