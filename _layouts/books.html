@@ -1,108 +1,38 @@
-<!doctype html>
-<html>
+---
+layout: default
+---
+<!-- CURRENTLY READING -->
+<style type="text/css" media="screen">
+      .gr_grid_container {
+        /* customize grid container div here. eg: width: 500px; */
+      }
 
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
+      .gr_grid_book_container {
+        /* customize book cover container div here */
+        float: left;
+        width: 98px;
+        height: 160px;
+        padding: 0px 0px;
+        overflow: hidden;
+      }
+    </style>
+    <div id="gr_grid_widget_1664910192">
     </div>
-  </a>
-
-  {% include navigation.html %}
-  <ul class="articles">
-    <div class="article-entry">
-      {{ content }}
-
-      <!-- CURRENTLY READING -->
-      <script
-        src="https://www.goodreads.com/review/custom_widget/63729092.Currently%20Reading?cover_position=left&cover_size=medium&num_books=5&order=a&shelf=currently-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=1&widget_id=1579152996&widget_text_color=000000&widget_title_size=medium&widget_width=medium"
-        type="text/javascript" charset="utf-8"></script>
+    <script src="https://www.goodreads.com/review/grid_widget/63729092.derya's%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=true&num_books=20&order=a&shelf=currently-reading&sort=date_added&widget_id=1664910192" type="text/javascript" charset="utf-8"></script>
 
 
-
-      <!-- GRID OF BOOKS BEGINS -->
-      <style type="text/css" media="screen">
-        .gr_grid_container {
-          /* customize grid container div here. eg: width: 500px; */
-        }
-
-        .gr_grid_book_container {
-          /* customize book cover container div here */
-          float: left;
-          width: 98px;
-          height: 160px;
-          padding: 0px 0px;
-          overflow: hidden;
-        }
-      </style>
-      <div id="gr_grid_widget_1574396315">
-        <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-        <h2>
-          <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/63729092-derya?shelf=read&utm_medium=api&utm_source=grid_widget">Books I Have Read</a>
+      <!-- ALREADY READING -->
+          <div id="gr_grid_widget_1664883937">
+            <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
+                <h2>
+          <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/63729092-derya?shelf=read&utm_medium=api&utm_source=grid_widget">book i've read</a>
         </h2>
-        <div class="gr_grid_container">
-          <div class="gr_grid_book_container"><a title="My Name Is Red" rel="nofollow" href="https://www.goodreads.com/book/show/2517.My_Name_Is_Red"><img alt="My Name Is Red" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547450869l/2517._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="The Last Sultan: The Life and Times of Ahmet Ertegun" rel="nofollow" href="https://www.goodreads.com/book/show/11390014-the-last-sultan"><img
-                alt="The Last Sultan: The Life and Times of Ahmet Ertegun" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1305660700l/11390014._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="A Planet for Rent" rel="nofollow" href="https://www.goodreads.com/book/show/22067499-a-planet-for-rent"><img alt="A Planet for Rent" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490723802l/22067499._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Trick Mirror: Reflections on Self-Delusion" rel="nofollow" href="https://www.goodreads.com/book/show/43126457-trick-mirror"><img alt="Trick Mirror: Reflections on Self-Delusion" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544069605l/43126457._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="The Incendiaries" rel="nofollow" href="https://www.goodreads.com/book/show/36679056-the-incendiaries"><img alt="The Incendiaries" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512834150l/36679056._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Dune (Dune Chronicles, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/39776179-dune"><img alt="Dune" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567929075l/39776179._SY160_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="The Bell Jar" rel="nofollow" href="https://www.goodreads.com/book/show/6514.The_Bell_Jar"><img alt="The Bell Jar" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554582218l/6514._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Clothes, Clothes, Clothes. Music, Music, Music. Boys, Boys, Boys" rel="nofollow" href="https://www.goodreads.com/book/show/19246471-clothes-clothes-clothes-music-music-music-boys-boys-boys"><img
-                alt="Clothes, Clothes, Clothes. Music, Music, Music. Boys, Boys, Boys" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403832377l/19246471._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="How to Forget: A Daughter's Memoir" rel="nofollow" href="https://www.goodreads.com/book/show/41454048-how-to-forget"><img alt="How to Forget: A Daughter's Memoir" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548563174l/41454048._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Normal People" rel="nofollow" href="https://www.goodreads.com/book/show/41057294-normal-people"><img alt="Normal People" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571423190l/41057294._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Amateur: A True Story About What Makes a Man" rel="nofollow" href="https://www.goodreads.com/book/show/36373421-amateur"><img alt="Amateur: A True Story About What Makes a Man" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515471989l/36373421._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Memories of My Melancholy Whores" rel="nofollow" href="https://www.goodreads.com/book/show/760.Memories_of_My_Melancholy_Whores"><img alt="Memories of My Melancholy Whores" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1157235969l/760._SX98_SY160_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Désorientale" rel="nofollow" href="https://www.goodreads.com/book/show/31682842-d-sorientale"><img alt="Désorientale" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472194017l/31682842._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Who Is Vera Kelly?" rel="nofollow" href="https://www.goodreads.com/book/show/36276437-who-is-vera-kelly"><img alt="Who Is Vera Kelly?" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507747777l/36276437._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="The Night Masquerade (Binti, #3)" rel="nofollow" href="https://www.goodreads.com/book/show/34386617-the-night-masquerade"><img alt="The Night Masquerade" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495725402l/34386617._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Home (Binti, #2)" rel="nofollow" href="https://www.goodreads.com/book/show/30038654-home"><img alt="Home" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470413227l/30038654._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="Binti (Binti, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/25667918-binti"><img alt="Binti" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433804020l/25667918._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="In Other Lands" rel="nofollow" href="https://www.goodreads.com/book/show/31944679-in-other-lands"><img alt="In Other Lands" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496783711l/31944679._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="The Art of Cruelty: A Reckoning" rel="nofollow" href="https://www.goodreads.com/book/show/11107324-the-art-of-cruelty"><img alt="The Art of Cruelty: A Reckoning" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328053370l/11107324._SX98_.jpg" /></a></div>
-          <div class="gr_grid_book_container"><a title="The Argonauts" rel="nofollow" href="https://www.goodreads.com/book/show/22929741-the-argonauts"><img alt="The Argonauts" border="0"
-                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410981835l/22929741._SX98_.jpg" /></a></div>
-          <noscript><br />Share <a rel="nofollow" href="/">book reviews</a> and ratings with Derya, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
-        </div>
-
-      </div>
-      <script src="https://www.goodreads.com/review/grid_widget/63729092.Books%20I%20Have%20Read?cover_size=medium&hide_link=true&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1574396315" type="text/javascript"
-        charset="utf-8"></script>
-
-
-
-
-    </div>
-  </ul>
-</body>
-
-</html>
+          <script src="https://www.goodreads.com/review/grid_widget/63729092.book%20i've%20read?cover_size=small&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1664883937" type="text/javascript" charset="utf-8"></script>
+    
+      <script>
+            // remove the branding
+            const branding = document.querySelectorAll('.gr_grid_branding');
+            branding.forEach(brand => {
+                  brand.remove()
+            })
+      </script>
