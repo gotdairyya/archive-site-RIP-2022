@@ -2,12 +2,11 @@
 layout: default
 ---
 <!-- create a grid here -->
-  <ul class="articles">
+<div class="blog-index" transform="translate(10,0)">
     {% for post in site.posts %}
-    <li><a href="{{ post.url }}" class="index">
+        <a href="{{ post.url }}" class="blog-index-item">
         <img src="{{ post.image }}" width="{{ post.zoom }}" alt="key image" class="blog-image">
         <figcaption>{{ post.title }}</figcaption>
-      </a>
-    </li>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
