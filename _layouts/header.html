@@ -13,7 +13,7 @@
 </script>
   <meta charset="utf-8">
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>gotdairyya</title>
+  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -28,39 +28,9 @@
 
   <div class="container">
     <div class="navigation">
-      <nav class="navigation">
-  
-  <a href="/" >
-    About
-  </a>
-  
-  <a href="/blog.html" >
-    Blog
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-  <a href="/academics.html" >
-    Academics
-  </a>
-  
-</nav>
+      {% include navigation.html %}
     </div>
-    <div class="content">
-  <div class="text">
-  <h2>gotdairyya</h2>
-  <h3 class="header__subtext">where it all began</h3>
-
-  <p><h3 class="date">01 Jan 1991</h3>
-
-<p><p>Growing up the got milk? ads were so clever, so fun, and plus I loved milk, so naturally, when I started using dairy-ya as the “phonetic” spelling of my name, I couldn’t help but add a got to the front and turn it into my online persona.</p>
-
-<p><img src="/assets/images/gotmilk.png" alt="90s got milk? ads" class="responsive-image" /> –&gt;</p>
-</p></p>
-  </div>
-</div>
+    {{ content }}
   </div>
 
   <script>

@@ -9,11 +9,11 @@
 
 .space { grid-area: space; }
 
-.blog-index { display: flex; flex-flow: row wrap; justify-content: center; align-items: center; align-content: flex-start; }
+.blog-index { display: grid; grid-template-columns: subgrid; grid-column: 30% 70%; gap: 0px 0px; grid-template-areas: "blog-index-image blog-index-item"; grid-area: content; }
 
-.blog-index-item { flex-basis: 25%; }
+.blog-index-image { grid-area: blog-index-image; }
 
-.blog-image { display: block; width: 25%; }
+.blog-index-item { grid-area: blog-index-item; }
 
 .blog-index-item > figcaption { color: #575657; }
 

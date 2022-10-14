@@ -1,9 +1,8 @@
----
-layout: default
-title: derya akbaba
-subtitle: dairy-ya | she/her/hers
----
-
+I"�<div class="content">
+    <div class="text">
+      <h2>derya akbaba</h2>
+      <h3 class="header__subtext">dairy-ya | she/her/hers</h3>
+      
 ![photo of me with my cat fig](/assets/images/derya-photo-2020.png){:#photo}
 
 ### thinking about...
@@ -16,7 +15,7 @@ subtitle: dairy-ya | she/her/hers
 
 ### present
 
-✏ Doktorand, Science & Technology @ Linköping University
+✏ Doktorand, Science &amp; Technology @ Linköping University
 
 ✉ derya.akbaba at liu dot se
 
@@ -24,17 +23,18 @@ subtitle: dairy-ya | she/her/hers
 
 ### past
 
-☃ BSc, Industrial & Labor Relations @ Cornell, 2013
+☃ BSc, Industrial &amp; Labor Relations @ Cornell, 2013
 
 ☼ Masters, Computing @ University of Utah, 2022
 
 ### more
 
-- an unhelpful [guide]({% post_url 2020-11-27-what-is-datavis %}) to datavis
+- an unhelpful [guide](/2020/11/27/what-is-datavis.html) to datavis
 
 - my [cv](/assets/images/Akbaba-CV.pdf)
 
 - an rss [feed](http://gotdairyya.github.io/feed.xml)
 
-- got [dairyya]({% post_url 1991-01-01-got-dairyya %})?
+- got [dairyya](/1991/01/01/got-dairyya.html)?
 </div></div>
+:ET

@@ -49,11 +49,11 @@
 </nav>
     </div>
     <div class="content">
-      <div class="text">
-      <h2>books</h2>
-      <h3 class="header__subtext"></h3>
-  
-      <p><!-- CURRENTLY READING -->
+  <div class="text">
+  <h2>books</h2>
+  <h3 class="header__subtext"></h3>
+
+  <p><!-- CURRENTLY READING -->
 <style type="text/css" media="screen">
       .gr_grid_container {
             width: auto;
@@ -89,23 +89,23 @@
                   brand.remove()
             })
       </script></p>
-      </div>
-    </div>
-
   </div>
-<script>
-  // Create traces of visited links
-  const links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    links[i].onmouseover = function(e) {
-        var color = '#'+Math.floor(Math.random()*16777215).toString(16);
-        var colorString = '0px 0px 30px 0px ' + color;
-        this.style['box-shadow'] = colorString;
-        this.style['-webkit-box-shadow'] = colorString;
-        this.style['-moz-box-shadow'] = colorString;
-    }  
-}
-</script>
-</body>
+</div>
+  </div>
 
-</html>
+  <script>
+    // Create traces of visited links
+    const links = document.getElementsByTagName('a');
+    for (var i = 0; i < links.length; i++) {
+      links[i].onmouseover = function(e) {
+          var color = '#'+Math.floor(Math.random()*16777215).toString(16);
+          var colorString = '0px 0px 30px 0px ' + color;
+          this.style['box-shadow'] = colorString;
+          this.style['-webkit-box-shadow'] = colorString;
+          this.style['-moz-box-shadow'] = colorString;
+      }  
+  }
+  </script>
+  </body>
+  
+  </html>

@@ -1,12 +1,23 @@
 ---
-layout: default
+layout: header
 ---
-<!-- create a grid here -->
+<!-- MENU -->
+<div class="menu">
 <div class="blog-index" transform="translate(10,0)">
     {% for post in site.posts %}
-        <a href="{{ post.url }}" class="blog-index-item">
-        <img src="{{ post.image }}" width="{{ post.zoom }}" alt="key image" class="blog-image">
-        <figcaption>{{ post.title }}</figcaption>
+        <a href="{{ post.url }}">
+        <img src="{{ post.image }}" width="{{ post.zoom }}" alt="key image" class="blog-index-image">
+        <figcaption class="blog-index-item">{{ post.title }}</figcaption>
     </a>
     {% endfor %}
+  </div>
+</div>
+
+  <div class="content">
+    <div class="text">
+    <h2>{{ page.title }}</h2>
+    <h3 class="header__subtext">{{ page.subtitle }}</h3>
+  
+    <p>{{ content }}</p>
+    </div>
   </div>
