@@ -7,6 +7,77 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Robots</title>
+        <description>&lt;h1 id=&quot;robots&quot;&gt;Robots&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/../assets/images/robots/creepy-email.png&quot; alt=&quot;You&apos;ll forget she&apos;s a robot. Menacing dog-like robot stares back at you.&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When I opened my email, I noticed an ad from kickstarter reading “You’ll Forget She’s A Robot” with the subtitle “Cute petbot equipped with face recognition, body, detection, gesture recognition, and more.” I think I would’ve glanced over this email if I hadn’t been reading feminist literature about robots. This post is a collection of what I have learned through &lt;a href=&quot;https://erickajohnson.se/&quot;&gt;Ericka Johnson&lt;/a&gt;’s Feminist Technoscience for AI course.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; I need to say, I don’t know anything about robots. It is not my field of study, nor have I spent much time reading related literature, so this post will be a fragment of what knowledge exists out there in the world.&lt;/p&gt;
+
+&lt;p&gt;The first section is a recap of some of the literature I have read, mainly a discussion of how robots serve as a mirror of human identity as well as reinforce particular socio-political relations. I follow that with some fictional robots.&lt;/p&gt;
+
+&lt;h2 id=&quot;robots-in-academia&quot;&gt;Robots in Academia&lt;/h2&gt;
+
+&lt;p&gt;Robots as an object of feminist critical studies shows us how creating robots reinforces identity stereotypes and inter-personal relations. As DeFalco elegantly puts it, robots are both &lt;em&gt;mirrors&lt;/em&gt; and &lt;em&gt;producers&lt;/em&gt; &lt;sup id=&quot;fnref:defalco2020&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:defalco2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. So in this section I will recap the literature on how the production of robots brings to question how we codify and represent identity and how the work of care robots relates to current valuings of care work.&lt;/p&gt;
+
+&lt;h3 id=&quot;robot-identity&quot;&gt;Robot Identity&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/../assets/images/robots/pepper.jpg&quot; alt=&quot;Pepper&apos;s curvy hips and provocative gaze. Source Stengers 2020.&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Source: Stengers 2020.&lt;/figcaption&gt;
+
+&lt;p&gt;To create anything requires some form of codification. Robots, with the promise of replicating some semblance of intelligence, are often created in the image of a human. But what does it mean to look and act like a human? I’m not sure there is an answer for that (if you think you have the answer feel free to send me an email). So when designing and building robots, engineers are making decisions that embed implicit and explict notions of identity. This identity is further complicated with the work that robots are being built to do. The work is often subservient and undervalued, further contributing to stereotypes of identity.&lt;/p&gt;
+
+&lt;p&gt;Sparrow &lt;sup id=&quot;fnref:sparrow2020&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:sparrow2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; discusses how robots have a race problem, both in presentation and in relation to history. To begin with, the etymology of the word robot comes from “Czech word ‘robota,’ meaning worker or slave,” further, “robots were supposed to have the same sets of “virtues” (hardworking, obedient, servile) as slaves and perform the same sets of tasks”&lt;sup id=&quot;fnref:sparrow2020:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:sparrow2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Sparrow makes the argument that racial coding is a function of history and is reinforced by humanoid robots that are built to serve. Additionally, many robots are presented with white glossy exteriors, reinforcing that the default race of robots is White. Sparrow makes the ultimate argument that robots have politics, and that the ways in which robots are built and function in the world means that those building them cannot ignore thinking about race.&lt;/p&gt;
+
+&lt;p&gt;Strengers &amp;amp; Kennedy &lt;sup id=&quot;fnref:stengers2020&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:stengers2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; discuss the mommy wife promises of social robots. The current and envisioned role of these bots are those typically prescriped to women, see next section for more. The physical voices of Siri and Alexa are default soothing female voices and many bots are built with cute feminine features, to be more disarming and approachable &lt;sup id=&quot;fnref:stengers2020:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:stengers2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Additionally, “the relative paucity of male humanoid robots […] speaks volumes regarding the way social expectations around gendered servitude, submission and plasticity both determine and are reproduced by robot others” &lt;sup id=&quot;fnref:defalco2020:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:defalco2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Some robots are designed to be genderless others are designed to be a stereotypical man or woman. Either way, in combination with the design, the ways in which people interact with the robot reveal how gender is read.&lt;/p&gt;
+
+&lt;p&gt;Identity is not only codified through the physical appearances of robots, but it is also reinforced through the social spaces that these robots are intended to occupy, especially robots designed to function in a social capacity with and along humans of flesh and bone.&lt;/p&gt;
+
+&lt;h3 id=&quot;care-robots&quot;&gt;Care Robots&lt;/h3&gt;
+
+&lt;p&gt;The course literature focuses mainly on care robots, or robots designed specifically to provide care. What is care? Great question! According to DeFalco “care is inevitably personal, frequently amorphous, anomalous, leaky and curious, a productively fluid, context-specific quality” &lt;sup id=&quot;fnref:defalco2020:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:defalco2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Care is a relational action, stance, emotion one can take &lt;em&gt;in relation&lt;/em&gt; to someone else. Care is often undervalued work. When is the last time you thought about caring as labor?&lt;/p&gt;
+
+&lt;p&gt;When care intersects with robots built to care, there is an implicit assumption that “caring and emotional labor &lt;em&gt;can&lt;/em&gt; and &lt;em&gt;should&lt;/em&gt; be outsourced to a robotic deputy […] undermin[es] and simplif[ies] the highly complex roles and tasks that (mainly) women perform as nurturers, carers, and emotional laborers &lt;sup id=&quot;fnref:stengers2020:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:stengers2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. “the problem is the social, political, economic structures that produce (human) care in its current iteration: as devalued, gendered, racialized labour; as a resource; as a demographic ‘crisis’. As a result, robots, real or imagined, become illuminating material manifestations of the latent inequalities and dangerous fantasies that currently structure human care work” &lt;sup id=&quot;fnref:defalco2020:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:defalco2020&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;One of the stickiest takeaways for me from this literature was that instead of sharing the responisbility of care, elevating its role in maintaining the daily fabric of society, we are instead creating techincal solutions. The point of design thinking is to reframe the problem, instead we are keeping the same problems and only adding layers of carbon-infused bandaids.&lt;/p&gt;
+
+&lt;h2 id=&quot;robots-in-fiction&quot;&gt;Robots in Fiction&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;her&lt;/em&gt;. Can’t forget the classic movie where Scarlett Johansson is the seductive voice of a personal assistive robot. I wish I hadn’t known that Johansson was the voice, it would’ve been a different experience relating to Samantha, the AI system, rather than Johannson voice-acting as an AI. This movie is so self-indulgent in the male gaze (male voice?) that I cringe thinking about it. The only redeeming quality of the movie is that the AIs transcend humans, leaving sad Joaquin Phoenix behind. thank the cyborg goddess.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A Closed and Common Orbit&lt;/em&gt; by Becky Chambers. This is the second book in the Wayfarers series and porbably the most impactful. It is sci-fi set in a time when humans are living on ships and mingling with extra-terrestrials. In this book a ship´s AI system is placed in a humanoid body and the rest of the book explores what it means to be sentient. This was probably one of the first times I really considered the blurred lines of sentience, and relatedly “humanity” and “human” rights in relation to robots – and that is all thanks to the genius that is Becky Chambers.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Klara and the Sun&lt;/em&gt; by Kazuo Ishiguro. Klara, the main character of the book, is observant, thoughtful, and caring. She is also an Artificial Friend (AF). In this novel, Ishiguro explores what it means to relegate the work of care and friendship to an “other” showing the eventual disinterest in AFs as children grow older. It is both a heartwarming and heartbreaking story. Though the main character is artificial, she is often more lovable than the humans around her.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Star Wars&lt;/em&gt; I’ll wrap up this section with Star Wars, George Lukas’ “epic space opera,” according to Wikipedia. I grew up with the orginal trilogy on VHS and was just so captivated by the environments and characters. With some time and perspective, I have more critiques (including the troublesome &lt;a href=&quot;https://en.wikipedia.org/wiki/Hero%27s_journey&quot;&gt;monomyth&lt;/a&gt; with which Lukas developed the plotline, but I will ignore that for now). In relation to robots, I draw your attention to the beloved bots. R2-D2 and BB-8 are lovable and cute because they communicate through whistles and beeps. They are non-threatening because of their lack of humanness. While C-P3O looks like a human and is considered annoying because he nags our heros with concerns. Sound like the familiar mommy stereotype? I think so.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/../assets/images/robots/starwars-bots.png&quot; alt=&quot;C-P3O, BB-8, and R2-D2 standing together saying by for now!&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Source: https://starwars.fandom.com/wiki/Droid&lt;/figcaption&gt;
+
+&lt;h2 id=&quot;citations&quot;&gt;Citations&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:defalco2020&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;DeFalco A. (2020) Towards a Theory of Posthuman Care: Real Humans and Caring Robots. Body &amp;amp; Society26(3):31-60. &lt;a href=&quot;#fnref:defalco2020&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:defalco2020:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:defalco2020:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:defalco2020:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:sparrow2020&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Sparrow, R. (2020) Robotics Has a Race Problem. Science, Technology &amp;amp; Human Values 45(3): 538-560 &lt;a href=&quot;#fnref:sparrow2020&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:sparrow2020:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:stengers2020&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Stengers, Y. &amp;amp; Kennedy, J. (2020) “Chapter 3: Pepper” (pp.49-78) in The Smart Wife. MIT Press: Cambridge. &lt;a href=&quot;#fnref:stengers2020&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:stengers2020:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:stengers2020:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 14 Oct 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//2022/10/14/robots.html</link>
+        <guid isPermaLink="true">http://localhost:4000//2022/10/14/robots.html</guid>
+      </item>
+    
+      <item>
         <title>Show Me The Money!</title>
         <description>&lt;p&gt;&lt;em&gt;This post was co-written with Kiran and originally published on the &lt;a href=&quot;https://vdl.sci.utah.edu/blog/2021/12/08/fair-pay-panel/&quot;&gt;VDL blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
@@ -405,7 +476,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;li&gt;Adopting appropriate research methods&lt;/li&gt;
 &lt;li&gt;Establishing a rapport with the participants through long-term engagement&lt;/li&gt;
 &lt;li&gt;Expanding participants to include randomly selected individuals&lt;/li&gt;
-&lt;li&gt;Analyzing edge cases and how they fit or don't fit within your research conclusions&lt;/li&gt;
+&lt;li&gt;Analyzing edge cases and how they fit or don&apos;t fit within your research conclusions&lt;/li&gt;
 &lt;li&gt;Debriefing with peers&lt;/li&gt;
 &lt;li&gt;Checking your conclusions with the research participants&lt;/li&gt;
 &lt;li&gt;Triangulating results using different sources of deta, methods of collection, and interpretations&lt;/li&gt;
@@ -457,352 +528,6 @@ In some ways this year was harder than I imagined it would be. On and off I was 
         <pubDate>Wed, 22 Jan 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000//2020/01/22/trustworthiness.html</link>
         <guid isPermaLink="true">http://localhost:4000//2020/01/22/trustworthiness.html</guid>
-      </item>
-    
-      <item>
-        <title>Data Portraits</title>
-        <description>&lt;p&gt;I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Instead of working on my final project for data vis, I am writing about it…&lt;/em&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;em&gt;Really if you think about it, everything is a data portrait…&lt;/em&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;em&gt;If everything is a data portrait, then what is a data portrait?&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As you can see, not the best intros. What I would like to do instead, is talk about some inspiration I’ve had over the years regarding data portraits, and then show you what I have created for a class project.&lt;/p&gt;
-
-&lt;h3 id=&quot;inspiration-comes-in-many-forms&quot;&gt;Inspiration Comes in Many Forms&lt;/h3&gt;
-
-&lt;p&gt;One form is Georgia Lupi. Lupi a partner at Pentagram studios and a long time advocate for &lt;em&gt;data humanism&lt;/em&gt;, constantly likes to remind us that data is never the point, the humans who created it are. I hope to draw on this concept throughout my PhD. Often, data is assumed to be objective, immutable, authoritative, but ultimately it is another human creation, prone to errors and up to interpretation.
-&lt;a href=&quot;https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data?language=en#t-258497&quot;&gt;For more on Lupi, you can listen to her TED Talk&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/georgia-lupi-portraits.jpg&quot; alt=&quot;example of data portraits from Georgia Lupi&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;
-  &lt;p&gt;An example of data portraits courtesy of ideas.ted.com.&lt;/p&gt;
-&lt;/figcaption&gt;
-
-&lt;p&gt;Another inspiration comes from nature and ways in which data can be interpreted as traces and proof of life. In Dietmar Offenhuber’s paper &lt;a href=&quot;https://arxiv.org/abs/1907.05454&quot;&gt;Data by Proxy&lt;/a&gt;, he discusses the concept of discovering and revealing the traces of natural processes and abstracting them into a data and data visualizations. Although it might sound slightly abstract, I think it is something we do rather intuitively…&lt;/p&gt;
-
-&lt;p&gt;We can see patterns in how we step by looking at the uneven wear on the soles of our shoes.
-The rings of trees show us the age of the tree.
-White and grey hairs indicate age.&lt;/p&gt;
-
-&lt;p&gt;If we want, we can take all these observations and abstract them into numbers, but maybe I will talk about that later.&lt;/p&gt;
-
-&lt;p&gt;My final, but not final, inspiration comes from an Italian data visualization designer, Federica Fragapane, who makes the most out-of-this-world data portraits. I’ll let the examples below speak for themselves.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/federica-fragapane-carbon-dioxide.jpg&quot; alt=&quot;example of data portraits from Federica Fragapane&quot; class=&quot;responsive-image&quot; /&gt;
-&lt;img src=&quot;/../assets/images/data-portraits/federica-fragapane-violent-cities.jpg&quot; alt=&quot;example of data portraits from Federica Fragapane&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;
-  &lt;p&gt;You can find more of her work on her &lt;a href=&quot;https://www.behance.net/FedericaFragapane&quot;&gt;Behance site&lt;/a&gt;&lt;/p&gt;
-&lt;/figcaption&gt;
-
-&lt;h3 id=&quot;my-take-of-data-portraits&quot;&gt;My take of Data Portraits&lt;/h3&gt;
-&lt;p&gt;For my group project, we are visualizing data about museum artifacts. In spirit of the artwork, I wanted to create art that would represent the museum and it’s collection.&lt;/p&gt;
-
-&lt;p&gt;I began by looking at different Abstract Expressionism art, looking specifically for the use of bold colors and geometric shapes. Once I selected an artist for inspiration, I created a rough mockup using pen + paper of what the portrait could look like.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/portrait-mockup.png&quot; alt=&quot;data portrait mock-up on post-it note&quot; class=&quot;scale-50-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pleased with the rough sketch, I used Adobe Illustrator for cleaner mock-ups. After implementing the design in code using fake (but representative) data, I altered the design slightly to both make the coding easier and incorporate a more organic element into the design.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/data-portrait-mockup-01.png&quot; alt=&quot;data portrait mock-up from illustrator&quot; class=&quot;responsive-image&quot; /&gt;
-&lt;img src=&quot;/../assets/images/data-portraits/data-portrait-mockup-02.png&quot; alt=&quot;data portrait mock-up from illustrator&quot; class=&quot;responsive-image&quot; /&gt;
-&lt;img src=&quot;/../assets/images/data-portraits/data-portrait-mockup-03.png&quot; alt=&quot;data portrait mock-up from illustrator&quot; class=&quot;responsive-image&quot; /&gt;
-&lt;img src=&quot;/../assets/images/data-portraits/data-portrait-mockup-04.png&quot; alt=&quot;data portrait mock-up from illustrator&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And here is an interactive version of the portraits: &lt;br /&gt;
-Hover to see the museum each portrait represents.&lt;/p&gt;
-&lt;html lang=&quot;en&quot;&gt;
-
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot; /&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-
-  &lt;script src=&quot;https://d3js.org/d3.v5.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;style&gt;
-  .porButton {
-    fill: rgba(255, 225, 225, 0);
-  }
-
-  .porButton.not-selected {
-    fill: rgba(255, 225, 225, .5);
-  }
-
-  .porButton.selected {
-    fill: rgba(255, 225, 225, 0);
-  }
-
-  .porButton:hover {
-    fill: rgba(255, 225, 225, 0)
-  }
-
-  .porButton:not(hover) {
-    fill: rgba(255, 225, 225, .5);
-  }
-
-  div.tooltip {
-    /* FOR PORTRAIT TOOLTIP */
-    position: absolute;
-    text-align: center;
-    width: 60px;
-    height: 28px;
-    padding: 2px;
-    font: 12px sans-serif;
-    background: lightsteelblue;
-    border: 0px;
-    border-radius: 8px;
-    pointer-events: none;
-  }
-&lt;/style&gt;
-
-&lt;body&gt;
-  &lt;script&gt;
-    let data = [{
-        museum: &quot;canada-science-and-technology-museums&quot;,
-        years: 26970,
-        countries: 59,
-        artifacts: 26970,
-        yearWidths: [0, 0, 0, 0, 1]
-      },
-      {
-        museum: &quot;cleveland-museum-of-art&quot;,
-        years: 43957,
-        countries: 84,
-        artifacts: 43957,
-        yearWidths: [0.0027754396341879563, 0.033669267693427665, 0.03269103896990241, 0.10021157039834383, 0.8306526833041381]
-      },
-      {
-        museum: &quot;cooper-hewitt-smithsonian-design-museum&quot;,
-        years: 20117,
-        countries: 69,
-        artifacts: 20117,
-        yearWidths: [0, 0.4706467167072625, 0.00004970920117313715, 0.0005965104140776457, 0.5287070636774867]
-      },
-      {
-        museum: &quot;metropolitan-museum-of-art&quot;,
-        years: 67113,
-        countries: 160,
-        artifacts: 67113,
-        yearWidths: [0.4162531849269143, 0.05827484988005305, 0.09899721365458257, 0.08943125772950099, 0.3370434938089491]
-      },
-      {
-        museum: &quot;museum-of-modern-art&quot;,
-        years: 70716,
-        countries: 102,
-        artifacts: 70716,
-        yearWidths: [0, 0, 0, 0, 1]
-      },
-      {
-        museum: &quot;penn-museum&quot;,
-        years: 43518,
-        countries: 103,
-        artifacts: 43518,
-        yearWidths: [0.542005606875316, 0.15290224734592583, 0.04051197205753941, 0.03531871869111632, 0.22926145503010248]
-      },
-      {
-        museum: &quot;minneapolis-institute-of-art&quot;,
-        years: 9906,
-        countries: 20,
-        artifacts: 9906,
-        yearWidths: [0, 0, 0, 0.0031294165152432867, 0.9968705834847568]
-      },
-      {
-        museum: &quot;global&quot;,
-        years: 2,
-        countries: 1,
-        artifacts: 2,
-        yearWidths: [0, 1, 0, 0, 0]
-      }
-    ]
-
-
-    let artifactsNum = []
-    for (let museum of data) {
-      artifactsNum.push(museum.artifacts)
-    }
-
-    let i = 0;
-    let svg = d3.select(&quot;div.article-entry&quot;).append(&quot;svg&quot;).attr(&quot;width&quot;, 500).attr(&quot;height&quot;, 600)
-    for (let museum of data) {
-      drawPortrait(museum, i, svg)
-      i++
-    }
-
-
-    function drawPortrait(museum, i, svg) {
-      // let svg = d3.select(&quot;div.article-entry&quot;).append(&quot;svg&quot;).attr(&quot;width&quot;, 500).attr(&quot;height&quot;, 600)
-      svg = svg.append(&quot;g&quot;)
-
-      let colors = [&quot;#b5a5e3&quot;, &quot;#b1af00&quot;, &quot;#ff5b1a&quot;, &quot;#e2a333&quot;, &quot;#5b7769&quot;]
-
-      let artifactScale = d3.scaleOrdinal()
-        .domain([d3.min(artifactsNum), d3.max(artifactsNum)])
-        .range([1, 5])
-
-      let frameWidth = 238 * .3
-      let frameHeight = 360 * .3
-      let rectWidth = [0]
-
-      let portraitColors = svg
-        .selectAll(&quot;rect&quot;)
-        .data(museum.yearWidths)
-        .join(&quot;rect&quot;)
-        .attr(&quot;height&quot;, frameHeight)
-        .attr(&quot;width&quot;, (d, i) =&gt; {
-          rectWidth.push((d * frameWidth) + rectWidth[i]);
-          return d * frameWidth
-        })
-        .style(&quot;fill&quot;, (d, i) =&gt; colors[i])
-        .attr(&quot;x&quot;, (d, i) =&gt; rectWidth[i])
-        .attr(&quot;transform&quot;, &quot;translate(7,5)&quot;)
-
-      let lineWidth = artifactScale(museum.artifacts)
-
-      let artifactLine = svg
-        .append(&quot;line&quot;)
-        .attr(&quot;x1&quot;, frameWidth / 2)
-        .attr(&quot;y1&quot;, frameHeight)
-        .attr(&quot;x2&quot;, frameWidth)
-        .attr(&quot;y2&quot;, frameHeight - (frameWidth / 2))
-        .style(&quot;stroke&quot;, &quot;black&quot;)
-        .style(&quot;stroke-width&quot;, lineWidth)
-        .attr(&quot;transform&quot;, &quot;translate(5,5)&quot;)
-
-      let countries = museum.countries
-      countries = countries / 6;
-      countries = Math.round(countries)
-      let countryArray = []
-
-      for (let i = 0; i &lt; countries; i++) {
-        countryArray.push(i)
-      }
-
-      let countryDots = svg
-        .selectAll(&quot;circle&quot;)
-        .data(countryArray)
-        .join(&quot;circle&quot;)
-
-      let j = 0;
-      let k = 3
-      countryDots
-        .attr(&quot;r&quot;, 5)
-        .attr(&quot;cx&quot;, function(d, i) {
-          if (i &lt; 10) {
-            if (i % 2 === 0) {
-              return (i * 10) + 10
-            } else {
-              return (i * 10) + 20
-            }
-          } else if (i &gt;= 10 &amp;&amp; i &lt; 20) {
-            if (i % 2 === 0) {
-              j = j + 1
-              return (j * 10) + 10
-            } else {
-              j = j + 1
-              return (j * 10) + 20
-            }
-          } else {
-            if (i % 2 === 0) {
-              k = k + 1
-              return (k * 10) + 10
-            } else {
-              k = k + 1
-              return (k * 10)
-            }
-          }
-        })
-        .attr(&quot;cy&quot;, function(d, i) {
-          if (i &lt; 10) {
-            return (i * 10) + 10
-          } else if (i &gt;= 10 &amp;&amp; i &lt; 20) {
-            return ((i - 10) * 10) + 10
-          } else {
-            return ((i - 20) * 10 - 10)
-          }
-        })
-        .attr(&quot;transform&quot;, &quot;translate(7,20) scale(.5)&quot;)
-
-      let ticker = i
-      svg
-        .attr(&quot;transform&quot;, function() {
-          if (ticker &lt; 4) {
-            if (ticker === 0) {
-              return `translate(0,${frameHeight*.2})`
-            } else {
-              return `translate(0,${ticker*1.2*frameHeight+(frameHeight*.2)})`
-            }
-          } else {
-            ticker = ticker - 4
-            if (ticker === 0) {
-              return `translate(${frameWidth*1.2},${frameHeight*.2})`
-            } else {
-              return `translate(${frameWidth*1.2},${ticker*1.2*frameHeight+(frameHeight*.2)})`
-            }
-          }
-        })
-        .attr(&quot;margin&quot;, 20)
-
-      let frame = svg.append(&quot;rect&quot;)
-        .attr(&quot;width&quot;, frameWidth)
-        .attr(&quot;border&quot;, 20)
-        .attr(&quot;height&quot;, frameHeight)
-        .style(&quot;stroke&quot;, &quot;black&quot;)
-        .style(&quot;stroke-width&quot;, 5)
-        // .style(&quot;fill&quot;, &quot;none&quot;)
-        // .style(&quot;fill&quot;, &quot;rgba(35, 29, 150, 0)&quot;)
-        .attr(&quot;transform&quot;, &quot;translate(5,5)&quot;)
-        .attr(&quot;id&quot;, museum.museum)
-        .attr(&quot;class&quot;, &quot;porButton&quot;)
-      // .attr(&quot;data-tabindex&quot;, 0)
-
-
-      frame.on(&quot;mouseover&quot;, function(d) {
-        let title = museum.museum
-        // d3.selectAll(&quot;.porButton&quot;).attr(&quot;opacity&quot;, title === that.vizCoord.activeMuseum ? 1 : .2)
-        title === &quot;metropolitan-museum-of-art&quot; ? title = &quot;The Met&quot; : title === &quot;minneapolis-institute-of-art&quot; ? title = &quot;Mia&quot; : title === &quot;cooper-hewitt-smithsonian-design-museum&quot; ? title = &quot;Cooper Hewitt&quot; : title === &quot;penn-museum&quot; ? title =
-          &quot;Penn Museum&quot; : title === &quot;cleveland-museum-of-art&quot; ? title = &quot;Cleveland Museum of Art&quot; : title === &quot;museum-of-modern-art&quot; ? title = &quot;MoMa&quot; : title === &quot;global&quot; ? title = &quot;All Museums&quot; : title =
-          &quot;Canada Science and Technology Museum&quot;
-        d3.select(this).append('svg:title')
-          .text(title)
-      });
-
-
-    } //end drawPortraits
-
-    // make responsive
-    // resizeSVG(svg) {
-    //   let that = this
-    //   // get container + svg aspect ratio
-    //   let container = d3.select(svg.node().parentNode),
-    //     width = parseInt(svg.style(&quot;width&quot;)),
-    //     height = parseInt(svg.style(&quot;height&quot;)),
-    //     aspect = width / height;
-    //
-    //   svg.attr(&quot;viewBox&quot;, &quot;0 0 &quot; + width + &quot; &quot; + height)
-    //     .attr(&quot;perserveAspectRatio&quot;, &quot;xMinYMid&quot;)
-    //     .call(resize);
-    //
-    //   d3.select(window).on(&quot;resize.&quot; + container.attr(&quot;id&quot;), resize);
-    //
-    //   // get width of container and resize svg to fit it
-    //   function resize() {
-    //     let targetWidth = parseInt(container.style(&quot;width&quot;));
-    //     svg.attr(&quot;width&quot;, targetWidth);
-    //     svg.attr(&quot;height&quot;, Math.round(targetWidth / aspect));
-    //   }
-    // }
-  &lt;/script&gt;
-&lt;/body&gt;
-
-&lt;/html&gt;
-</description>
-        <pubDate>Thu, 21 Nov 2019 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000//2019/11/21/data-portraits.html</link>
-        <guid isPermaLink="true">http://localhost:4000//2019/11/21/data-portraits.html</guid>
       </item>
     
   </channel>

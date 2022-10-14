@@ -1,0 +1,60 @@
+I"�+<h1 id="robots">Robots</h1>
+
+<p><img src="/../assets/images/robots/creepy-email.png" alt="You'll forget she's a robot. Menacing dog-like robot stares back at you." class="responsive-image" /></p>
+
+<p>When I opened my email, I noticed an ad from kickstarter reading “You’ll Forget She’s A Robot” with the subtitle “Cute petbot equipped with face recognition, body, detection, gesture recognition, and more.” I think I would’ve glanced over this email if I hadn’t been reading feminist literature about robots. This post is a collection of what I have learned through <a href="https://erickajohnson.se/">Ericka Johnson</a>’s Feminist Technoscience for AI course.</p>
+
+<p><strong>Disclaimer:</strong> I need to say, I don’t know anything about robots. It is not my field of study, nor have I spent much time reading related literature, so this post will be a fragment of what knowledge exists out there in the world.</p>
+
+<p>The first section is a recap of some of the literature I have read, mainly a discussion of how robots serve as a mirror of human identity as well as reinforce particular socio-political relations. I follow that with some fictional robots.</p>
+
+<h2 id="robots-in-academia">Robots in Academia</h2>
+
+<p>Robots as an object of feminist critical studies shows us how creating robots reinforces identity stereotypes and inter-personal relations. As DeFalco elegantly puts it, robots are both <em>mirrors</em> and <em>producers</em> <sup id="fnref:defalco2020" role="doc-noteref"><a href="#fn:defalco2020" class="footnote" rel="footnote">1</a></sup>. So in this section I will recap the literature on how the production of robots brings to question how we codify and represent identity and how the work of care robots relates to current valuings of care work.</p>
+
+<h3 id="robot-identity">Robot Identity</h3>
+
+<p><img src="/../assets/images/robots/pepper.jpg" alt="Pepper's curvy hips and provocative gaze. Source Stengers 2020." class="responsive-image" /></p>
+
+<p>To create anything requires some form of codification. Robots, with the promise of replicating some semblance of intelligence, are often created in the image of a human. But what does it mean to look and act like a human? I’m not sure there is an answer for that (if you think you have the answer feel free to send me an email). So when designing and building robots, engineers are making decisions that embed implicit and explict notions of identity. This identity is further complicated with the work that robots are being built to do. The work is often subservient and undervalued, further contributing to stereotypes of identity.</p>
+
+<p>Sparrow <sup id="fnref:sparrow2020" role="doc-noteref"><a href="#fn:sparrow2020" class="footnote" rel="footnote">2</a></sup> discusses how robots have a race problem, both in presentation and in relation to history. To begin with, the etymology of the word robot comes from “<em>Czech word ‘robota,’ meaning worker or slave</em>,” further, “<em>robots were supposed to have the same sets of “virtues” (hardworking, obedient, servile) as slaves and perform the same sets of tasks</em>”<sup id="fnref:sparrow2020:1" role="doc-noteref"><a href="#fn:sparrow2020" class="footnote" rel="footnote">2</a></sup>. Sparrow makes the argument that racial coding is a function of history and is reinforced by humanoid robots that are built to serve. Additionally, many robots are presented with white glossy exteriors, reinforcing that the default race of robots is White. Sparrow makes the ultimate argument that robots have politics, and that the ways in which robots are built and function in the world means that those building them cannot ignore thinking about race.</p>
+
+<p>Strengers &amp; Kennedy <sup id="fnref:stengers2020" role="doc-noteref"><a href="#fn:stengers2020" class="footnote" rel="footnote">3</a></sup> discuss the mommy wife promises of social robots. The current and envisioned role of these bots are those typically prescriped to women, see next section for more. The physical voices of Siri and Alexa are default soothing female voices and many bots are built with cute feminine features, to be more disarming and approachable <sup id="fnref:stengers2020:1" role="doc-noteref"><a href="#fn:stengers2020" class="footnote" rel="footnote">3</a></sup>. Additionally, “the relative paucity of male humanoid robots […] speaks volumes regarding the way social expectations around gendered servitude, submission and plasticity both determine and are reproduced by robot others” <sup id="fnref:defalco2020:1" role="doc-noteref"><a href="#fn:defalco2020" class="footnote" rel="footnote">1</a></sup>. Some robots are designed to be genderless others are designed to be a stereotypical man or woman. Either way, in combination with the design, the ways in which people interact with the robot reveal how gender is read.</p>
+
+<p>Identity is not only codified through the physical appearances of robots, but it is also reinforced through the social spaces that these robots are intended to occupy, especially robots designed to function in a social capacity with and along humans of flesh and bone.</p>
+
+<h3 id="care-robots">Care Robots</h3>
+
+<p>The course literature focuses mainly on care robots, or robots designed specifically to provide care. What is care? Great question! According to DeFalco “care is inevitably personal, frequently amorphous, anomalous, leaky and curious, a productively fluid, context-specific quality” <sup id="fnref:defalco2020:2" role="doc-noteref"><a href="#fn:defalco2020" class="footnote" rel="footnote">1</a></sup>. Care is a relational action, stance, emotion one can take <em>in relation</em> to someone else. Care is often undervalued work. When is the last time you thought about caring as labor?</p>
+
+<p>When care intersects with robots built to care, there is an implicit assumption that “caring and emotional labor <em>can</em> and <em>should</em> be outsourced to a robotic deputy […] undermin[es] and simplif[ies] the highly complex roles and tasks that (mainly) women perform as nurturers, carers, and emotional laborers <sup id="fnref:stengers2020:2" role="doc-noteref"><a href="#fn:stengers2020" class="footnote" rel="footnote">3</a></sup>. “the problem is the social, political, economic structures that produce (human) care in its current iteration: as devalued, gendered, racialized labour; as a resource; as a demographic ‘crisis’. As a result, robots, real or imagined, become illuminating material manifestations of the latent inequalities and dangerous fantasies that currently structure human care work” <sup id="fnref:defalco2020:3" role="doc-noteref"><a href="#fn:defalco2020" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>One of the stickiest takeaways for me from this literature was that instead of sharing the responisbility of care, elevating its role in maintaining the daily fabric of society, we are instead creating techincal solutions. The point of design thinking is to reframe the problem, instead we are keeping the same problems and only adding layers of carbon-infused bandaids.</p>
+
+<h2 id="robots-in-fiction">Robots in Fiction</h2>
+
+<p><em>her</em>. Can’t forget the classic movie where Scarlett Johansson is the seductive voice of a personal assistive robot. I wish I hadn’t known that Johansson was the voice, it would’ve been a different experience relating to Samantha, the AI system, rather than Johannson voice-acting as an AI. This movie is so self-indulgent in the male gaze (male voice?) that I cringe thinking about it. The only redeeming quality of the movie is that the AIs transcend humans, leaving sad Joaquin Phoenix behind. thank the cyborg goddess.</p>
+
+<p><em>A Closed and Common Orbit</em> by Becky Chambers. This is the second book in the Wayfarers series and porbably the most impactful. It is sci-fi set in a time when humans are living on ships and mingling with extra-terrestrials. In this book a ship´s AI system is placed in a humanoid body and the rest of the book explores what it means to be sentient. This was probably one of the first times I really considered the blurred lines of sentience, and relatedly “humanity” and “human” rights in relation to robots – and that is all thanks to the genius that is Becky Chambers.</p>
+
+<p><em>Klara and the Sun</em> by Kazuo Ishiguro. Klara, the main character of the book, is observant, thoughtful, and caring. She is also an Artificial Friend (AF). In this novel, Ishiguro explores what it means to relegate the work of care and friendship to an “other” showing the eventual disinterest in AFs as children grow older. It is both a heartwarming and heartbreaking story. Though the main character is artificial, she is often more lovable than the humans around her.</p>
+
+<p><em>Star Wars</em> I’ll wrap up this section with Star Wars, George Lukas’ “epic space opera,” according to Wikipedia. I grew up with the orginal trilogy on VHS and was just so captivated by the environments and characters. With some time and perspective, I have more critiques (including the troublesome <a href="https://en.wikipedia.org/wiki/Hero%27s_journey">monomyth</a> with which Lukas developed the plotline, but I will ignore that for now). In relation to robots, I draw your attention to the beloved bots. R2D2 and BB2 are lovable and cute because they communicate through whistles and beeps. They are non-threatening because of their lack of humanness. While C-P3O looks like a human and is considered annoying because he nags our heros with concerns. Sound like the familiar mommy stereotype? I think so.</p>
+
+<h2 id="citations">Citations</h2>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:defalco2020" role="doc-endnote">
+      <p>DeFalco A. (2020) Towards a Theory of Posthuman Care: Real Humans and Caring Robots. Body &amp; Society26(3):31-60. <a href="#fnref:defalco2020" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:defalco2020:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:defalco2020:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:defalco2020:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a></p>
+    </li>
+    <li id="fn:sparrow2020" role="doc-endnote">
+      <p>Sparrow, R. (2020) Robotics Has a Race Problem. Science, Technology &amp; Human Values 45(3): 538-560 <a href="#fnref:sparrow2020" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:sparrow2020:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:stengers2020" role="doc-endnote">
+      <p>Stengers, Y. &amp; Kennedy, J. (2020) “Chapter 3: Pepper” (pp.49-78) in The Smart Wife. MIT Press: Cambridge. <a href="#fnref:stengers2020" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:stengers2020:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:stengers2020:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+  </ol>
+</div>
+:ET
