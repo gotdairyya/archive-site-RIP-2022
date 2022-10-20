@@ -2,10 +2,11 @@
 layout: post
 title: Show Me The Money!
 subtitle: VIS 2021 Fair Pay Panel
-image: ../assets/images/academic.png
+image: /../assets/images/academic.png
 zoom: 70%
 ---
-*This post was co-written with Kiran and originally published on the [VDL blog](https://vdl.sci.utah.edu/blog/2021/12/08/fair-pay-panel/).*
+
+_This post was co-written with Kiran and originally published on the [VDL blog](https://vdl.sci.utah.edu/blog/2021/12/08/fair-pay-panel/)._
 
 [Kiran](https://kirangadhave.me/) and I co-organized a panel at IEEE VIS 2021 titled “Wait...when did we sign up to be economists?” The panel was moderated by [Carolina Nobre](https://datascience.harvard.edu/people/carolina-nobre), and the panelists -- [Saiph Savage](http://www.saiph.org), [Danielle Albers Szafir](https://danielleszafir.com/), [Alexander Lex](https://vdl.sci.utah.edu/team/lex/), [Steve Haroz](http://steveharoz.com/), [Khairi Reda](http://khreda.com/) -- were tasked with debating the ethics surrounding the decisions researchers make when determining the how much to pay crowdsourced study participants. The following article is a summary of the key points brought about by the panel. A [recording of the panel](https://youtu.be/Qks3OA6vtH0) is also available.
 
@@ -74,10 +75,12 @@ Ultimately, this panel exposed that there is still more work that needs to be do
 ### Resources
 
 Tools:
+
 - [https://toloka.ai](https://toloka.ai)
 - [https://wagepledge.org](https://wagepledge.org)
 
 Papers:
+
 - [On the invisible labor of crowdworkers](https://dl.acm.org/doi/abs/10.1145/3476060)
 - [A review of crowdworker pay](https://dl.acm.org/doi/abs/10.1145/3173574.3174023?casa_token=S7GwvHoTGSoAAAAA%3AcwtoggH_Rz02vT7nMayWHvzqa7qokphcfMMNJWhb88cnSBsh3EwRni-BRLKD0Rb6UfceUQQtHcCn)
 - [The career goals of crowdworkers](https://dl.acm.org/doi/abs/10.1145/3173574.3174023?casa_token=S7GwvHoTGSoAAAAA%3AcwtoggH_Rz02vT7nMayWHvzqa7qokphcfMMNJWhb88cnSBsh3EwRni-BRLKD0Rb6UfceUQQtHcCn)

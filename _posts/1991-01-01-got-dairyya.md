@@ -2,7 +2,7 @@
 layout: post
 title: gotdairyya
 subtitle: where it all began
-image: ../assets/images/gotdairy.png
+image: /../assets/images/gotdairy.png
 zoom: 50%
 ---
 

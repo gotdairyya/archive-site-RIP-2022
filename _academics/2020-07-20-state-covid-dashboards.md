@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: publicationPost
 title: State COVID-19 Dashboards
-subtitle: an assessment 
-image: ../assets/images/magnifying-glass.png
+subtitle: an assessment
+image: /../assets/images/magnifying-glass.png
 zoom: 80%
 ---
-*The same post appears on the [VDL blog](https://vdl.sci.utah.edu/blog/2020/07/20/state-dashboards/).*
+
+_The same post appears on the [VDL blog](https://vdl.sci.utah.edu/blog/2020/07/20/state-dashboards/)._
 
 ![A compilation of state dashboards.](/assets/images/dashboards/2020_state-dashboard-compilation.png){:.responsive-image}
 
@@ -78,6 +79,7 @@ If you have thoughts, comments, or would like to collaborate on a version 2.0 of
 I'd like to thank Alex for his feedback on both the grading system and editing this piece. And Devin for last minute edits.
 
 ### Read more criticism about dashboards:
+
 **[The Case Against Dashboards (when Visualizing a Pandemic)](https://vdl.sci.utah.edu/blog/2020/07/06/dashboards/) by Alexander Lex**
 
 **[The Spectacular Dashboard](https://mcorrell.medium.com/the-spectacular-dashboard-dcb190ed8529) by Michael Correll & Heather Froehlich**

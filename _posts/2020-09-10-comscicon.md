@@ -2,7 +2,7 @@
 layout: post
 title: Communicating Science Research
 subtitle: computers + bats
-image: ../assets/images/pencil.png
+image: /../assets/images/pencil.png
 zoom: 70%
 ---
 

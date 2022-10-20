@@ -48,22 +48,106 @@
   
 </nav>
     </div>
-    <div class="content">
-  <div class="text">
+    <div class="menu">
+  
+  <!-- INDEX -->
+  
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="/../assets/images/dh.png" width="40px" alt="key image" class="blog-index-image">
+    </div>
+    <div class="blog-index-item">
+      <a href="/academics/2022-04-01-data-hunches.html">
+        <p class="blog-index-item" class="current">Data Hunches</p>
+      </a>
+    </div>
+  </div>
+  
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="/../assets/images/entanglements.png" width="40px" alt="key image" class="blog-index-image">
+    </div>
+    <div class="blog-index-item">
+      <a href="/academics/2022-01-05-entangled-insights.html">
+        <p class="blog-index-item" class="current">WIP Entangled Insights</p>
+      </a>
+    </div>
+  </div>
+  
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="/../assets/images/trash.png" width="40px" alt="key image" class="blog-index-image">
+    </div>
+    <div class="blog-index-item">
+      <a href="/academics/2021-11-03-chart-junk.html">
+        <p class="blog-index-item" class="current">Manifesto for Putting 'Chartjunk' in the Trash 2021!</p>
+      </a>
+    </div>
+  </div>
+  
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="/../assets/images/magnifying-glass.png" width="40px" alt="key image" class="blog-index-image">
+    </div>
+    <div class="blog-index-item">
+      <a href="/academics/2020-07-20-state-covid-dashboards.html">
+        <p class="blog-index-item" class="current">State COVID-19 Dashboards</p>
+      </a>
+    </div>
+  </div>
+  
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="/../assets/images/calculator.png" width="40px" alt="key image" class="blog-index-image">
+    </div>
+    <div class="blog-index-item">
+      <a href="/academics/2020-04-23-abstract-abstracts.html">
+        <p class="blog-index-item" class="current">Abstract Abstracts</p>
+      </a>
+    </div>
+  </div>
+  
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="/../assets/images/paintbrush.png" width="40px" alt="key image" class="blog-index-image">
+    </div>
+    <div class="blog-index-item">
+      <a href="/academics/2019-11-22-data-portraits.html">
+        <p class="blog-index-item" class="current">Data Portraits</p>
+      </a>
+    </div>
+  </div>
+  
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="/../assets/images/paper.png" width="40px" alt="key image" class="blog-index-image">
+    </div>
+    <div class="blog-index-item">
+      <a href="/academics/2019-02-19-data-intuition.html">
+        <p class="blog-index-item" class="current">Intuiting Data</p>
+      </a>
+    </div>
+  </div>
+  
+</div>
+<!-- CONTENT -->
+<div class="text">
   <h2>Abstract Abstracts</h2>
-  <h3 class="header__subtext">Has abstract readability in arXiv papers changed?</h3>
-
-  <p><h3 class="date">23 Apr 2020</h3>
+<h3 class="header__subtext">Has abstract readability in arXiv papers changed?</h3>
+<h3 class="date">23 Apr 2020</h3>
 
 <p><p>This is deep dive done by myself and my friend Cole Polychronis for our data mining class.</p>
 
 <h3 id="motivation">Motivation</h3>
+
 <p>Our project began with a desire to answer a question posed in the backlog of an online data visualization blog, <a href="pudding.cool">the Pudding</a>: are the titles of scientific texts becoming harder to read? As two first-year graduate students who will be involved in the process of writing research papers and hope to reach large(r) audiences, we were immediately invested in this idea. While we both felt that we had anecdotal evidence that scientific papers were getting harder to read due to an increase in the use of jargon, acronyms, etc. we were also interested in expanding this question to not just investigate change in readability over time, but also to investigate whether different disciplines exhibited different types of change. Being able to identify if there are certain disciplines who “do readability” better would give us places to look for examples to emulate. As a means of managing the scope of our project, we elected to examine the readability of abstracts available on arXiv. In order to explore the readability of these scientific papers, we opted to use four of the most widely used readability metrics: Flesch-Kincaid Grade Level, Flesch Reading Ease, Automated Readability Index, and the Dale-Chall Readability. To build on these established readability measures, we explored using principal component analysis to reduce noise and discard redundancy amongst the various (similar) readability metrics, as well as removing domain specific keywords to improve the nuance of these readability metrics.</p>
 
 <h3 id="data">Data</h3>
+
 <p>Under the Open Archives Initiative, metadata and full text are available for download from arXiv. We began our search using the help page of ArXiv.org, but found that there was an already extracted subset of the data on <a href="https://www.kaggle.com/tayorm/arxiv-papers-metadata/data#">Kaggle</a>. This subset on Kaggle is stored as tsvs according to either the category of research or the year of publication. In order to download from Kaggle, we had to create a Kaggle account and then download the zip file. The data is roughly 9GB and is comprised of the metadata for 1.5 million research papers, spanning roughly 25 different disciplines, collected between 1993 to 2019.</p>
 
 <h3 id="key-idea">Key Idea</h3>
+
 <p>Our initial intent for this project was to use several readability metrics that we discovered during our background research for this project in order to differentiate different disciplines. In particular, we identified the Flesch-Kincaid Grade Level, Flesch Reading Ease, Automated Readability Index, and the Dale-Chall Readability metrics to be significant metrics that are widely used across education and even employed by the United States Government to assess the readability of written documents. A key assumption that informed this research approach was our belief that we would see some pattern of decreased readability over time or variable readability across disciplines. However, as we began conducting the analysis for our intermediate report, we found that there were no distinctly readable disciplines and patterns that implied less or more readability. Additionally, across all four readability metrics that we used, we found that the results were not all that nuanced, indicating that the title and abstract together were consistently at a college or above reading level. The scores and their interpretations are summarized in Table 1. We’ve also Fig 1 to illustrate an example of our initial experiment.</p>
 
 <table>
@@ -126,6 +210,7 @@
 <p><em>Table 1. This table represents the four major readability metrics and how to interpret the metric.PDW: Percentage of difficult words not on the Dale-Chall word list; ASL: Average sentence length; ASW: Average word length in syllables; CC: Character Count; WC: Word Count</em></p>
 
 <p>Given our lack of exciting results after experimenting for the intermediate report, we pivoted to exploring two complementary aspects of our readability criteria in the hopes of achieving a higher level of nuance and possibly identifying patterns that weren’t immediately obvious during our experimentation for the intermediate report.These complementary approaches were:</p>
+
 <ul>
   <li>A1. Using a combination of normalization and principal component analysis (PCA) could serve to reduce noise and discard redundancy between the multiple readability scores to identify a clearer pattern, either across time or discipline.</li>
   <li>A2. Removing domain specific words could result in more conclusive and/or nuanced reading scores.</li>
@@ -178,6 +263,7 @@ Inspired by research in medical literature readability, we decided to explore th
 <p>A bit more interesting of a distinction can be made when we look at the projected data by year of publication. While we still only see a large blob centered around mean readability, we can see that papers published before roughly 1990-2000 are more tightly packed than papers published after 2000. This means that overtime, the readability of scientific papers has not necessarily increased or decreased, but has become much more variable; papers span a much wider range on the readability spectrum than they did 20 years ago. Informally, papers haven’t gotten easier to read or harder to read since the 90’s, the readability of papers has become a more extreme crapshoot.</p>
 
 <p>Removing domain specific words yielded two somewhat surprising results.</p>
+
 <ol>
   <li>Removing domain specific words from abstracts did not affect the readability scores.</li>
   <li>Removing random words had the same effect as removing domain specific words.</li>
@@ -186,14 +272,14 @@ Inspired by research in medical literature readability, we decided to explore th
 <p>On further consideration, these results are not too surprising because the readability scores (aside from the Dale-Chall) calculate readability using non-semantic metrics such as sentence length, character count and word count. By removing n words, regardless of whether it was domain specific or random, we affected both the character count and the word count.</p>
 
 <h3 id="discussion">Discussion</h3>
+
 <p>Ultimately, our experimentation with applying readability metrics to scientific papers defy our expectations and anecdotal examples: readability does not seem to have increased or decreased over the last 30 years and further, there doesn’t necessarily seem to be one discipline that “does” readability better than others. Instead, we found that readability of scientific papers has become more varied over time. This perhaps makes sense, given the proliferation of venues for papers and the volume and variety of research being conducted now versus 30 years ago.</p>
 
 <p>However, we also feel that our experimentation has demonstrated that to a certain extent, existing readability metrics lack the nuance and complexity to identify readability of research papers. As discussed above, all of these reading metrics identified that our papers were above a college reading level (which is to be expected), with little relevance existing at the varying levels of scores above a college reading level. Our experimentation with removing words from text shows that these metrics lack a means of identifying semantic importance of certain text features such as stop words. This experimentation has lead us to conclude that readability metrics need more semantic awareness in order to compare and understand readability of scientific documents.</p>
 
 <p>Sooo you could say we found nothing or someone’s PhD thesis…
 <img src="/../assets/images/daria-shrug.gif" alt="daria from the animated tv show shrugging. she is my alter-ego and i never watched the show till 2020" class="scale-50-center" /></p>
-</p></p>
-  </div>
+</p>
 </div>
   </div>
 

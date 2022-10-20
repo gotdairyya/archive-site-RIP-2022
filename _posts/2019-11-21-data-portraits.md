@@ -2,25 +2,27 @@
 layout: post
 title: Data Portraits
 subtitle: paint me like one of your french girls
-image: ../assets/images/paintbrush.png
+image: /../assets/images/paintbrush.png
 zoom: 50%
 ---
+
 I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn't make the cut...
 
-> *Instead of working on my final project for data vis, I am writing about it...*
+> _Instead of working on my final project for data vis, I am writing about it..._
 >
-> *Really if you think about it, everything is a data portrait...*
+> _Really if you think about it, everything is a data portrait..._
 >
-> *If everything is a data portrait, then what is a data portrait?*
+> _If everything is a data portrait, then what is a data portrait?_
 
 As you can see, not the best intros. What I would like to do instead, is talk about some inspiration I've had over the years regarding data portraits, and then show you what I have created for a class project.
 
 ### Inspiration Comes in Many Forms
 
-One form is Georgia Lupi. Lupi a partner at Pentagram studios and a long time advocate for *data humanism*, constantly likes to remind us that data is never the point, the humans who created it are. I hope to draw on this concept throughout my PhD. Often, data is assumed to be objective, immutable, authoritative, but ultimately it is another human creation, prone to errors and up to interpretation.
+One form is Georgia Lupi. Lupi a partner at Pentagram studios and a long time advocate for _data humanism_, constantly likes to remind us that data is never the point, the humans who created it are. I hope to draw on this concept throughout my PhD. Often, data is assumed to be objective, immutable, authoritative, but ultimately it is another human creation, prone to errors and up to interpretation.
 [For more on Lupi, you can listen to her TED Talk](https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data?language=en#t-258497)
 
 ![example of data portraits from Georgia Lupi](/../assets/images/data-portraits/georgia-lupi-portraits.jpg){:.responsive-image}
+
 <figcaption markdown="1">An example of data portraits courtesy of ideas.ted.com.
 </figcaption>
 
@@ -36,10 +38,12 @@ My final, but not final, inspiration comes from an Italian data visualization de
 
 ![example of data portraits from Federica Fragapane](/../assets/images/data-portraits/federica-fragapane-carbon-dioxide.jpg){:.responsive-image}
 ![example of data portraits from Federica Fragapane](/../assets/images/data-portraits/federica-fragapane-violent-cities.jpg){:.responsive-image}
+
 <figcaption markdown="1">You can find more of her work on her [Behance site](https://www.behance.net/FedericaFragapane)
 </figcaption>
 
 ### My take of Data Portraits
+
 For my group project, we are visualizing data about museum artifacts. In spirit of the artwork, I wanted to create art that would represent the museum and it's collection.
 
 I began by looking at different Abstract Expressionism art, looking specifically for the use of bold colors and geometric shapes. Once I selected an artist for inspiration, I created a rough mockup using pen + paper of what the portrait could look like.

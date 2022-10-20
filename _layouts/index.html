@@ -1,23 +1,23 @@
 ---
 layout: header
 ---
-<!-- MENU -->
 <div class="menu">
-<div class="blog-index" transform="translate(10,0)">
-    {% for post in site.posts %}
-        <a href="{{ post.url }}">
-        <img src="{{ post.image }}" width="{{ post.zoom }}" alt="key image" class="blog-index-image">
-        <figcaption class="blog-index-item">{{ post.title }}</figcaption>
-    </a>
-    {% endfor %}
-  </div>
-</div>
-
-  <div class="content">
-    <div class="text">
-    <h2>{{ page.title }}</h2>
-    <h3 class="header__subtext">{{ page.subtitle }}</h3>
-  
-    <p>{{ content }}</p>
+  {{ title }}
+  <!-- INDEX -->
+  {% for post in site.posts %}
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="{{ post.image }}" width="40px" alt="key image" class="blog-index-image">
+    </div>
+    <div class="blog-index-item">
+      <a href="{{ post.url }}">
+        <p class="blog-index-item" class="current">{{ post.title }}</p>
+      </a>
     </div>
   </div>
+  {% endfor %}
+</div>
+<!-- CONTENT -->
+<div class="text">
+  {{ content }}
+</div>

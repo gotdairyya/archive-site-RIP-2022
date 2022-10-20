@@ -2,7 +2,7 @@
 layout: post
 title: Perspective
 subtitle: Illustrator fun
-image: ../assets/images/cloud.png
+image: /../assets/images/cloud.png
 zoom: 100%
 ---
 

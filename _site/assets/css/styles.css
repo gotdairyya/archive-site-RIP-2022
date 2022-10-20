@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata|Lora|Darker+Grotesque&display=swap");
-.container { display: grid; grid-auto-columns: 10% 10% 80%; grid-template-rows: 1fr; gap: 0px 0px; grid-auto-flow: column; grid-template-areas: "navigation menu content"; justify-items: start; justify-content: start; gap: 0px 2px; }
+.container { display: grid; grid-auto-columns: 1fr 2fr 3fr; grid-template-rows: 1fr min-content; gap: 0px 0px; grid-auto-flow: column; grid-template-areas: "navigation content content" "navigation menu text"; justify-items: start; justify-content: start; gap: 0px 2px; }
 
 .menu { grid-area: menu; }
 
 .content { display: grid; grid-template-columns: 1.4fr 0.6fr; grid-template-rows: 1fr; gap: 0px 0px; grid-template-areas: "text space"; grid-area: content; }
 
-.text { grid-area: text; }
-
-.space { grid-area: space; }
-
-.blog-index { display: grid; grid-template-columns: subgrid; grid-column: 30% 70%; gap: 0px 0px; grid-template-areas: "blog-index-image blog-index-item"; grid-area: content; }
+.blog-index { display: grid; grid-template-columns: subgrid; grid-column: 10% 20% 70%; gap: 0px 0px; grid-template-areas: "blog-index-image blog-index-item text"; grid-area: "blog-index"; }
 
 .blog-index-image { grid-area: blog-index-image; }
 
 .blog-index-item { grid-area: blog-index-item; }
 
-.blog-index-item > figcaption { color: #575657; }
+.blog-index-item p { color: #575657; text-align: left; cursor: pointer; }
+
+.text { grid-area: text; }
+
+.space { grid-area: space; }
 
 .content p, li { font-family: "Darker Grotesque", sans-serif; font-size: 18px; line-height: 22px; }
 
@@ -70,7 +70,7 @@ td { font-family: "Darker Grotesque", sans-serif; font-size: 18px; line-height: 
 
 .content img { margin-right: 15px; margin-top: 15px; margin-bottom: 15px; float: left; }
 
-.content p { margin-left: 15px; display: block; margin: 2px 0 0 0; align: center; }
+.content p { margin-left: 15px; display: block; margin: 2px 0 0 0; }
 
 /* THIS SECTION IS FOR MEDIA SCREENS */
 /* On screens that are less than 700px wide, make the sidebar into a topbar */

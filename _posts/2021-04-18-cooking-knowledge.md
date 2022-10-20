@@ -2,7 +2,7 @@
 layout: post
 title: Cooking Up Knowledge
 subtitle: cooking + tacit knowledge + education
-image: ../assets/images/pencil.png
+image: /../assets/images/pencil.png
 zoom: 70%
 ---
 

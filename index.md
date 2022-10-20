@@ -37,4 +37,3 @@ subtitle: dairy-ya | she/her/hers
 - an rss [feed](http://gotdairyya.github.io/feed.xml)
 
 - got [dairyya]({% post_url 1991-01-01-got-dairyya %})?
-</div></div>

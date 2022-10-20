@@ -2,7 +2,7 @@
 layout: post
 title: Learning about Learning
 subtitle: And all that I learned
-image: ../assets/images/magnifying-glass.png
+image: /../assets/images/magnifying-glass.png
 zoom: 80%
 ---
 

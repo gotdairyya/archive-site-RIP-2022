@@ -85,12 +85,14 @@
 &lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
 
 &lt;p&gt;Tools:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://toloka.ai&quot;&gt;https://toloka.ai&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://wagepledge.org&quot;&gt;https://wagepledge.org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Papers:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3476060&quot;&gt;On the invisible labor of crowdworkers&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3173574.3174023?casa_token=S7GwvHoTGSoAAAAA%3AcwtoggH_Rz02vT7nMayWHvzqa7qokphcfMMNJWhb88cnSBsh3EwRni-BRLKD0Rb6UfceUQQtHcCn&quot;&gt;A review of crowdworker pay&lt;/a&gt;&lt;/li&gt;
@@ -143,20 +145,37 @@
 &lt;p&gt;One would think 6 years embedded in discussions about classification systems would be enough for a lifetime…THINK AGAIN. I definitely had a moment where I felt incredulous picking up the book, but as soon as I started reading it, I knew I had made the right decision. This post is an attempt to capture some of the memorable aspects before they slip from my failing memory.&lt;/p&gt;
 
 &lt;h2 id=&quot;classification-systems-are-invisible-infrastructures&quot;&gt;Classification Systems are (invisible) Infrastructures&lt;/h2&gt;
+
 &lt;p&gt;If there is one major takeaway, it would be these:&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;1) classification systems are often invisible&lt;/li&gt;
-  &lt;li&gt;2) classification systems are powerful&lt;/li&gt;
-  &lt;li&gt;3) classification systems are infrastructure&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;classification systems are often invisible&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;classification systems are powerful&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;classification systems are infrastructure&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;invisibility&quot;&gt;Invisibility&lt;/h3&gt;
+
 &lt;p&gt;Classification shapes the way that we think about the world and how we record that thought. Often, we do not think about how we are labeling the world around us (invisibility). We see an object and call it a flower. Or if we are a florist, we call it a peony. These examples are trivial, but in instances like classifying a disease, where many different causes might be at play, the choice in what and how to classify alters the types of treatment one may receive.&lt;/p&gt;
 
 &lt;h3 id=&quot;power&quot;&gt;Power&lt;/h3&gt;
+
 &lt;p&gt;In chapter 6 the authors discuss the very real ways in which classification of race during apartheid in South Africa affected people’s lives: limiting access to resources, dividing families, and numerous reclassifications. For a metaphysical discussion about race, please read “‘But What Are You Really?’ The Metaphysics of Race” by Charles Mills.&lt;/p&gt;
 
 &lt;h3 id=&quot;infrastructure&quot;&gt;Infrastructure&lt;/h3&gt;
+
 &lt;p&gt;Additionally, classification systems as markers of community membership struck me as a super fascinating concept:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -168,6 +187,7 @@
 &lt;p&gt;I think we grapple with this all the time in my field (or any field that works with data). We assume that data means one thing and then quickly (if we are fortunate) find that it means something quite different to our collaborators. I think this is because as Johanna Drucker &lt;a href=&quot;http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html&quot;&gt;states&lt;/a&gt; oh so eloquently, “&lt;em&gt;Data are capta&lt;/em&gt;, taken not given, constructed as an interpretation of the phenomenal world, not inherent in it.” The act of creating data is an act of classification: what is classified, who classifies, why classified…This is is a thread in feminist data visualization that I think deserves more discussion, but I feel the limitations of that discussion because we are just flooded with data every second of every day. Where can we find the time to pause and examine the construction of data? When can we refuse data as given? A thread to be continued elsewhere.&lt;/p&gt;
 
 &lt;h2 id=&quot;design-opportunities&quot;&gt;Design Opportunities&lt;/h2&gt;
+
 &lt;p&gt;In the last two pages of the book, the authors provide recommendations for how to design classification systems. &lt;em&gt;Why only two pages?&lt;/em&gt; I summarize the recommendations here:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -186,6 +206,7 @@
       <item>
         <title>Meta-confused about Metacognition</title>
         <description>&lt;p&gt;As the (slightly modified for personal taste) proverb goes:&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;“Give a girl a tofu sandwich and she is full for a day. Teach that girl how to cook the tofu sandwhich, and she is full for many days (until she gets sick of said sandwhich).”&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -199,7 +220,9 @@
 &lt;p&gt;Today’s post mainly draws from a recent &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3372782.3406263&quot;&gt;publication&lt;/a&gt; by Prather et al. titled: “What Do We Think We Think We Are Doing?: Metacognition and Self-Regulation in Programming.”&lt;/p&gt;
 
 &lt;h2 id=&quot;metacognition&quot;&gt;Metacognition&lt;/h2&gt;
+
 &lt;p&gt;As defined by Prather et al.:&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Metacognition&lt;/strong&gt; tends to be the term used to describe knowledge about one’s own cognitive control, including identifying strategies that have been successful or unsuccessful in the past, monitoring emotions and self-efficacy, and evaluating the validity of metacognitive knowledge based on feed-back.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -207,6 +230,7 @@
 &lt;p&gt;So metacognition is an awareness of ways in which you have learned in the past.&lt;/p&gt;
 
 &lt;p&gt;When applying metacognition to the problem at hand, the term is called self-regulation. Again, Prather et al.:&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;…self-regulation tends to be the term used to describe the process of executing cognitive control during a learning or problem-solving task.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -383,6 +407,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;h3 id=&quot;learning-to-trust-a-positivist-perspective&quot;&gt;Learning to Trust: a Positivist Perspective&lt;/h3&gt;
 
 &lt;p&gt;Positivism is a research paradigm often associated with the natural sciences. In the world of positivism, there are objective and generalizable truths that can be measured. Within positivism, research results are judged according to the following criteria:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Internal Validity:&lt;/strong&gt; how certain are you that the independent variable has effected the dependent variable?&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;External Validity:&lt;/strong&gt; how representative is the sample population (and by extension your results) of the general population?&lt;/li&gt;
@@ -395,10 +420,12 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;p&gt;Enter, Lincoln, Guba, and interpretivism.&lt;/p&gt;
 
 &lt;h3 id=&quot;establishing-trustworthiness&quot;&gt;Establishing Trustworthiness&lt;/h3&gt;
+
 &lt;p&gt;The following section is my take on organizing the work presented in &lt;a href=&quot;https://ethnographyworkshop.files.wordpress.com/2014/11/lincoln-guba-1985-establishing-trustworthiness-naturalistic-inquiry.pdf&quot;&gt;Establishing Trustworthiness&lt;/a&gt;. Written in 1985, this document from my understanding is a seminal piece in interpretivist research methods. Lincoln and Guba set out to both make a case for interpretivism (the research paradigm that multiple realities exist and it is the role of the researcher to interpret it) and provide practical methods for establishing trust and rigor in qualitative research.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Credibility:&lt;/strong&gt; How congruent are the findings with reality? &lt;br /&gt;
 &lt;em&gt;Positivist Analogy: internal validity&lt;/em&gt;&lt;/p&gt;
+
 &lt;details&gt;&lt;summary&gt;Methods&lt;/summary&gt;
 &lt;p&gt;
 &lt;ul&gt;
@@ -415,6 +442,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 
 &lt;p&gt;&lt;strong&gt;Transferability:&lt;/strong&gt; To what extent are the findings applicable to other contexts? It is important to note that the onus of transferring research results falls on the consumer of the research.&lt;br /&gt;
 &lt;em&gt;Positivist Analogy: external validity&lt;/em&gt;&lt;/p&gt;
+
 &lt;details&gt;&lt;summary&gt;Methods&lt;/summary&gt;
 &lt;p&gt;
 &lt;ul&gt;
@@ -426,6 +454,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 
 &lt;p&gt;&lt;strong&gt;Dependability:&lt;/strong&gt; Have you provided enough information so that other researchers could repeat the work? &lt;br /&gt;
 &lt;em&gt;Positivist Analogy: reproducibility &amp;amp; reliability&lt;/em&gt;&lt;/p&gt;
+
 &lt;details&gt;&lt;summary&gt;Methods&lt;/summary&gt;
 &lt;p&gt;
 &lt;ul&gt;
@@ -438,6 +467,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 
 &lt;p&gt;&lt;strong&gt;Confirmability:&lt;/strong&gt; Does your data support your interpretations? &lt;br /&gt;
 &lt;em&gt;Positivist Analogy: objectivity&lt;/em&gt;&lt;/p&gt;
+
 &lt;details&gt;&lt;summary&gt;Methods&lt;/summary&gt;
 &lt;p&gt;
 &lt;ul&gt;
@@ -450,6 +480,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;p&gt;As you can see, even with these methods, it is hard to grapple with what makes research trustworthy? Especially in a non-positivist paradigm we are relying on individual interpretations, where there will not be one single correct answer. For me, this is the beauty of science that is often overlooked: as humans we have the innate ability to observe the world around us and communicate our observations with others to build collective knowledge, knowing that we may not be 100% correct all the time.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Further Reading:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://eric.ed.gov/?id=EJ792970&quot;&gt;More in depth methods summarized from the Lincoln and Guba paper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -479,6 +510,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;a href=&quot;https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data?language=en#t-258497&quot;&gt;For more on Lupi, you can listen to her TED Talk&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/georgia-lupi-portraits.jpg&quot; alt=&quot;example of data portraits from Georgia Lupi&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
+
 &lt;figcaption&gt;
   &lt;p&gt;An example of data portraits courtesy of ideas.ted.com.&lt;/p&gt;
 &lt;/figcaption&gt;
@@ -495,11 +527,13 @@ White and grey hairs indicate age.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/federica-fragapane-carbon-dioxide.jpg&quot; alt=&quot;example of data portraits from Federica Fragapane&quot; class=&quot;responsive-image&quot; /&gt;
 &lt;img src=&quot;/../assets/images/data-portraits/federica-fragapane-violent-cities.jpg&quot; alt=&quot;example of data portraits from Federica Fragapane&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
+
 &lt;figcaption&gt;
   &lt;p&gt;You can find more of her work on her &lt;a href=&quot;https://www.behance.net/FedericaFragapane&quot;&gt;Behance site&lt;/a&gt;&lt;/p&gt;
 &lt;/figcaption&gt;
 
 &lt;h3 id=&quot;my-take-of-data-portraits&quot;&gt;My take of Data Portraits&lt;/h3&gt;
+
 &lt;p&gt;For my group project, we are visualizing data about museum artifacts. In spirit of the artwork, I wanted to create art that would represent the museum and it’s collection.&lt;/p&gt;
 
 &lt;p&gt;I began by looking at different Abstract Expressionism art, looking specifically for the use of bold colors and geometric shapes. Once I selected an artist for inspiration, I created a rough mockup using pen + paper of what the portrait could look like.&lt;/p&gt;

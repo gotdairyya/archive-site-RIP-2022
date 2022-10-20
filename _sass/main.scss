@@ -4,12 +4,14 @@
 // Grid layout
 .container {  
   display: grid;
-  grid-auto-columns: 10% 10% 80%;
-  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr 2fr 3fr;
+  grid-template-rows: 1fr min-content;
   gap: 0px 0px;
   grid-auto-flow: column; 
   grid-template-areas:
-    "navigation menu content";
+    "navigation content content"
+    "navigation menu text"
+    ;
   justify-items: start; 
   justify-content: start;
   gap: 0px 2px;
@@ -29,21 +31,15 @@
   grid-area: content; 
 }
 
-.text { 
-  grid-area: text;
-}
-
-.space { grid-area: space; }
-
 // THIS IS FOR THE INDEX LAYOUTS
 .blog-index {
   display: grid;
   grid-template-columns: subgrid;
-  grid-column: 30% 70%;
+  grid-column: 10% 20% 70%;
   gap: 0px 0px; 
   grid-template-areas: 
-    "blog-index-image blog-index-item"; 
-  grid-area: content; ;
+    "blog-index-image blog-index-item text"; 
+  grid-area: "blog-index"; ;
 }
 
 .blog-index-image {
@@ -54,9 +50,17 @@
   grid-area: blog-index-item;
 }
 
-.blog-index-item > figcaption {
+.blog-index-item p {
   color: #575657;
+  text-align: left;
+  cursor: pointer;
 }
+
+.text { 
+  grid-area: text;
+}
+
+.space { grid-area: space; }
 
 .content p, li {
   font-family: "Darker Grotesque", sans-serif;
@@ -232,7 +236,6 @@ td {
   margin-left: 15px;
   display: block;
   margin: 2px 0 0 0;
-  align: center;
 }
 
 /* THIS SECTION IS FOR MEDIA SCREENS */
