@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang=”en”>
 
 <head>
   <meta charset="utf-8">
@@ -22,11 +22,11 @@
   <ul class="articles">
     {{ content }}
     {% for project in site.projects reversed%}
-      <li><a href="{{ project.url }}" class="index">
-          <img src="{{ project.image }}" width="{{ project.zoom }}" alt="key image" class="blog-image">
-          <figcaption>{{ project.title }}</figcaption>
-        </a>
-    {% endfor %}
+    <li><a href="{{ project.url }}" class="index">
+        <img src="{{ project.image }}" width="{{ project.zoom }}" alt="key image" class="blog-image">
+        <figcaption>{{ project.title }}</figcaption>
+      </a>
+      {% endfor %}
   </ul>
 </body>
 

@@ -1,50 +1,4 @@
-<!doctype html>
-<html lang=”en”>
-
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>Robots</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  <nav class="navigation">
-  
-  <a href="/" >
-    About
-  </a>
-  
-  <a href="/thoughts.html" >
-    Thoughts
-  </a>
-  
-  <a href="/projects.html" >
-    Projects
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-</nav>
-  <ul class="articles">
-    <div class="article-entry">
-      <span>
-        <h2>Robots</h2>
-        <h3 class="date">14 Oct 2022</h3>
-      </span>
-      <h3 class="header__subtext">beep boop beep</h3>
-
-      <p><h1 id="robots">Robots</h1>
+I"�,<h1 id="robots">Robots</h1>
 
 <p><img src="/../assets/images/robots/creepy-email.png" alt="You'll forget she's a robot. Menacing dog-like robot stares back at you." class="responsive-image" /></p>
 
@@ -109,10 +63,4 @@
     </li>
   </ol>
 </div>
-</p>
-
-    </div>
-  </ul>
-</body>
-
-</html>
+:ET
