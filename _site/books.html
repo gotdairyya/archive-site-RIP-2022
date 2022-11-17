@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang=”en”>
+<html lang=”en” lang=”en”>
 
 <head>
   <!-- Google Analytics -->
@@ -29,83 +29,91 @@
   <div class="container">
     <div class="navigation">
       <nav class="navigation">
-  
-  <a href="/" >
-    About
-  </a>
-  
-  <a href="/blog.html" >
-    Blog
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-  <a href="/academics.html" >
-    Academics
-  </a>
-  
-</nav>
+
+        <a href="/">
+          About
+        </a>
+
+        <a href="/blog.html">
+          Blog
+        </a>
+
+        <a href="/books.html">
+          Books
+        </a>
+
+        <a href="/academics.html">
+          Academics
+        </a>
+
+      </nav>
     </div>
     <div class="content">
-  <div class="text">
-  <h2>books</h2>
-  <h3 class="header__subtext"></h3>
+      <div class="text">
+        <h2>books</h2>
+        <h3 class="header__subtext"></h3>
 
-  <p><!-- CURRENTLY READING -->
-<style type="text/css" media="screen">
-      .gr_grid_container {
-            width: auto;
-        /* customize grid container div here. eg: width: 500px; */
-      }
+        <p>
+          <!-- CURRENTLY READING -->
+          <style type="text/css" media="screen">
+            .gr_grid_container {
+              width: auto;
+              /* customize grid container div here. eg: width: 500px; */
+            }
 
-      .gr_grid_book_container {
-        /* customize book cover container div here */
-        float: left;
-        width: 98px;
-        height: 160px;
-        padding: 0px 0px;
-        overflow: hidden;
-      }
-    </style>
-    <div id="gr_grid_widget_1664910192">
-    </div>
-    <script src="https://www.goodreads.com/review/grid_widget/63729092.derya's%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=true&num_books=20&order=a&shelf=currently-reading&sort=date_added&widget_id=1664910192" type="text/javascript" charset="utf-8"></script>
+            .gr_grid_book_container {
+              /* customize book cover container div here */
+              float: left;
+              width: 98px;
+              height: 160px;
+              padding: 0px 0px;
+              overflow: hidden;
+            }
+          </style>
+        <div id="gr_grid_widget_1664910192">
+        </div>
+        <script
+          src="https://www.goodreads.com/review/grid_widget/63729092.derya's%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=true&num_books=20&order=a&shelf=currently-reading&sort=date_added&widget_id=1664910192"
+          type="text/javascript" charset="utf-8"></script>
 
 
-      <!-- ALREADY READING -->
-          <div id="gr_grid_widget_1664883937">
-            <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-                <h2>
-          <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/63729092-derya?shelf=read&utm_medium=api&utm_source=grid_widget">book i've read</a>
-        </h2>
-          <script src="https://www.goodreads.com/review/grid_widget/63729092.book%20i've%20read?cover_size=small&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1664883937" type="text/javascript" charset="utf-8"></script>
-    
-      <script>
+        <!-- ALREADY READING -->
+        <div id="gr_grid_widget_1664883937">
+          <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
+          <h2>
+            <a style="text-decoration: none;" rel="nofollow"
+              href="https://www.goodreads.com/review/list/63729092-derya?shelf=read&utm_medium=api&utm_source=grid_widget">book
+              i've read</a>
+          </h2>
+          <script
+            src="https://www.goodreads.com/review/grid_widget/63729092.book%20i've%20read?cover_size=small&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1664883937"
+            type="text/javascript" charset="utf-8"></script>
+
+          <script>
             // remove the branding
             const branding = document.querySelectorAll('.gr_grid_branding');
             branding.forEach(brand => {
-                  brand.remove()
+              brand.remove()
             })
-      </script></p>
-  </div>
-</div>
-  </div>
+          </script>
+          </p>
+        </div>
+      </div>
+    </div>
 
-  <script>
-    // Create traces of visited links
-    const links = document.getElementsByTagName('a');
-    for (var i = 0; i < links.length; i++) {
-      links[i].onmouseover = function (e) {
-        var color = '#' + Math.floor(Math.random() * 16777215).toString(16);
-        var colorString = '0px 0px 30px 0px ' + color;
-        this.style['box-shadow'] = colorString;
-        this.style['-webkit-box-shadow'] = colorString;
-        this.style['-moz-box-shadow'] = colorString;
+    <script>
+      // Create traces of visited links
+      const links = document.getElementsByTagName('a');
+      for (var i = 0; i < links.length; i++) {
+        links[i].onmouseover = function (e) {
+          var color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+          var colorString = '0px 0px 30px 0px ' + color;
+          this.style['box-shadow'] = colorString;
+          this.style['-webkit-box-shadow'] = colorString;
+          this.style['-moz-box-shadow'] = colorString;
+        }
       }
-    }
-  </script>
+    </script>
 </body>
 
 </html>

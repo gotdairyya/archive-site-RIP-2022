@@ -18,101 +18,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
+<p>
+<p><img src="/assets/images/derya-photo-2020.png" alt="photo of me with my cat fig" id="photo" /></p>
+
+<div class="container">
+  <div class="navigation">
+    <nav class="navigation">
+
+      <a href="/">
+        About
+      </a>
+
+      <a href="/blog.html">
+        Blog
+      </a>
+
+      <a href="/books.html">
+        Books
+      </a>
+
+      <a href="/academics.html">
+        Academics
+      </a>
+
+    </nav>
+  </div>
+  <div class="content">
+    <div class="text">
+      <h2>derya akbaba</h2>
+      <h3 class="header__subtext">dairy-ya | she/her/hers</h3>
+
+      <p>
+      <p><img src="/assets/images/derya-photo-2020.png" alt="photo of me with my cat fig" id="photo" /></p>
+
+      <h3 id="thinking-about">thinking about…</h3>
+
+      <ul>
+        <li>applying critical theory + visualization</li>
+        <li>communicating science research</li>
+        <li>understanding how data became important</li>
+        <li>learning Swedish</li>
+        <li>hanging out with my cat Fig</li>
+      </ul>
+
+      <h3 id="present">present</h3>
+
+      <p>✏ Doktorand, Science &amp; Technology @ Linköping University</p>
+
+      <p>✉ derya.akbaba at liu dot se</p>
+
+      <p>𓅮 <a href="https://twitter.com/gotdairyya">@gotdairyya</a></p>
+
+      <h3 id="past">past</h3>
+
+      <p>☃ BSc, Industrial &amp; Labor Relations @ Cornell, 2013</p>
+
+      <p>☼ Masters, Computing @ University of Utah, 2022</p>
+
+      <h3 id="more">more</h3>
+
+      <ul>
+        <li>
+          <p>an unhelpful <a href="/2020/11/27/what-is-datavis.html">guide</a> to datavis</p>
+        </li>
+        <li>
+          <p>my <a href="/assets/images/Akbaba-CV.pdf">cv</a></p>
+        </li>
+        <li>
+          <p>an rss <a href="http://gotdairyya.github.io/feed.xml">feed</a></p>
+        </li>
+        <li>
+          <p>got <a href="/1991/01/01/got-dairyya.html">dairyya</a>?</p>
+        </li>
+      </ul>
+      </p>
     </div>
-  </a>
-
-  <div class="container">
-    <div class="navigation">
-      <nav class="navigation">
-  
-  <a href="/" >
-    About
-  </a>
-  
-  <a href="/blog.html" >
-    Blog
-  </a>
-  
-  <a href="/books.html" >
-    Books
-  </a>
-  
-  <a href="/academics.html" >
-    Academics
-  </a>
-  
-</nav>
-    </div>
-    <div class="content">
-  <div class="text">
-  <h2>derya akbaba</h2>
-  <h3 class="header__subtext">dairy-ya | she/her/hers</h3>
-
-  <p><p><img src="/assets/images/derya-photo-2020.png" alt="photo of me with my cat fig" id="photo" /></p>
-
-<h3 id="thinking-about">thinking about…</h3>
-
-<ul>
-  <li>applying critical theory + visualization</li>
-  <li>communicating science research</li>
-  <li>understanding how data became important</li>
-  <li>learning Swedish</li>
-  <li>hanging out with my cat Fig</li>
-</ul>
-
-<h3 id="present">present</h3>
-
-<p>✏ Doktorand, Science &amp; Technology @ Linköping University</p>
-
-<p>✉ derya.akbaba at liu dot se</p>
-
-<p>𓅮 <a href="https://twitter.com/gotdairyya">@gotdairyya</a></p>
-
-<h3 id="past">past</h3>
-
-<p>☃ BSc, Industrial &amp; Labor Relations @ Cornell, 2013</p>
-
-<p>☼ Masters, Computing @ University of Utah, 2022</p>
-
-<h3 id="more">more</h3>
-
-<ul>
-  <li>
-    <p>an unhelpful <a href="/2020/11/27/what-is-datavis.html">guide</a> to datavis</p>
-  </li>
-  <li>
-    <p>my <a href="/assets/images/Akbaba-CV.pdf">cv</a></p>
-  </li>
-  <li>
-    <p>an rss <a href="http://gotdairyya.github.io/feed.xml">feed</a></p>
-  </li>
-  <li>
-    <p>got <a href="/1991/01/01/got-dairyya.html">dairyya</a>?</p>
-  </li>
-</ul>
-</p>
   </div>
 </div>
-  </div>
 
-  <script>
-    // Create traces of visited links
-    const links = document.getElementsByTagName('a');
-    for (var i = 0; i < links.length; i++) {
-      links[i].onmouseover = function (e) {
-        var color = '#' + Math.floor(Math.random() * 16777215).toString(16);
-        var colorString = '0px 0px 30px 0px ' + color;
-        this.style['box-shadow'] = colorString;
-        this.style['-webkit-box-shadow'] = colorString;
-        this.style['-moz-box-shadow'] = colorString;
-      }
+<script>
+  // Create traces of visited links
+  const links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    links[i].onmouseover = function (e) {
+      var color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+      var colorString = '0px 0px 30px 0px ' + color;
+      this.style['box-shadow'] = colorString;
+      this.style['-webkit-box-shadow'] = colorString;
+      this.style['-moz-box-shadow'] = colorString;
     }
-  </script>
+  }
+</script>
 </body>
 
 </html>
