@@ -2,9 +2,10 @@
 layout: post
 title: Semiotics
 subtitle: the study of signs and symbols and their use or interpretation
-image: ../assets/images/paintbrush.png
+image: /../assets/images/paintbrush.png
 zoom: 50%
 ---
+
 One of my biggest accomplishments at Locus was developing a visual language that is a tightly controlled system, illustrating the structure, function, and order of the various components and relationships within an Economic System based on the Locus theory. Colors and shapes operate as mnemonic devices to correspond to the function of each attribute, while also depicting the symmetry and complementary nature of the model. Over the years, it has been updated and tweaked to reflect both the developments and applications of Locus thinking.
 
 While I cannot share the entire textbook that I worked on to develop the content and design for, I will share experts of my favorite chapter, Semiotics. The purpose of the chapter is to highlight visual symbols embedded with meaning gradually are combined to communicate more complex topics.

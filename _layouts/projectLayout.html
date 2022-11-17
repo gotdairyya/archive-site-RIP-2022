@@ -1,33 +1,23 @@
-<!doctype html>
-<html lang=”en”>
-
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
+---
+layout: header
+---
+<div class="menu">
+  {{ title }}
+  <!-- INDEX -->
+  {% for post in site.academics reversed %}
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="{{ post.image }}" width="40px" alt="key image" class="blog-index-image">
     </div>
-  </a>
-
-  {% include navigation.html %}
-
-  <ul class="articles">
-    {{ content }}
-    {% for project in site.projects reversed%}
-    <li><a href="{{ project.url }}" class="index">
-        <img src="{{ project.image }}" width="{{ project.zoom }}" alt="key image" class="blog-image">
-        <figcaption>{{ project.title }}</figcaption>
+    <div class="blog-index-item">
+      <a href="{{ post.url }}">
+        <p class="blog-index-item" class="current">{{ post.title }}</p>
       </a>
-      {% endfor %}
-  </ul>
-</body>
-
-</html>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!-- CONTENT -->
+<div class="text">
+  {{ content }}
+</div>

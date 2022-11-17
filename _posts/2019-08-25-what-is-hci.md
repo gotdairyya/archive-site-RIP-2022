@@ -2,9 +2,10 @@
 layout: post
 title: What is HCI?
 subtitle: Human Cat Interaction?
-image: ../assets/images/pencil.png
+image: /../assets/images/pencil.png
 zoom: 70%
 ---
+
 Although I wish this were an article about cats, it's really about Human Computer Intercation. I don't imagine that this acronym is well known outside of academia, but it should be. snap snap!
 
 Why you may ask? Well, before I answer your question, let's examine what you are currently doing. You are looking at my website, using a mouse to maybe switch to a tab with more interesting content like cat videos, enjoying the ability to have four different overlapping window screens simultaneously on view because you are so good at multi-tasking...Well my friend, you have HCI research to thank for that.

@@ -1,43 +1,23 @@
-<!doctype html>
-<html lang=”en”>
-
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168246496-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168246496-1');
-  </script>
-
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
+---
+layout: header
+---
+<div class="menu">
+  {{ title }}
+  <!-- INDEX -->
+  {% for post in site.posts %}
+  <div class="blog-index">
+    <div class="blog-index-image">
+      <img src="{{ post.image }}" width="40px" alt="key image" class="blog-index-image">
     </div>
-  </a>
-
-  {% include navigation.html %}
-
-  <ul class="articles">
-    {% for post in site.posts %}
-    <li><a href="{{ post.url }}" class="index">
-        <img src="{{ post.image }}" width="{{ post.zoom }}" alt="key image" class="blog-image">
-        <figcaption>{{ post.title }}</figcaption>
+    <div class="blog-index-item">
+      <a href="{{ post.url }}">
+        <p class="blog-index-item" class="current">{{ post.title }}</p>
       </a>
-    </li>
-    {% endfor %}
-  </ul>
-</body>
-
-</html>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!-- CONTENT -->
+<div class="text">
+  {{ content }}
+</div>

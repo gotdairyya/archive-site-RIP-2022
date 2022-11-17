@@ -1,24 +1,12 @@
-<!doctype html>
-<html lang=”en”>
+---
+layout: header
+---
 
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<div class="content">
+  <div class="text">
+    <h2>{{ page.title }}</h2>
+    <h3 class="header__subtext">{{ page.subtitle }}</h3>
 
-<body>
-  <a href="https://gotdairyya.github.io/">
-    <div class="header">
-      <h1>Hello World!</h1>
-      <h1 class="header__subtext">This is Derya's personal website</h1>
-    </div>
-  </a>
-
-  {% include navigation.html %}
-  {{ content }}
-</body>
-
-</html>
+    <p>{{ content }}</p>
+  </div>
+</div>

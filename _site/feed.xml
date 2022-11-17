@@ -158,12 +158,14 @@
 &lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
 
 &lt;p&gt;Tools:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://toloka.ai&quot;&gt;https://toloka.ai&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://wagepledge.org&quot;&gt;https://wagepledge.org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Papers:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3476060&quot;&gt;On the invisible labor of crowdworkers&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3173574.3174023?casa_token=S7GwvHoTGSoAAAAA%3AcwtoggH_Rz02vT7nMayWHvzqa7qokphcfMMNJWhb88cnSBsh3EwRni-BRLKD0Rb6UfceUQQtHcCn&quot;&gt;A review of crowdworker pay&lt;/a&gt;&lt;/li&gt;
@@ -216,20 +218,37 @@
 &lt;p&gt;One would think 6 years embedded in discussions about classification systems would be enough for a lifetime…THINK AGAIN. I definitely had a moment where I felt incredulous picking up the book, but as soon as I started reading it, I knew I had made the right decision. This post is an attempt to capture some of the memorable aspects before they slip from my failing memory.&lt;/p&gt;
 
 &lt;h2 id=&quot;classification-systems-are-invisible-infrastructures&quot;&gt;Classification Systems are (invisible) Infrastructures&lt;/h2&gt;
+
 &lt;p&gt;If there is one major takeaway, it would be these:&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;1) classification systems are often invisible&lt;/li&gt;
-  &lt;li&gt;2) classification systems are powerful&lt;/li&gt;
-  &lt;li&gt;3) classification systems are infrastructure&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;classification systems are often invisible&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;classification systems are powerful&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;classification systems are infrastructure&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;invisibility&quot;&gt;Invisibility&lt;/h3&gt;
+
 &lt;p&gt;Classification shapes the way that we think about the world and how we record that thought. Often, we do not think about how we are labeling the world around us (invisibility). We see an object and call it a flower. Or if we are a florist, we call it a peony. These examples are trivial, but in instances like classifying a disease, where many different causes might be at play, the choice in what and how to classify alters the types of treatment one may receive.&lt;/p&gt;
 
 &lt;h3 id=&quot;power&quot;&gt;Power&lt;/h3&gt;
+
 &lt;p&gt;In chapter 6 the authors discuss the very real ways in which classification of race during apartheid in South Africa affected people’s lives: limiting access to resources, dividing families, and numerous reclassifications. For a metaphysical discussion about race, please read “‘But What Are You Really?’ The Metaphysics of Race” by Charles Mills.&lt;/p&gt;
 
 &lt;h3 id=&quot;infrastructure&quot;&gt;Infrastructure&lt;/h3&gt;
+
 &lt;p&gt;Additionally, classification systems as markers of community membership struck me as a super fascinating concept:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -241,6 +260,7 @@
 &lt;p&gt;I think we grapple with this all the time in my field (or any field that works with data). We assume that data means one thing and then quickly (if we are fortunate) find that it means something quite different to our collaborators. I think this is because as Johanna Drucker &lt;a href=&quot;http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html&quot;&gt;states&lt;/a&gt; oh so eloquently, “&lt;em&gt;Data are capta&lt;/em&gt;, taken not given, constructed as an interpretation of the phenomenal world, not inherent in it.” The act of creating data is an act of classification: what is classified, who classifies, why classified…This is is a thread in feminist data visualization that I think deserves more discussion, but I feel the limitations of that discussion because we are just flooded with data every second of every day. Where can we find the time to pause and examine the construction of data? When can we refuse data as given? A thread to be continued elsewhere.&lt;/p&gt;
 
 &lt;h2 id=&quot;design-opportunities&quot;&gt;Design Opportunities&lt;/h2&gt;
+
 &lt;p&gt;In the last two pages of the book, the authors provide recommendations for how to design classification systems. &lt;em&gt;Why only two pages?&lt;/em&gt; I summarize the recommendations here:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -259,6 +279,7 @@
       <item>
         <title>Meta-confused about Metacognition</title>
         <description>&lt;p&gt;As the (slightly modified for personal taste) proverb goes:&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;“Give a girl a tofu sandwich and she is full for a day. Teach that girl how to cook the tofu sandwhich, and she is full for many days (until she gets sick of said sandwhich).”&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -272,7 +293,9 @@
 &lt;p&gt;Today’s post mainly draws from a recent &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3372782.3406263&quot;&gt;publication&lt;/a&gt; by Prather et al. titled: “What Do We Think We Think We Are Doing?: Metacognition and Self-Regulation in Programming.”&lt;/p&gt;
 
 &lt;h2 id=&quot;metacognition&quot;&gt;Metacognition&lt;/h2&gt;
+
 &lt;p&gt;As defined by Prather et al.:&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Metacognition&lt;/strong&gt; tends to be the term used to describe knowledge about one’s own cognitive control, including identifying strategies that have been successful or unsuccessful in the past, monitoring emotions and self-efficacy, and evaluating the validity of metacognitive knowledge based on feed-back.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -280,6 +303,7 @@
 &lt;p&gt;So metacognition is an awareness of ways in which you have learned in the past.&lt;/p&gt;
 
 &lt;p&gt;When applying metacognition to the problem at hand, the term is called self-regulation. Again, Prather et al.:&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;…self-regulation tends to be the term used to describe the process of executing cognitive control during a learning or problem-solving task.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -456,6 +480,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;h3 id=&quot;learning-to-trust-a-positivist-perspective&quot;&gt;Learning to Trust: a Positivist Perspective&lt;/h3&gt;
 
 &lt;p&gt;Positivism is a research paradigm often associated with the natural sciences. In the world of positivism, there are objective and generalizable truths that can be measured. Within positivism, research results are judged according to the following criteria:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Internal Validity:&lt;/strong&gt; how certain are you that the independent variable has effected the dependent variable?&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;External Validity:&lt;/strong&gt; how representative is the sample population (and by extension your results) of the general population?&lt;/li&gt;
@@ -468,10 +493,12 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;p&gt;Enter, Lincoln, Guba, and interpretivism.&lt;/p&gt;
 
 &lt;h3 id=&quot;establishing-trustworthiness&quot;&gt;Establishing Trustworthiness&lt;/h3&gt;
+
 &lt;p&gt;The following section is my take on organizing the work presented in &lt;a href=&quot;https://ethnographyworkshop.files.wordpress.com/2014/11/lincoln-guba-1985-establishing-trustworthiness-naturalistic-inquiry.pdf&quot;&gt;Establishing Trustworthiness&lt;/a&gt;. Written in 1985, this document from my understanding is a seminal piece in interpretivist research methods. Lincoln and Guba set out to both make a case for interpretivism (the research paradigm that multiple realities exist and it is the role of the researcher to interpret it) and provide practical methods for establishing trust and rigor in qualitative research.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Credibility:&lt;/strong&gt; How congruent are the findings with reality? &lt;br /&gt;
 &lt;em&gt;Positivist Analogy: internal validity&lt;/em&gt;&lt;/p&gt;
+
 &lt;details&gt;&lt;summary&gt;Methods&lt;/summary&gt;
 &lt;p&gt;
 &lt;ul&gt;
@@ -488,6 +515,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 
 &lt;p&gt;&lt;strong&gt;Transferability:&lt;/strong&gt; To what extent are the findings applicable to other contexts? It is important to note that the onus of transferring research results falls on the consumer of the research.&lt;br /&gt;
 &lt;em&gt;Positivist Analogy: external validity&lt;/em&gt;&lt;/p&gt;
+
 &lt;details&gt;&lt;summary&gt;Methods&lt;/summary&gt;
 &lt;p&gt;
 &lt;ul&gt;
@@ -499,6 +527,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 
 &lt;p&gt;&lt;strong&gt;Dependability:&lt;/strong&gt; Have you provided enough information so that other researchers could repeat the work? &lt;br /&gt;
 &lt;em&gt;Positivist Analogy: reproducibility &amp;amp; reliability&lt;/em&gt;&lt;/p&gt;
+
 &lt;details&gt;&lt;summary&gt;Methods&lt;/summary&gt;
 &lt;p&gt;
 &lt;ul&gt;
@@ -511,6 +540,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 
 &lt;p&gt;&lt;strong&gt;Confirmability:&lt;/strong&gt; Does your data support your interpretations? &lt;br /&gt;
 &lt;em&gt;Positivist Analogy: objectivity&lt;/em&gt;&lt;/p&gt;
+
 &lt;details&gt;&lt;summary&gt;Methods&lt;/summary&gt;
 &lt;p&gt;
 &lt;ul&gt;
@@ -523,6 +553,7 @@ In some ways this year was harder than I imagined it would be. On and off I was 
 &lt;p&gt;As you can see, even with these methods, it is hard to grapple with what makes research trustworthy? Especially in a non-positivist paradigm we are relying on individual interpretations, where there will not be one single correct answer. For me, this is the beauty of science that is often overlooked: as humans we have the innate ability to observe the world around us and communicate our observations with others to build collective knowledge, knowing that we may not be 100% correct all the time.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Further Reading:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://eric.ed.gov/?id=EJ792970&quot;&gt;More in depth methods summarized from the Lincoln and Guba paper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -530,6 +561,355 @@ In some ways this year was harder than I imagined it would be. On and off I was 
         <pubDate>Wed, 22 Jan 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000//2020/01/22/trustworthiness.html</link>
         <guid isPermaLink="true">http://localhost:4000//2020/01/22/trustworthiness.html</guid>
+      </item>
+    
+      <item>
+        <title>Data Portraits</title>
+        <description>&lt;p&gt;I started writing this blog post a couple times, not entirely sure what was the appropriate introduction to a topic I am deeply fascinated with, so here are a few intros that didn’t make the cut…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Instead of working on my final project for data vis, I am writing about it…&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;Really if you think about it, everything is a data portrait…&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;If everything is a data portrait, then what is a data portrait?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As you can see, not the best intros. What I would like to do instead, is talk about some inspiration I’ve had over the years regarding data portraits, and then show you what I have created for a class project.&lt;/p&gt;
+
+&lt;h3 id=&quot;inspiration-comes-in-many-forms&quot;&gt;Inspiration Comes in Many Forms&lt;/h3&gt;
+
+&lt;p&gt;One form is Georgia Lupi. Lupi a partner at Pentagram studios and a long time advocate for &lt;em&gt;data humanism&lt;/em&gt;, constantly likes to remind us that data is never the point, the humans who created it are. I hope to draw on this concept throughout my PhD. Often, data is assumed to be objective, immutable, authoritative, but ultimately it is another human creation, prone to errors and up to interpretation.
+&lt;a href=&quot;https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data?language=en#t-258497&quot;&gt;For more on Lupi, you can listen to her TED Talk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/georgia-lupi-portraits.jpg&quot; alt=&quot;example of data portraits from Georgia Lupi&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
+
+&lt;figcaption&gt;
+  &lt;p&gt;An example of data portraits courtesy of ideas.ted.com.&lt;/p&gt;
+&lt;/figcaption&gt;
+
+&lt;p&gt;Another inspiration comes from nature and ways in which data can be interpreted as traces and proof of life. In Dietmar Offenhuber’s paper &lt;a href=&quot;https://arxiv.org/abs/1907.05454&quot;&gt;Data by Proxy&lt;/a&gt;, he discusses the concept of discovering and revealing the traces of natural processes and abstracting them into a data and data visualizations. Although it might sound slightly abstract, I think it is something we do rather intuitively…&lt;/p&gt;
+
+&lt;p&gt;We can see patterns in how we step by looking at the uneven wear on the soles of our shoes.
+The rings of trees show us the age of the tree.
+White and grey hairs indicate age.&lt;/p&gt;
+
+&lt;p&gt;If we want, we can take all these observations and abstract them into numbers, but maybe I will talk about that later.&lt;/p&gt;
+
+&lt;p&gt;My final, but not final, inspiration comes from an Italian data visualization designer, Federica Fragapane, who makes the most out-of-this-world data portraits. I’ll let the examples below speak for themselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/federica-fragapane-carbon-dioxide.jpg&quot; alt=&quot;example of data portraits from Federica Fragapane&quot; class=&quot;responsive-image&quot; /&gt;
+&lt;img src=&quot;/../assets/images/data-portraits/federica-fragapane-violent-cities.jpg&quot; alt=&quot;example of data portraits from Federica Fragapane&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
+
+&lt;figcaption&gt;
+  &lt;p&gt;You can find more of her work on her &lt;a href=&quot;https://www.behance.net/FedericaFragapane&quot;&gt;Behance site&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+
+&lt;h3 id=&quot;my-take-of-data-portraits&quot;&gt;My take of Data Portraits&lt;/h3&gt;
+
+&lt;p&gt;For my group project, we are visualizing data about museum artifacts. In spirit of the artwork, I wanted to create art that would represent the museum and it’s collection.&lt;/p&gt;
+
+&lt;p&gt;I began by looking at different Abstract Expressionism art, looking specifically for the use of bold colors and geometric shapes. Once I selected an artist for inspiration, I created a rough mockup using pen + paper of what the portrait could look like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/portrait-mockup.png&quot; alt=&quot;data portrait mock-up on post-it note&quot; class=&quot;scale-50-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pleased with the rough sketch, I used Adobe Illustrator for cleaner mock-ups. After implementing the design in code using fake (but representative) data, I altered the design slightly to both make the coding easier and incorporate a more organic element into the design.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/../assets/images/data-portraits/data-portrait-mockup-01.png&quot; alt=&quot;data portrait mock-up from illustrator&quot; class=&quot;responsive-image&quot; /&gt;
+&lt;img src=&quot;/../assets/images/data-portraits/data-portrait-mockup-02.png&quot; alt=&quot;data portrait mock-up from illustrator&quot; class=&quot;responsive-image&quot; /&gt;
+&lt;img src=&quot;/../assets/images/data-portraits/data-portrait-mockup-03.png&quot; alt=&quot;data portrait mock-up from illustrator&quot; class=&quot;responsive-image&quot; /&gt;
+&lt;img src=&quot;/../assets/images/data-portraits/data-portrait-mockup-04.png&quot; alt=&quot;data portrait mock-up from illustrator&quot; class=&quot;responsive-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And here is an interactive version of the portraits: &lt;br /&gt;
+Hover to see the museum each portrait represents.&lt;/p&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+
+  &lt;script src=&quot;https://d3js.org/d3.v5.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;style&gt;
+  .porButton {
+    fill: rgba(255, 225, 225, 0);
+  }
+
+  .porButton.not-selected {
+    fill: rgba(255, 225, 225, .5);
+  }
+
+  .porButton.selected {
+    fill: rgba(255, 225, 225, 0);
+  }
+
+  .porButton:hover {
+    fill: rgba(255, 225, 225, 0)
+  }
+
+  .porButton:not(hover) {
+    fill: rgba(255, 225, 225, .5);
+  }
+
+  div.tooltip {
+    /* FOR PORTRAIT TOOLTIP */
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+  }
+&lt;/style&gt;
+
+&lt;body&gt;
+  &lt;script&gt;
+    let data = [{
+        museum: &quot;canada-science-and-technology-museums&quot;,
+        years: 26970,
+        countries: 59,
+        artifacts: 26970,
+        yearWidths: [0, 0, 0, 0, 1]
+      },
+      {
+        museum: &quot;cleveland-museum-of-art&quot;,
+        years: 43957,
+        countries: 84,
+        artifacts: 43957,
+        yearWidths: [0.0027754396341879563, 0.033669267693427665, 0.03269103896990241, 0.10021157039834383, 0.8306526833041381]
+      },
+      {
+        museum: &quot;cooper-hewitt-smithsonian-design-museum&quot;,
+        years: 20117,
+        countries: 69,
+        artifacts: 20117,
+        yearWidths: [0, 0.4706467167072625, 0.00004970920117313715, 0.0005965104140776457, 0.5287070636774867]
+      },
+      {
+        museum: &quot;metropolitan-museum-of-art&quot;,
+        years: 67113,
+        countries: 160,
+        artifacts: 67113,
+        yearWidths: [0.4162531849269143, 0.05827484988005305, 0.09899721365458257, 0.08943125772950099, 0.3370434938089491]
+      },
+      {
+        museum: &quot;museum-of-modern-art&quot;,
+        years: 70716,
+        countries: 102,
+        artifacts: 70716,
+        yearWidths: [0, 0, 0, 0, 1]
+      },
+      {
+        museum: &quot;penn-museum&quot;,
+        years: 43518,
+        countries: 103,
+        artifacts: 43518,
+        yearWidths: [0.542005606875316, 0.15290224734592583, 0.04051197205753941, 0.03531871869111632, 0.22926145503010248]
+      },
+      {
+        museum: &quot;minneapolis-institute-of-art&quot;,
+        years: 9906,
+        countries: 20,
+        artifacts: 9906,
+        yearWidths: [0, 0, 0, 0.0031294165152432867, 0.9968705834847568]
+      },
+      {
+        museum: &quot;global&quot;,
+        years: 2,
+        countries: 1,
+        artifacts: 2,
+        yearWidths: [0, 1, 0, 0, 0]
+      }
+    ]
+
+
+    let artifactsNum = []
+    for (let museum of data) {
+      artifactsNum.push(museum.artifacts)
+    }
+
+    let i = 0;
+    let svg = d3.select(&quot;div.article-entry&quot;).append(&quot;svg&quot;).attr(&quot;width&quot;, 500).attr(&quot;height&quot;, 600)
+    for (let museum of data) {
+      drawPortrait(museum, i, svg)
+      i++
+    }
+
+
+    function drawPortrait(museum, i, svg) {
+      // let svg = d3.select(&quot;div.article-entry&quot;).append(&quot;svg&quot;).attr(&quot;width&quot;, 500).attr(&quot;height&quot;, 600)
+      svg = svg.append(&quot;g&quot;)
+
+      let colors = [&quot;#b5a5e3&quot;, &quot;#b1af00&quot;, &quot;#ff5b1a&quot;, &quot;#e2a333&quot;, &quot;#5b7769&quot;]
+
+      let artifactScale = d3.scaleOrdinal()
+        .domain([d3.min(artifactsNum), d3.max(artifactsNum)])
+        .range([1, 5])
+
+      let frameWidth = 238 * .3
+      let frameHeight = 360 * .3
+      let rectWidth = [0]
+
+      let portraitColors = svg
+        .selectAll(&quot;rect&quot;)
+        .data(museum.yearWidths)
+        .join(&quot;rect&quot;)
+        .attr(&quot;height&quot;, frameHeight)
+        .attr(&quot;width&quot;, (d, i) =&gt; {
+          rectWidth.push((d * frameWidth) + rectWidth[i]);
+          return d * frameWidth
+        })
+        .style(&quot;fill&quot;, (d, i) =&gt; colors[i])
+        .attr(&quot;x&quot;, (d, i) =&gt; rectWidth[i])
+        .attr(&quot;transform&quot;, &quot;translate(7,5)&quot;)
+
+      let lineWidth = artifactScale(museum.artifacts)
+
+      let artifactLine = svg
+        .append(&quot;line&quot;)
+        .attr(&quot;x1&quot;, frameWidth / 2)
+        .attr(&quot;y1&quot;, frameHeight)
+        .attr(&quot;x2&quot;, frameWidth)
+        .attr(&quot;y2&quot;, frameHeight - (frameWidth / 2))
+        .style(&quot;stroke&quot;, &quot;black&quot;)
+        .style(&quot;stroke-width&quot;, lineWidth)
+        .attr(&quot;transform&quot;, &quot;translate(5,5)&quot;)
+
+      let countries = museum.countries
+      countries = countries / 6;
+      countries = Math.round(countries)
+      let countryArray = []
+
+      for (let i = 0; i &lt; countries; i++) {
+        countryArray.push(i)
+      }
+
+      let countryDots = svg
+        .selectAll(&quot;circle&quot;)
+        .data(countryArray)
+        .join(&quot;circle&quot;)
+
+      let j = 0;
+      let k = 3
+      countryDots
+        .attr(&quot;r&quot;, 5)
+        .attr(&quot;cx&quot;, function(d, i) {
+          if (i &lt; 10) {
+            if (i % 2 === 0) {
+              return (i * 10) + 10
+            } else {
+              return (i * 10) + 20
+            }
+          } else if (i &gt;= 10 &amp;&amp; i &lt; 20) {
+            if (i % 2 === 0) {
+              j = j + 1
+              return (j * 10) + 10
+            } else {
+              j = j + 1
+              return (j * 10) + 20
+            }
+          } else {
+            if (i % 2 === 0) {
+              k = k + 1
+              return (k * 10) + 10
+            } else {
+              k = k + 1
+              return (k * 10)
+            }
+          }
+        })
+        .attr(&quot;cy&quot;, function(d, i) {
+          if (i &lt; 10) {
+            return (i * 10) + 10
+          } else if (i &gt;= 10 &amp;&amp; i &lt; 20) {
+            return ((i - 10) * 10) + 10
+          } else {
+            return ((i - 20) * 10 - 10)
+          }
+        })
+        .attr(&quot;transform&quot;, &quot;translate(7,20) scale(.5)&quot;)
+
+      let ticker = i
+      svg
+        .attr(&quot;transform&quot;, function() {
+          if (ticker &lt; 4) {
+            if (ticker === 0) {
+              return `translate(0,${frameHeight*.2})`
+            } else {
+              return `translate(0,${ticker*1.2*frameHeight+(frameHeight*.2)})`
+            }
+          } else {
+            ticker = ticker - 4
+            if (ticker === 0) {
+              return `translate(${frameWidth*1.2},${frameHeight*.2})`
+            } else {
+              return `translate(${frameWidth*1.2},${ticker*1.2*frameHeight+(frameHeight*.2)})`
+            }
+          }
+        })
+        .attr(&quot;margin&quot;, 20)
+
+      let frame = svg.append(&quot;rect&quot;)
+        .attr(&quot;width&quot;, frameWidth)
+        .attr(&quot;border&quot;, 20)
+        .attr(&quot;height&quot;, frameHeight)
+        .style(&quot;stroke&quot;, &quot;black&quot;)
+        .style(&quot;stroke-width&quot;, 5)
+        // .style(&quot;fill&quot;, &quot;none&quot;)
+        // .style(&quot;fill&quot;, &quot;rgba(35, 29, 150, 0)&quot;)
+        .attr(&quot;transform&quot;, &quot;translate(5,5)&quot;)
+        .attr(&quot;id&quot;, museum.museum)
+        .attr(&quot;class&quot;, &quot;porButton&quot;)
+      // .attr(&quot;data-tabindex&quot;, 0)
+
+
+      frame.on(&quot;mouseover&quot;, function(d) {
+        let title = museum.museum
+        // d3.selectAll(&quot;.porButton&quot;).attr(&quot;opacity&quot;, title === that.vizCoord.activeMuseum ? 1 : .2)
+        title === &quot;metropolitan-museum-of-art&quot; ? title = &quot;The Met&quot; : title === &quot;minneapolis-institute-of-art&quot; ? title = &quot;Mia&quot; : title === &quot;cooper-hewitt-smithsonian-design-museum&quot; ? title = &quot;Cooper Hewitt&quot; : title === &quot;penn-museum&quot; ? title =
+          &quot;Penn Museum&quot; : title === &quot;cleveland-museum-of-art&quot; ? title = &quot;Cleveland Museum of Art&quot; : title === &quot;museum-of-modern-art&quot; ? title = &quot;MoMa&quot; : title === &quot;global&quot; ? title = &quot;All Museums&quot; : title =
+          &quot;Canada Science and Technology Museum&quot;
+        d3.select(this).append(&apos;svg:title&apos;)
+          .text(title)
+      });
+
+
+    } //end drawPortraits
+
+    // make responsive
+    // resizeSVG(svg) {
+    //   let that = this
+    //   // get container + svg aspect ratio
+    //   let container = d3.select(svg.node().parentNode),
+    //     width = parseInt(svg.style(&quot;width&quot;)),
+    //     height = parseInt(svg.style(&quot;height&quot;)),
+    //     aspect = width / height;
+    //
+    //   svg.attr(&quot;viewBox&quot;, &quot;0 0 &quot; + width + &quot; &quot; + height)
+    //     .attr(&quot;perserveAspectRatio&quot;, &quot;xMinYMid&quot;)
+    //     .call(resize);
+    //
+    //   d3.select(window).on(&quot;resize.&quot; + container.attr(&quot;id&quot;), resize);
+    //
+    //   // get width of container and resize svg to fit it
+    //   function resize() {
+    //     let targetWidth = parseInt(container.style(&quot;width&quot;));
+    //     svg.attr(&quot;width&quot;, targetWidth);
+    //     svg.attr(&quot;height&quot;, Math.round(targetWidth / aspect));
+    //   }
+    // }
+  &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</description>
+        <pubDate>Thu, 21 Nov 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//2019/11/21/data-portraits.html</link>
+        <guid isPermaLink="true">http://localhost:4000//2019/11/21/data-portraits.html</guid>
       </item>
     
   </channel>

@@ -2,10 +2,11 @@
 layout: post
 title: Semantic Based Economic Mapping
 subtitle: or maps.locus
-image: ../assets/images/magnifying-glass.png
+image: /../assets/images/magnifying-glass.png
 zoom: 80%
 ---
-*A note from future me: Prior to my PhD I had what I would call an interesting and unconventional job. I worked at a firm focused on developing a systems-based economic model, called [Locus Analytics](home.locus). While there, I developed the design language for communicating a model that is built on semantic and syntactical relations. Below is a post from 2017 regarding some of my work.*
+
+_A note from future me: Prior to my PhD I had what I would call an interesting and unconventional job. I worked at a firm focused on developing a systems-based economic model, called [Locus Analytics](home.locus). While there, I developed the design language for communicating a model that is built on semantic and syntactical relations. Below is a post from 2017 regarding some of my work._
 
 Maps.locus is the entrance to a new world of economic exploration; it is is a space to begin re-imagining how we navigate our complex and ever growing economy.
 
@@ -15,13 +16,13 @@ This project began in late 2016, focused around an accessible web app to help ex
 
 The images above are early wire frames of a tool that breaks apart standardized business sentences and converts them into a matrix. The example below shows a mini demo of how the sentences are split; verbs define rows and nouns define columns. Verbs conceptually represent the different types of functions that exist in the economy, where the nouns represent resources and objects that can be acted on by the functions.
 
- ![gif of matrix showing how verbs and nouns are combined to describe economic activity. ex. buy + cars = buy cars](/../assets/images/mapslocus/matrix.gif){:.responsive-image}
+![gif of matrix showing how verbs and nouns are combined to describe economic activity. ex. buy + cars = buy cars](/../assets/images/mapslocus/matrix.gif){:.responsive-image}
 
-Cool, now  you know what the matrix conceptually does, you may be asking why are all the colors under the sun and rainbow in one visual? Well, every activity and resource is assigned a specific color. This is a topic too long for this post, but long story short there is a visual language that runs parallel to the classification system. *If you would like to read more, check-out the [semiotics post]({% post_url 2019-07-22-semiotics %}).*
+Cool, now you know what the matrix conceptually does, you may be asking why are all the colors under the sun and rainbow in one visual? Well, every activity and resource is assigned a specific color. This is a topic too long for this post, but long story short there is a visual language that runs parallel to the classification system. _If you would like to read more, check-out the [semiotics post]({% post_url 2019-07-22-semiotics %})._
 
 In redesigning the website, the biggest design challenge was incorporating color and linguistic information in one visual: the grid. Previous iterations colored the values base on this pattern:
 
- ![old visualization representing the color combination of the activity and resource. a big square with a purple rectangle on the right](/../assets/images/mapslocus/old-grid.png){:width="20%"}
+![old visualization representing the color combination of the activity and resource. a big square with a purple rectangle on the right](/../assets/images/mapslocus/old-grid.png){:width="20%"}
 
 Activities are represented on the left and resources on the right.
 

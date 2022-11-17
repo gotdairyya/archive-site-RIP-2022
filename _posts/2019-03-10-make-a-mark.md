@@ -2,16 +2,16 @@
 layout: post
 title: Make a Mark
 subtitle: thoughts on volunteering then running an event
-image: ../assets/images/paintbrush.png
+image: /../assets/images/paintbrush.png
 zoom: 50%
 ---
+
 Make a Mark is a nonprofit that organizes 12hr design events to connect designers and other makers with nonprofits that are serving the community. In January 2018, I participated as a maker working on a design equity campaign for Make a Mark itself. Their work is invaluable in bridging the gap between good design and nonprofits that desperately need it; however, it's not always apparent why design is useful and how it can be used. As a result my team, consisting of an illustrator, copy writer, and myself, went to work creating social media content that Make a Mark could use to educate the nonprofit community.
 
 The series is called Design Equity and can be read on [Medium](https://medium.com/makeamark/design-equity-youve-got-a-story-to-tell-tell-it-beautifully-74917a7d0cab).
-*NB. All images in this post are made by the talented [Riley Walker](http://www.rileymcmathwalker.com/)*
+_NB. All images in this post are made by the talented [Riley Walker](http://www.rileymcmathwalker.com/)_
 
 ![graphic from campaign, reads: "you've got a story to tell. tell it beautifully"](/../assets/images/makeamark/storytotell.png){:.responsive-image}
-
 
 After the event, I blown away by the impact a mere 12 hours could do that I volunteered as a site leader for the 2019 Make-a-Thon along with two talented designers [Ana Reamulto](https://anarealmuto.com/) and [Rebecca Gladstone](https://www.rebeccaglad.com/).
 
@@ -27,7 +27,6 @@ Creating a timeline and a list of to-dos kept us inline, but there is a lot of e
 
 We need more opportunities to bring creatives together with nonprofits. After both of the Make-a-Thons I attended the energy was vibrating -- designers were excited to see their design make an impact, and non-profits were amazed at how designers could bring their visions to life. I've wondered why this doesn't happen more often...
 Maybe it's because many creatives are underpaid and doing pro-bono work is out of the question until they feel more secure in their careers? Maybe because design is undervalued or invisible to nonprofits? Whatever the reason, I'm glad I was able to participate in the Make-a-Thon.
-
 
 <div class="responsive-image">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gjo6vGmbMb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

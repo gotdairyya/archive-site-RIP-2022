@@ -2,7 +2,7 @@
 layout: post
 title: What is Data Vis?
 subtitle: data + visualization
-image: ../assets/images/cloud.png
+image: /../assets/images/cloud.png
 zoom: 100%
 ---
 

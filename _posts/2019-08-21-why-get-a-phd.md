@@ -2,9 +2,10 @@
 layout: post
 title: Why get a PhD?
 subtitle: Because I'm crazy!
-image: ../assets/images/magnifying-glass.png
+image: /../assets/images/magnifying-glass.png
 zoom: 80%
 ---
+
 I decided that a PhD was for me when I attended the OpenVis conference in Paris and realized I would never get tired of hearing people talk about visualization (and I have a love of croissants).
 
 At the foundation of my work is the belief that everyone is capable of learning complex topics and making informed decisions. As technology becomes increasingly intertwined in our daily lives, there exists a bright future where there is equality in information accessibility that could result in educated decision-making globally. But the past decade has shown that with technology comes the sinister side-effect of information overload and misinformation, threatening to dismantle the promises of technology: for with information, understanding and knowledge will not always follow.
